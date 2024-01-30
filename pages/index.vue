@@ -1,12 +1,11 @@
 <template>
-    <div>
-     <AppHeader></AppHeader>
-    </div>
+  <div>
+  <Navber></Navber>
+  </div>
 </template>
 
 <script>
 </script>
 
 <style lang="scss" scoped>
-
 </style>

@@ -1,8 +1,9 @@
 <template>
-    <div class="grid grid-cols-4 gap-7">
-        <div v-for="product in products" :key="product.id" class="flex flex-col shadow-md bg-white p-6 rounded-md">
-            <img class="h-[400px]" :src="product.image" alt="">
-            <h2>{{ product.title }}</h2>
+    <div class="grid grid-cols-4 gap-7 p-5 pt-10">
+        <div v-for="product in products" :key="product.id" class="flex flex-col shadow-md bg-gray-100 cursor-pointer p-6 rounded-md">
+            <img class="w-[750px] h-[350px] self-center object-cover" :src="product.image" alt="">
+            <h2 class="text-black mt-auto text-xl pt-5">{{ product.title }}</h2>
+            <h3 class="text-black mt-auto text-xl pt-5">$ {{ product.price }}</h3>
         </div>
     </div>
 </template>
