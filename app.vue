@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="container mx-auto">
+    <NuxtLoadingIndicator></NuxtLoadingIndicator>
     <NuxtLayout>
       <NuxtPage></NuxtPage>
     </NuxtLayout>

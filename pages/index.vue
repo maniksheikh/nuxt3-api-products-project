@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Navber></Navber>
+    <h1>Here is index page.</h1>
   </div>
 </template>
 
