@@ -4,8 +4,12 @@
   </div>
 </template>
 
-<script>
+<script setup>
+
+useHead({
+  title:"Nuxt3 data fetching"
+})
 </script>
 
-<style lang="scss" scoped>
+<style>
 </style>
