@@ -32,7 +32,6 @@ export default {
     };
   },
   async created() {
-    const productId = this.$route.params.id;
     try {
       const response = await axios.get("https://fakestoreapi.com/products/");
       this.products = response.data;
