@@ -32,9 +32,9 @@
       </div>
       <div class="flex items-center">
         <ul class="px-5">
-          <NuxtLink to="/">Sign In</NuxtLink>
+          <NuxtLink to="/signin">Sign In</NuxtLink>
         </ul>
-        <ul class="px-5">
+        <ul class="px-5 border bg-white font-bold text-black border-black p-1 rounded-full">
           <NuxtLink to="/roducts/product">Sign Up</NuxtLink>
         </ul>
       </div>

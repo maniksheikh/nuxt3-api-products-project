@@ -18,12 +18,12 @@
 
       <section>
         <div class="flex items-center font-sans mt-5">
-          <div class="w-[50%] px-10">
-            <h2 class="font-bold text-3xl text-[#91969a] py-2">
+          <div class="w-[50%] px-20">
+            <h2 class="font-bold text-4xl w-[400px] text-[#91969a] py-2">
               Creative Multipurpose <br />
               Products <span class="text-[#da5f5c]">Template.</span> 
             </h2>
-            <p class="text-gray-500 leading-6 py-3 font-bold">
+            <p class="text-gray-500 leading-6 mt-2 py-1 w-[470px] font-bold">
               This template is specially designed for a Products company,  <br> that
               want`s something simple but professionaly.
             </p>
@@ -31,10 +31,7 @@
           </div>
           <img
             class="w-[50%] h-[450px] cursor-pointer"
-            src="https://spng.pngfind.com/pngs/s/575-5751987_technology-graphic-showing-different-kinds-of-technology-technology.png"
-            data-original="https://spng.pngfind.com/pngs/s/575-5751987_technology-graphic-showing-different-kinds-of-technology-technology.png"
-            alt="Technology Graphic Showing Different Kinds Of Technology - Technology Clipart Png, Transparent Png"
-            title="Technology Graphic Showing Different Kinds Of Technology - Technology Clipart Png, Transparent Png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpJAsryOXV1dZKZDRIsoxwI4jx0K90uDn-A&usqp=CAU"
           />
         </div>
       </section>
@@ -44,7 +41,7 @@
 
 <script setup>
 useHead({
-  title: "Nuxt3 data fetching",
+  title: "Nuxt3 api Products",
 });
 </script>
 

@@ -3,7 +3,7 @@
     <div v-if="loading" class="mt-20 text-center">
       <p>Loading Products.....</p>
     </div>
-    <div v-else class="grid grid-cols-4 gap-7 p-5 mt-12">
+    <div v-else class="grid grid-cols-4 gap-7 p-7 mt-12">
       <router-link
         v-for="product in products"
         :key="product.id"
