@@ -16,15 +16,26 @@
           />
         </nuxt-link>
       </div>
-      <div class="flex px-5 items-center">
-        <ul class="px-5">
+      <div class="flex items-center">
+        <ul class="px-7">
           <NuxtLink to="/home">Home</NuxtLink>
         </ul>
-        <ul class="px-5">
+        <ul class="px-7">
           <NuxtLink to="/about">About</NuxtLink>
         </ul>
+        <ul class="px-7">
+          <NuxtLink to="/about">Blog</NuxtLink>
+        </ul>
+        <ul class="px-7">
+          <NuxtLink to="/products/product">Products</NuxtLink>
+        </ul>
+      </div>
+      <div class="flex items-center">
         <ul class="px-5">
-          <NuxtLink to="/products">Products</NuxtLink>
+          <NuxtLink to="/">Sign In</NuxtLink>
+        </ul>
+        <ul class="px-5">
+          <NuxtLink to="/roducts/product">Sign Up</NuxtLink>
         </ul>
       </div>
     </div>

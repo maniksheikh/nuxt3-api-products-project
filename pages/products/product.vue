@@ -7,7 +7,7 @@
       <router-link
         v-for="product in products"
         :key="product.id"
-        :to="`${product.id}`"
+        :to="`/products/${product.id}`"
         class="flex flex-col shadow-md bg-gray-100 cursor-pointer p-6 rounded-lg"
       >
         <img
@@ -35,6 +35,7 @@ export default {
     try {
       const response = await axios.get("https://fakestoreapi.com/products/");
       this.products = response.data;
+      console.log(this.products);
     } catch (error) {
       console.error("Error fetching data:", error);
     } finally {
