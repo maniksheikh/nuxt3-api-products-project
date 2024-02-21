@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center justify-center h-screen">
-    <form @submit.prevent="signIn" class="bg-white p-8 rounded shadow-md w-96">
-      <h2 class="text-2xl font-semibold mb-4">Sign In</h2>
+    <form @submit.prevent="signIn" class="bg-white p-8 rounded border border-gray-200 shadow-md w-96">
+      <h2 class="text-3xl text-center font-semibold mb-4">Sign In</h2>
       <div class="mb-4">
-        <label for="username" class="block text-sm font-medium text-gray-600"
+        <label for="username" class="block text-md font-medium text-gray-600"
           >Username</label
         >
         <input
@@ -16,7 +16,7 @@
       </div>
 
       <div class="mb-4">
-        <label for="email" class="block text-sm font-medium text-gray-600"
+        <label for="email" class="block text-md font-medium text-gray-600"
           >Email</label
         >
         <input
@@ -29,7 +29,7 @@
       </div>
 
       <div class="mb-4">
-        <label for="password" class="block text-sm font-medium text-gray-600"
+        <label for="password" class="block text-md font-medium text-gray-600"
           >Password</label
         >
         <input
