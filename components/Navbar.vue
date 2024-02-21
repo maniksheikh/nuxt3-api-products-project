@@ -24,7 +24,7 @@
           <NuxtLink to="/about">About</NuxtLink>
         </ul>
         <ul class="px-7">
-          <NuxtLink to="/about">Blog</NuxtLink>
+          <NuxtLink to="/">Blog</NuxtLink>
         </ul>
         <ul class="px-7">
           <NuxtLink to="/products/product">Products</NuxtLink>
