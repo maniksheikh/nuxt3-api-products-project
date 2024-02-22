@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="bg-blue-600 text-white text-lg p-2 fixed top-0 left-0 right-0 w[100%]"
+      class="bg-black text-white text-lg p-2 fixed top-0 left-0 right-0 w[100%]"
     > 
     <div class=" flex justify-between m-auto w-[1500px]">
       <div>
@@ -17,21 +17,21 @@
         </nuxt-link>
       </div>
       <div class="flex items-center">
-        <ul class="px-7">
+        <ul class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 hover:scale-105 ">
           <NuxtLink to="/about">About</NuxtLink>
         </ul>
-        <ul class="px-7">
+        <ul class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 hover:scale-105">
           <NuxtLink to="/blog">Blog</NuxtLink>
         </ul>
-        <ul class="px-7">
+        <ul class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 hover:scale-105">
           <NuxtLink to="/products/product">Products</NuxtLink>
         </ul>
       </div>
       <div class="flex items-center">
-        <ul class="px-5">
+        <ul class="px-5 transition-all duration-300 ease-in-out hover:text-green-700 hover:scale-105">
           <NuxtLink to="/signin">Sign In</NuxtLink>
         </ul>
-        <ul class="px-5 border bg-white font-bold text-black border-black  rounded-full">
+        <ul class="px-5 border bg-white font-bold text-black border-black  rounded-full transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105">
           <NuxtLink to="/roducts/product">Sign Up</NuxtLink>
         </ul>
       </div>
