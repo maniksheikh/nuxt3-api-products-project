@@ -18,13 +18,10 @@
       </div>
       <div class="flex items-center">
         <ul class="px-7">
-          <NuxtLink to="/home">Home</NuxtLink>
-        </ul>
-        <ul class="px-7">
           <NuxtLink to="/about">About</NuxtLink>
         </ul>
         <ul class="px-7">
-          <NuxtLink to="/">Blog</NuxtLink>
+          <NuxtLink to="/blog">Blog</NuxtLink>
         </ul>
         <ul class="px-7">
           <NuxtLink to="/products/product">Products</NuxtLink>
@@ -34,7 +31,7 @@
         <ul class="px-5">
           <NuxtLink to="/signin">Sign In</NuxtLink>
         </ul>
-        <ul class="px-5 border bg-white font-bold text-black border-black p-1 rounded-full">
+        <ul class="px-5 border bg-white font-bold text-black border-black  rounded-full">
           <NuxtLink to="/roducts/product">Sign Up</NuxtLink>
         </ul>
       </div>
