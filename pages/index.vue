@@ -219,7 +219,7 @@
         </div>
       </div>
 
-      <!-- Cart section  -->
+      <!-- Review section  -->
       <div class="flex mt-20">
         <div class="w-[50%]">
           <img
@@ -228,7 +228,9 @@
           />
         </div>
         <div class="w-[50%] font-serif">
-          <h1 class="text-3xl text-[#191924] p-2 font-semibold opacity-90 leading-tight">
+          <h1
+            class="text-3xl text-[#191924] p-2 font-semibold opacity-90 leading-tight"
+          >
             Revolution Your <br />
             Experience with Our <br />
             Innovative Digital <br />
@@ -242,10 +244,57 @@
             customization. Enjoy peace of mind with our cutting-edge security
             solution.
           </p>
-          <p class="px-2"
-            >With a range of fetures and customization options, our digital
-            product can be tailord to meet the unique needs od each user.</p>
-          <button class="mt-5 px-6 font-bold text-white rounded-full py-2 bg-blue-400  transition-all duration-1000 ease-in-out hover:text-black hover:scale-110" type="button">Learn More</button>
+          <p class="px-2">
+            With a range of fetures and customization options, our digital
+            product can be tailord to meet the unique needs od each user.
+          </p>
+          <button
+            class="mt-5 px-6 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+            type="button"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <hr />
+      <!-- social cart system -->
+      <div class="flex items-center justify-between m-auto mt-20 bg-[#fffee7]">
+        <div class="w-[50%] m-auto px-20">
+          <h2 class="text-4xl font-semibold leading-snug">
+            Try Out Our Awesome <br />
+            Feature Now and Enjoy <br />
+            It`s Benefits.
+          </h2>
+          <div class="mt-3">
+            <button
+              class="rounded-md px-5 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
+              type="button"
+            >
+              DOWULOAD NOW
+            </button>
+            <button
+              class="mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
+              type="submit"
+            >
+              SIGN UP WITH GOOGLE
+            </button>
+          </div>
+        </div>
+        <div class="flex w-[50%] items-center justify-center">
+          <div class="relative">
+            <img
+              class="h-[400px] w-full object-cover cursor-pointer"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
+              alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG"
+            />
+
+            <div
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal"
+            >
+              <h3 class="text-6xl font-bold">40+</h3>
+              <span class="font-bold opacity-70">Download</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
