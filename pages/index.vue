@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#fafafc]">
+  <div class="bg-[#fafafc] m-auto w-[1500px]">
     <div class="mt-10-blue- py-10">
       <header class="mt-10 text-center py-8 font-sans">
         <h1 class="text-5xl font-bold leading-10 w-[540px] h-[65px] p-2 m-auto">
@@ -9,7 +9,7 @@
           A short tagline or description goes here.
         </p>
         <button
-          class="bg-blue-500 text-white px-6 py-2 rounded-md font-bold mt-4 hover:bg-sky-700"
+          class="bg-blue-500 text-white px-6 py-2 rounded-md font-bold mt-4 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
           type="button"
         >
           GET STARTED
@@ -154,7 +154,9 @@
               </nuxt-link>
             </div>
 
-            <div class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105">
+            <div
+              class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
+            >
               <nuxt-link>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlr8-q5Gf77IvD7z9T48FUdTyHaZkY5gWh6w&amp;usqp=CAU"
@@ -167,7 +169,9 @@
                 />
               </nuxt-link>
             </div>
-            <div class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105">
+            <div
+              class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
+            >
               <nuxt-link>
                 <img
                   src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg"
@@ -181,7 +185,9 @@
               </nuxt-link>
             </div>
 
-            <div class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105">
+            <div
+              class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
+            >
               <nuxt-link>
                 <img
                   src="https://businesspostbd.com/files/thumbs/daily-media/Dated/2021-/November/07/800x457/56.jpg"
@@ -194,7 +200,9 @@
                 />
               </nuxt-link>
             </div>
-            <div class="items-center w-[100%] transition-all duration-300 ease-in-out hover:opacity-100 hover:scale-105">
+            <div
+              class="items-center w-[100%] transition-all duration-300 ease-in-out hover:opacity-100 hover:scale-105"
+            >
               <nuxt-link to="">
                 <img
                   src="https://logicoretech.com/wp-content/uploads/2021/05/ScaleLeap-logo_Full-Color.png"
@@ -208,6 +216,36 @@
               </nuxt-link>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Cart section  -->
+      <div class="flex mt-20">
+        <div class="w-[50%]">
+          <img
+            class="h-[570px] w-[500px] cursor-pointer rounded-md object-cover justify-center m-auto"
+            src="../assets/my-best-img.JPG"
+          />
+        </div>
+        <div class="w-[50%] font-serif">
+          <h1 class="text-3xl text-[#191924] p-2 font-semibold opacity-90 leading-tight">
+            Revolution Your <br />
+            Experience with Our <br />
+            Innovative Digital <br />
+            Product.
+          </h1>
+          <p class="py-5 px-2 text-[#000007] opacity-70">
+            Our Smart Home Security System offers 24/7 surveillance, motion
+            detection, and smart access control. With environmental monitoring
+            and integration with other smart devices, it provides comprehensive
+            security. The user-friendly mobile app allows remote monitoring and
+            customization. Enjoy peace of mind with our cutting-edge security
+            solution.
+          </p>
+          <p class="px-2"
+            >With a range of fetures and customization options, our digital
+            product can be tailord to meet the unique needs od each user.</p>
+          <button class="mt-5 px-6 font-bold text-white rounded-full py-2 bg-blue-400  transition-all duration-1000 ease-in-out hover:text-black hover:scale-110" type="button">Learn More</button>
         </div>
       </div>
     </div>
