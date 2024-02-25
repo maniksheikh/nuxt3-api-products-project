@@ -1,0 +1,35 @@
+[
+    {
+        "question": "What is Vocalo.ai?",
+        "answer": "Vocalo.ai is an AI-powered language learning platform that focuses on improving English speaking skills through real-life conversational experiences and instant feedback."
+    },
+    {
+        "question": "How does the Vocalo.ai technology work?",
+        "answer": "Vocalo.ai uses advanced AI to simulate real-life conversations, transforming spoken words into written text. It provides feedback and corrections in real-time, similar to a human tutor."
+    },
+    {
+        "question": "Is there a trial period for Vocalo.ai?",
+        "answer": "Yes, Vocalo.ai offers 2 free speaking sessions for new users. No credit card required!"
+    },
+    {
+        "question": "How do I contact Vocalo.ai?",
+        "answer": "You can contact us via email at vocalo@connekt.studio or our social media channels."
+    },
+    {
+        "question": "Can I use Vocalo.ai on multiple devices?",
+        "answer": "Yes, Vocalo.ai is accessible on both smartphones and computers, allowing users to practice speaking English anytime, anywhere."
+    },
+    {
+        "question": "How does the Standard plan differ from the Free plan?",
+        "answer": "The Standard plan includes more speaking sessions per month, enhanced AI features, multilingual support (upcoming), a tailored curriculum for the user (upcoming), and priority support via email."
+    },
+    {
+        "question": "Is my data safe with Vocalo.ai?",
+        "answer": "Yes, vocalo.ai adheres to strict privacy policies to ensure user data is secure and confidential. Details can be found in the Privacy Policy section on the website."
+    },
+   
+    {
+        "question": "How do I cancel my subscription?",
+        "answer": "You can cancel your subscription at any time by clicking on the 'Manage Subscription' button on the profile popup."
+    }
+]

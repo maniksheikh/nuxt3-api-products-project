@@ -329,15 +329,12 @@
                 </p>
                 <h3 class="mb-6 text-3xl">
                   <strong>$ 129</strong>
-                  <small
-                    class="text-base text-neutral-500"
-                    >/year</small
-                  >
+                  <small class="text-base text-neutral-500">/year</small>
                 </h3>
 
                 <button
                   type="button"
-                  class="inline-block w-full  rounded bg-blue-400 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal transition-all duration-1000 ease-in-out hover:text-white hover:scale-105"
+                  class="inline-block w-full rounded bg-blue-400 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal transition-all duration-1000 ease-in-out hover:text-white hover:scale-105"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
@@ -359,8 +356,9 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M4.5 12.75l6 6 9-13.5"
-                      /></svg
-                    >Unlimited updates
+                      />
+                    </svg>
+                    Unlimited updates
                   </li>
                   <li class="mb-4 flex">
                     <svg
@@ -422,7 +420,7 @@
 
                 <button
                   type="button"
-                  class="inline-block w-full rounded bg-blue-500 px-6 pt-2 pb-2 text-xs font-medium  uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition-all duration-1000 ease-in-out hover:text-gray-200 hover:scale-105"
+                  class="inline-block w-full rounded bg-blue-500 px-6 pt-2 pb-2 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition-all duration-1000 ease-in-out hover:text-gray-200 hover:scale-105"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
@@ -575,7 +573,7 @@
 
                 <button
                   type="button"
-                  class="inline-block w-full rounded bg-blue-500 px-6 pt-2 pb-2 text-xs font-medium  uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition-all duration-1000 ease-in-out hover:text-gray-200 hover:scale-105"
+                  class="inline-block w-full rounded bg-blue-500 px-6 pt-2 pb-2 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition-all duration-1000 ease-in-out hover:text-gray-200 hover:scale-105"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
@@ -597,7 +595,8 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M4.5 12.75l6 6 9-13.5"
-                      /></svg>
+                      />
+                    </svg>
                     Unlimited updates
                   </li>
                   <li class="mb-4 flex">
@@ -613,7 +612,8 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M4.5 12.75l6 6 9-13.5"
-                      /></svg>
+                      />
+                    </svg>
                     Git repository
                   </li>
                   <li class="mb-4 flex">
@@ -629,7 +629,8 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M4.5 12.75l6 6 9-13.5"
-                      /></svg>
+                      />
+                    </svg>
                     npm installation
                   </li>
                   <li class="mb-4 flex">
@@ -645,7 +646,8 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M4.5 12.75l6 6 9-13.5"
-                      /></svg>
+                      />
+                    </svg>
                     Code examples
                   </li>
                   <li class="mb-4 flex">
@@ -661,13 +663,99 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         d="M4.5 12.75l6 6 9-13.5"
-                      /></svg>
+                      />
+                    </svg>
                     Premium snippets
                   </li>
                 </ol>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Free fag section  -->
+      <div class="flex m-auto bg-[#fffee7] mt-20">
+        <div id="faq" class=" w-[50%] m-auto p-20 md:px-4 md:pt-6 md:pb-4">
+          <div class="max-w-[600px] mx-auto text-center mb-20 sm:mb-8">
+            <h2
+              class="text-[#343434] text-xl sm:text-[25px] font-bold leading-relaxed sm:leading-loose"
+            >
+              Freequently <span class="ai-text">Asked FAQs Question?</span>
+            </h2>
+            <p class="opacity-60">
+              What fetures does the managemtnt tool offer?
+            </p>
+          </div>
+          <div class="max-w-3xl mx-auto mb-10 sm:mb-1">
+            <div class="flex flex-col gap-4">
+              <div
+                v-for="(faq, index) in faqData"
+                :key="index"
+                :class="{
+                  'bg-white p-4 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
+                    selectedQuestion === index,
+                  'p-4 bg-white rounded': selectedQuestion !== index,
+                }"
+              >
+                <div
+                  @click="toggleQuestion(index)"
+                  class="flex items-center justify-between cursor-pointer"
+                >
+                  <h2
+                    class="text-[#5b268f] text-lg sm:text-base opacity-80 font-bold"
+                  >
+                    {{ faq.question }}
+                  </h2>
+                  <button aria-label="faq" title="faq">
+                    <svg
+                      v-if="selectedQuestion === index"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.41 8.57812L12 13.1681L16.59 8.57812L18 9.99813L12 15.9981L6 9.99813L7.41 8.57812Z"
+                        fill="#5B4747"
+                      />
+                    </svg>
+                    <svg
+                      v-else
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M16.59 15.4219L12 10.8319L7.41 15.4219L6 14.0019L12 8.00187L18 14.0019L16.59 15.4219Z"
+                        fill="#5B4747"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <p
+                  v-if="selectedQuestion === index"
+                  class="text-[#938383] text-base sm:text-sm sm:leading-7 mt-3 leading-7"
+                >
+                  {{ faq.answer }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[50%] m-auto">
+          <img
+            src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
+            jsaction="VQAsE"
+            class="w-[100%] h-[500px] cursor-pointer object-cover"
+            alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey"
+            jsname="kn3ccd"
+            aria-hidden="false"
+          />
         </div>
       </div>
     </div>
@@ -678,7 +766,14 @@
 useHead({
   title: "Nuxt3 api Products",
 });
+
+import faqs from "~/store/faqs.json";
+const selectedQuestion = ref(0);
+
+const faqData = reactive(faqs);
+
+const toggleQuestion = (index) => {
+  selectedQuestion.value = selectedQuestion.value === index ? null : index;
+};
 </script>
 
-<style>
-</style>
