@@ -249,7 +249,7 @@
             product can be tailord to meet the unique needs od each user.
           </p>
           <button
-            class="mt-5 px-6 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+            class="mt-5 px-6 ml-2 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
             type="button"
           >
             Learn More
@@ -293,6 +293,379 @@
             >
               <h3 class="text-6xl font-bold">40+</h3>
               <span class="font-bold opacity-70">Download</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing page  -->
+      <div>
+        <div class="text-center lg:h-[400px] h-[300px] lg:pt-[80px] pt-[55px]">
+          <div>
+            <h2 class="mb-6 text-center text-4xl opacity-70 font-bold">
+              Choose Your Package
+            </h2>
+            <h4 class="leading-normal font-bold opacity-60">
+              Features and custinizable options, our digital product can be
+              <br />
+              tailored to meet the unique needs of each user.
+            </h4>
+          </div>
+        </div>
+
+        <div
+          class="grid px-6 md:px-12 lg:grid-cols-3 xl:px-32"
+          style="margin-top: -120px"
+        >
+          <div class="p-0 py-12">
+            <div
+              class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:rounded-tr-none lg:rounded-br-none"
+            >
+              <div
+                class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10"
+              >
+                <p class="mb-4 text-sm uppercase">
+                  <strong>Basic</strong>
+                </p>
+                <h3 class="mb-6 text-3xl">
+                  <strong>$ 129</strong>
+                  <small
+                    class="text-base text-neutral-500"
+                    >/year</small
+                  >
+                </h3>
+
+                <button
+                  type="button"
+                  class="inline-block w-full  rounded bg-blue-400 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal transition-all duration-1000 ease-in-out hover:text-white hover:scale-105"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="p-6">
+                <ol class="list-inside">
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      /></svg
+                    >Unlimited updates
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Git repository
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    yarn installation
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div
+              class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
+              style="z-index: 1"
+            >
+              <div
+                class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10"
+              >
+                <p class="mb-4 text-sm uppercase">
+                  <strong>Enterprise</strong>
+                </p>
+                <h3 class="mb-6 text-3xl">
+                  <strong>$ 499</strong>
+                  <small
+                    class="text-base text-neutral-500 dark:text-neutral-300"
+                    >/year</small
+                  >
+                </h3>
+
+                <button
+                  type="button"
+                  class="inline-block w-full rounded bg-blue-500 px-6 pt-2 pb-2 text-xs font-medium  uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition-all duration-1000 ease-in-out hover:text-gray-200 hover:scale-105"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="p-6">
+                <ol class="list-inside">
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Unlimited updates
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Git repository
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    npm installation
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Code examples
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Premium snippets
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Premium support
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    Drag&amp;Drop builder
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="py-12">
+            <div
+              class="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:rounded-tl-none lg:rounded-bl-none"
+            >
+              <div
+                class="border-b-2 border-neutral-100 border-opacity-100 p-6 text-center dark:border-opacity-10"
+              >
+                <p class="mb-4 text-sm uppercase">
+                  <strong>Advanced</strong>
+                </p>
+                <h3 class="mb-6 text-3xl">
+                  <strong>$ 299</strong>
+                  <small
+                    class="text-base text-neutral-500 dark:text-neutral-300"
+                    >/year</small
+                  >
+                </h3>
+
+                <button
+                  type="button"
+                  class="inline-block w-full rounded bg-blue-500 px-6 pt-2 pb-2 text-xs font-medium  uppercase leading-normal  shadow-[0_4px_9px_-4px_#3b71ca] transition-all duration-1000 ease-in-out hover:text-gray-200 hover:scale-105"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                >
+                  Buy
+                </button>
+              </div>
+              <div class="p-6">
+                <ol class="list-inside">
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      /></svg>
+                    Unlimited updates
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      /></svg>
+                    Git repository
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      /></svg>
+                    npm installation
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      /></svg>
+                    Code examples
+                  </li>
+                  <li class="mb-4 flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      class="mr-3 h-5 w-5 text-primary dark:text-primary-400"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      /></svg>
+                    Premium snippets
+                  </li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
