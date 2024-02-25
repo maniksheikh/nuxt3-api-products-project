@@ -1,0 +1,132 @@
+{
+  "monthly": [
+    {
+      "id": "free",
+      "name": "Free",
+      "description": "Perfect to get started",
+      "price": 0,
+      "billingCycle": "/ month",
+      "billingType": "No Credit Card Required!",
+      "features": [
+        "2 Speaking Sessions",
+        "AI-Powered Feedback",
+        "Access To Previous Conversation History",
+        "Limited Availability During Peak Hours",
+        "Basic Support Via Email"
+      ],
+      "class": "border-2 p-6 rounded-xl",
+      "css": "background: #f2c4a336; border-color: #f2c4a3;",
+      "titleCss": "text-[#FF6B00] font-bold text-3xl",
+      "buttonText": "Get Started For Free",
+      "buttonCss": "background: linear-gradient(180deg,#EDB74D 0%,#FF6B00 100%)",
+      "link": ""
+    },
+    {
+      "id": "standard-monthly",
+      "name": "Standard",
+      "description": "Best choice for dedicated learner",
+      "price": 10,
+      "billingCycle": "/ month",
+      "billingType": "Billed Monthly.",
+      "features": [
+        "40 Speaking Session (per month)",
+        "All Available Free Tier Features",
+        "Enhanced AI Features",
+        "Multi Lingual Support (incoming)",
+        "Tailored Curriculum For User (incoming)",
+        "Priority Support Via Email"
+      ],
+      "class": "border-2 p-6 rounded-xl",
+      "css": "background: #dcbefa42; border-color: #DCBEFA; transform: scale(1.05);",
+      "titleCss": "text-[#9030ED] font-bold text-3xl",
+      "buttonText": "Get Started Now",
+      "buttonCss": "background: linear-gradient(180deg,#a864f7 0%,#7244c7 100%)",
+      "link": "https://buy.stripe.com/6oE03Aa943Ok7IY6oE"
+    },
+    {
+      "id": "standard-lifetime",
+      "name": "Lifetime",
+      "description": "Rewarding a significant discount",
+      "price": 150,
+      "billingCycle": "/ lifetime*",
+      "billingType": "Billed Once.",
+      "features": [
+        "All Available Standard Tier Features",
+        "Huge Early Bird Discount",
+        "Continous Updates & New Features",
+        "High Priority Support Via Email & Call"
+      ],
+      "class": "bg-[#faaed345] border-2 border-[#faaed3] p-6 rounded-xl",
+      "css": "background: #faaed345; border-color: #faaed3;",
+      "titleCss": "text-[#E71B7C] font-bold text-3xl",
+      "buttonText": "Get Lifetime Access",
+      "buttonCss": "background: linear-gradient(180deg,#fb52a4 0%,#E71B7C 100%)",
+      "link": "https://buy.stripe.com/28o5nU4OK0C88N29AT"
+    }
+  ],
+  "yearly": [
+    {
+      "id": "free",
+      "name": "Free",
+      "description": "Perfect to get started",
+      "price": 0,
+      "billingCycle": "/ month",
+      "billingType": "No Credit Card Required!",
+      "features": [
+        "2 Speaking Sessions",
+        "AI-Powered Feedback",
+        "Access To Previous Conversation History",
+        "Limited Availability During Peak Hours",
+        "Basic Support Via Email"
+      ],
+      "class": "border-2 p-6 rounded-xl",
+      "css": "background: #f2c4a336; border-color: #f2c4a3;",
+      "titleCss": "text-[#FF6B00] font-bold text-3xl",
+      "buttonText": "Get Started For Free",
+      "buttonCss": "background: linear-gradient(180deg,#EDB74D 0%,#FF6B00 100%)",
+      "link": ""
+    },
+    {
+      "id": "standard-yearly",
+      "name": "Standard",
+      "description": "Best choice for dedicated learner",
+      "price": 7,
+      "billingCycle": "/ month",
+      "billingType": "$84 Billed Yearly.",
+      "features": [
+        "40 Speaking Session (per month)",
+        "All Available Free Tier Features",
+        "Enhanced AI Features",
+        "Multi Lingual Support (incoming)",
+        "Tailored Curriculum For User (incoming)",
+        "Priority Support Via Email"
+      ],
+      "class": "border-2 p-6 rounded-xl",
+      "css": "background: #dcbefa42; border-color: #DCBEFA; transform: scale(1.05);",
+      "titleCss": "text-[#9030ED] font-bold text-3xl",
+      "buttonText": "Get Started Now",
+      "buttonCss": "background: linear-gradient(180deg,#a864f7 0%,#7244c7 100%)",
+      "link": "https://buy.stripe.com/00g9Eaa941GcbZe9AS"
+    },
+    {
+      "id": "standard-lifetime",
+      "name": "Lifetime",
+      "description": "Rewarding a significant discount",
+      "price": 150,
+      "billingCycle": "/ lifetime*",
+      "billingType": "Billed Once.",
+      "features": [
+        "All Available Standard Tier Features",
+        "Huge Early Bird Discount",
+        "Continous Updates & New Features",
+        "High Priority Support Via Email & Call"
+      ],
+      "class": "border-2 p-6 rounded-xl",
+      "css": "background: #faaed345; border-color: #faaed3;",
+      "titleCss": "text-[#E71B7C] font-bold text-3xl",
+      "buttonText": "Get Lifetime Access",
+      "buttonCss": "background: linear-gradient(180deg,#fb52a4 0%,#E71B7C 100%)",
+      "link": "https://buy.stripe.com/28o5nU4OK0C88N29AT"
+    }
+  ]
+}
