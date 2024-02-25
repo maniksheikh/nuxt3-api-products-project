@@ -43,7 +43,7 @@
 
       <button
         type="submit"
-        class="w-full bg-blue-500 text-white p-2 rounded"
+        class="w-full bg-blue-500 text-white p-2 rounded transition-all duration-1000 ease-in-out hover:text-green-300 hover:scale-110"
       >
         Sign In
       </button>
@@ -65,15 +65,19 @@ export default {
       if (this.username && this.email && this.password) {
         console.log("Signing in...", this.username, this.email, this.password);
         this.showSuccessAlert();
-        navigateTo('/products/product')
+        navigateTo('/products/product');
       } else {
-        console.log("Invalid credentials");
+        this.showFillFieldsAlert();
       }
     },
     showSuccessAlert() {
       alert("Sign-in successful!");
     },
+    showFillFieldsAlert() {
+      alert("Please fill in all the required fields.");
+    },
   },
 };
+
 </script>
   

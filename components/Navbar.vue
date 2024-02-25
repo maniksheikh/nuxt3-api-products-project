@@ -28,11 +28,8 @@
         </ul>
       </div>
       <div class="flex items-center">
-        <ul class="px-5 transition-all duration-300 ease-in-out hover:text-green-700 hover:scale-105">
-          <NuxtLink to="/signin">Sign In</NuxtLink>
-        </ul>
-        <ul class="px-5 border bg-white font-bold text-black border-black  rounded-full transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105">
-          <NuxtLink to="/roducts/product">Sign Up</NuxtLink>
+        <ul class="px-6 p-1 border bg-white font-bold text-black  rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105">
+          <NuxtLink to="/signin">Sign Up</NuxtLink>
         </ul>
       </div>
     </div>

@@ -302,7 +302,7 @@
       <div>
         <div class="text-center lg:h-[400px] h-[300px] lg:pt-[80px] pt-[55px]">
           <div>
-            <h2 class="mb-6 text-center text-4xl opacity-70 font-bold">
+            <h2 class="mb-6 text-center text-4xl opacity-80 font-bold">
               Choose Your Package
             </h2>
             <h4 class="leading-normal font-bold opacity-60">
