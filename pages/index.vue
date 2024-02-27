@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div class="bg-[#fafafc] m-auto w-[1500px]">
     <div class="mt-10-blue- py-10">
       <header class="mt-10 text-center py-8 font-sans">
@@ -760,6 +761,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script setup>
