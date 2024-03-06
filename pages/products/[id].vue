@@ -78,8 +78,6 @@ onMounted(() => {
   fetchData();
 });
 
-
-defineProps(["id", "title", "body"]);
 function trucateDesciption(desciption, wordsCount) {
   if (desciption) {
     let words = desciption.split(" ");

@@ -62,7 +62,7 @@ export default {
       applyDarkMode(isDarkMode.value);
       localStorage.setItem("theme", isDarkMode.value ? "dark" : "light");
       console.log('Hello Manik');
-    };
+    }; 
 
     const applyDarkMode = (dark) => {
       const htmlElement = document.documentElement;
