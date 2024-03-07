@@ -36,13 +36,13 @@
         </div>
         <div class="flex items-center">
           <ul
-            class="px-6 mr-3 p-1 border bg-white font-bold text-black rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
+            class="px-5 mr-3 border bg-white font-bold text-black rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
           >
             <NuxtLink to="/signin">Sign Up</NuxtLink>
           </ul>
 
           <div>
-            <button class=" bg-white font-bold p-1 px-3 text-black rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105" @click="toggleDarkMode()">Toggle Dark Mode</button>
+            <button class=" bg-white font-bold px-3 text-black rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105" @click="toggleDarkMode()">Toggle Dark Mode</button>
           </div>
         </div>
       </div>
