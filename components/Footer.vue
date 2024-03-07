@@ -1,9 +1,9 @@
 <template>
   <div>
-    <footer class="bg-black">
-      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <footer class="bg-black w-[1500px] m-auto">
+      <div class="p-4 py-6 px-6 lg:py-8">
         <div class="md:flex md:justify-between">
-          <div class="w-[30%] mb-6 md:mb-0">
+          <div class="mb-6 md:mb-0">
             <a href="#" class="flex items-center">
               <div>
                 <nuxt-link to="/">
@@ -19,15 +19,20 @@
                 </nuxt-link>
               </div>
               <span
-                class="self-center ml-3 text-2xl font-semibold text-white whitespace-nowrap dark:text-white"
+                class="self-center ml-4 text-2xl font-semibold text-white whitespace-nowrap dark:text-white"
                 >Flowbite</span
               >
             </a>
 
-            <div class="flex sm:justify-center space-x-6">
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+            <div
+              class="flex justify-start items-start sm:justify-center mt-10 space-x-6"
+            >
+              <a
+                href="https://www.facebook.com/"
+                class="text-white hover:text-gray-400"
+              >
                 <svg
-                  class="h-5 w-5"
+                  class="h-6 w-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -39,9 +44,9 @@
                   ></path>
                 </svg>
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="https://www.instagram.com/dev.maniksheikh/?hl=en" class="text-white hover:text-gray-400">
                 <svg
-                  class="h-5 w-5"
+                  class="h-6 w-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -53,9 +58,21 @@
                   ></path>
                 </svg>
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="https://www.linkedin.com/in/manik-sheikh-6766232b6/" class="text-white hover:text-gray-400">
                 <svg
-                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
+                  />
+                </svg>
+              </a>
+              <a href="https://twitter.com/dev_man50733" class="text-white hover:text-gray-400">
+                <svg
+                  class="h-6 w-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -65,9 +82,9 @@
                   ></path>
                 </svg>
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
+              <a href="https://github.com/maniksheikh" class="text-white hover:text-gray-400">
                 <svg
-                  class="h-5 w-5"
+                  class="h-6 w-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -79,25 +96,9 @@
                   ></path>
                 </svg>
               </a>
-              <a href="#" class="text-gray-500 hover:text-gray-900">
-                <svg
-                  class="h-5 w-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a>
             </div>
           </div>
-          <div
-            class="grid grid-flow-col w-[70%] m-auto gap-8 sm:gap-6 sm:grid-cols-3"
-          >
+          <div class="grid grid-flow-col w-[60%] gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2
                 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
@@ -126,9 +127,6 @@
                 <li class="mb-4">
                   <a href="#" class="hover:underline">Leadership</a>
                 </li>
-                <li>
-                  <a href="#" class="hover:underline">News</a>
-                </li>
               </ul>
             </div>
             <div>
@@ -147,6 +145,22 @@
               </ul>
             </div>
             <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+              >
+                About
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Social Media</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="ml-5">
               <h2
                 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
               >
