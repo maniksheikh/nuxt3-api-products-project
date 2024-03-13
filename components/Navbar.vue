@@ -19,17 +19,17 @@
         </div>
         <div class="flex items-center">
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 hover:scale-105"
+            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 "
           >
             <NuxtLink to="/about">About</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 hover:scale-105"
+            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 "
           >
             <NuxtLink to="/">Blog</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 hover:scale-105"
+            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 "
           >
             <NuxtLink to="/products/product">Products</NuxtLink>
           </ul>
