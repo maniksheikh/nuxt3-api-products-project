@@ -19,24 +19,24 @@
         </div>
         <div class="flex items-center">
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 "
+            class="px-7 transition-all duration-300 ease-in-out hover:text-yellow-400 "
           >
             <NuxtLink to="/about">About</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 "
+            class="px-7 transition-all duration-300 ease-in-out hover:text-yellow-400 "
           >
-            <NuxtLink to="/">Blog</NuxtLink>
+            <NuxtLink to="/">Blogs</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-blue-400 "
+            class="px-7 transition-all duration-300 ease-in-out hover:text-yellow-400 "
           >
             <NuxtLink to="/products/product">Products</NuxtLink>
           </ul>
         </div>
         <div class="flex items-center">
           <ul
-            class="px-5 mr-3 border bg-white font-bold text-black rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
+            class="px-5 py-1 mr-3 border bg-white font-bold text-black rounded-full hover:text-blue-600"
           >
             <NuxtLink to="/signin">Sign Up</NuxtLink>
           </ul>
