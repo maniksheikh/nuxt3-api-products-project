@@ -14,8 +14,8 @@
                 jsname="kn3ccd"
                 aria-hidden="false"/>
               <span
-                class="self-center ml-4 text-2xl font-semibold text-white whitespace-nowrap dark:text-white"
-                >Flowbite</span>
+                class="self-center ml-4 text-2xl italic font-bold text-white whitespace-nowrap dark:text-white"
+                >Shooping</span>
             </a>
             <div
               class="flex justify-start items-start sm:justify-center mt-10 space-x-6"
@@ -188,7 +188,7 @@
           <span
             class="text-md text-center text-gray-500 sm:text-center dark:text-gray-400"
             >© 2024
-            <a href="#" class="hover:underline">Flowbite™</a>
+            <a href="#" class="hover:underline">Shooping</a>
             . All Rights Reserved.
           </span>
         </div>

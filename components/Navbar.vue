@@ -10,7 +10,7 @@
               class="rounded-full"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
               jsaction="VQAsE"
-              style="max-width: 1100px; height: 45px; margin: 0px; width: 45px"
+              style="max-width: 1100px; height: 46px; margin: 0px; width: 46px"
               alt="Shopping Cart Logo Design - MasterBundles"
               jsname="kn3ccd"
               aria-hidden="false"
@@ -19,31 +19,27 @@
         </div>
         <div class="flex items-center">
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-yellow-400 "
+            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400 "
           >
             <NuxtLink to="/about">About</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-yellow-400 "
+            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400 "
           >
             <NuxtLink to="/">Blogs</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all duration-300 ease-in-out hover:text-yellow-400 "
+            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400 "
           >
             <NuxtLink to="/products/product">Products</NuxtLink>
           </ul>
         </div>
         <div class="flex items-center">
           <ul
-            class="px-5 py-1 mr-3 border bg-white font-bold text-black rounded-full hover:text-blue-600"
+            class="px-3 py-1  border bg-white font-semibold text-black rounded-md hover:text-blue-600"
           >
             <NuxtLink to="/signin">Sign Up</NuxtLink>
           </ul>
-
-          <div>
-            <button class=" bg-white font-bold px-3 text-black rounded-full transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105" @click="toggleDarkMode()">Toggle Dark Mode</button>
-          </div>
         </div>
       </div>
     </nav>
