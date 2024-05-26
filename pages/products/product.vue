@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="font-sans my-20">
     <div v-if="loading" class="mt-20 text-center">
       <p>Loading Products.....</p>
     </div>
-    <div v-else class="grid grid-cols-4 gap-7 p-7 mt-12">
+    <div v-else class="grid grid-cols-4 gap-7">
       <router-link
         v-for="product in products"
         :key="product.id"
@@ -11,7 +11,7 @@
         class="flex flex-col shadow-md bg-gray-100 cursor-pointer p-6 rounded-lg"
       >
         <img
-          class="w-[720px] h-[320px] self-center object-cover"
+          class="w-full h-[320px] self-center object-cover"
           :src="product.image"
           alt=""
         />

@@ -12,10 +12,12 @@
                 style="max-width: 1100px; height: 40px; width: 40px"
                 alt="Shopping Cart Logo Design - MasterBundles"
                 jsname="kn3ccd"
-                aria-hidden="false"/>
+                aria-hidden="false"
+              />
               <span
                 class="self-center ml-4 text-2xl italic font-bold text-white whitespace-nowrap dark:text-white"
-                >Shooping</span>
+                >Shooping</span
+              >
             </a>
             <div
               class="flex justify-start items-start sm:justify-center mt-10 space-x-6"
@@ -104,76 +106,126 @@
               </a>
             </div>
           </div>
-          <div class="grid grid-flow-col w-[60%] gap-8 sm:gap-6 sm:grid-cols-3">
+          <div
+            class="grid font-sans grid-flow-col w-[60%] gap-8 sm:gap-6 sm:grid-cols-3"
+          >
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
               >
                 Links
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Blogs</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Blogs</a
+                  >
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Pricing</a>
+                  <a
+                    href="/pricing"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Pricing</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">FAQs</a>
+                  <a
+                    href="/faqs"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >FAQs</a
+                  >
                 </li>
               </ul>
             </div>
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
               >
                 Company
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">About Us</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >About Us</a
+                  >
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Leadership</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Leadership</a
+                  >
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">News</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >News</a
+                  >
                 </li>
               </ul>
             </div>
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
               >
                 Follow us
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Github</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Github</a
+                  >
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Social Media</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Social Media</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">Discord</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Discord</a
+                  >
                 </li>
               </ul>
             </div>
             <div>
               <h2
-                class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
               >
                 About
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Contact Us</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Contact Us</a
+                  >
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">Privacy Policy</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Privacy Policy</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                  <a
+                    href="#"
+                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                    >Terms &amp; Conditions</a
+                  >
                 </li>
               </ul>
             </div>
@@ -182,15 +234,11 @@
         <hr
           class="my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
         />
-        <div
-          class="items-center text-center justify-center m-auto sm:flex sm:items-center sm:justify-center"
-        >
-          <span
-            class="text-md text-center text-gray-500 sm:text-center dark:text-gray-400"
-            >© 2024
-            <a href="#" class="hover:underline">Shooping</a>
-            . All Rights Reserved.
-          </span>
+        <div class="copy-right-content">
+          <p class="text-white text-center opacity-90 justify-center pb-3">
+            © Copyright All Rights {{ new Date().getFullYear() }} -
+            <a href="/">Shooping.app</a>
+          </p>
         </div>
       </div>
     </footer>

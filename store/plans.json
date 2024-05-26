@@ -1,0 +1,178 @@
+{
+  "monthly": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": "Free",
+      "features": [
+        "10 Mins of Voice Notes Free",
+        "Upto 5 Mins/Voice Note",
+        "Generate Content",
+        "Search Voice Notes, Tag Notes, Mark as Favourites",
+        "Set Summary Language, Style & Length"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF;",
+      "titleCss": "text font-semibold text-[20px] opacity-60",
+      "buttonText": "Try Now!",
+      "buttonCss": "background: #F2F2F2; color: #595959;",
+      "link": "https://buy.stripe.com/3cs6rYbd84SoaVa4gA"
+    },
+
+    {
+      "id": "starter-monthly",
+      "name": "AudioNotes Personal",
+      "price": 9,
+      "billingCycle": "/ month",
+      "features": [
+        "Unlimited Voice Notes, File Uploads & Text Notes",
+        "15 Mins/Voice Note & 50 Mb/File",
+        "Generate Unlimited Content",
+        "Generate Super Summaries",
+        "Notion, Zapier & Webhook Integrations"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "color: #355BE1 ",
+      "buttonText": "Upgrade Now!",
+      "buttonCss": "background: #355BE1",
+      "link": "https://buy.stripe.com/3cs6rYbd84SoaVa4gA"
+    },
+    {
+      "id": "premium-monthly",
+      "name": "AudioNotes Pro",
+      "price": 19,
+      "billingCycle": "/ month",
+      "features": [
+        "Unlimited Voice Notes, File Uploads & Text Notes",
+        "15 Mins/Voice Note & 50 Mb/File",
+        "Generate Unlimited Content",
+        "Generate Super Summaries",
+        "Notion, Zapier & Webhook Integrations"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "color: #FF4F00 ",
+      "buttonText": "Upgrade Now!",
+      "buttonCss": "background: #FF4F00",
+      "link": "https://buy.stripe.com/14kdUq4OKgB6e7m28t"
+    }
+  ],
+  "annual": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": 0,
+      "features": [
+        "10 Mins of Voice Notes Free",
+        "Upto 5 Mins/Voice Note",
+        "Generate Content",
+        "Search Voice Notes, Tag Notes, Mark as Favourites",
+        "Set Summary Language, Style & Length"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF;",
+      "titleCss": "text font-semibold text-[20px] opacity-60",
+      "buttonText": "Try Now!",
+      "buttonCss": "background: #F2F2F2; color: #595959;",
+      "link": "https://buy.stripe.com/3cs6rYbd84SoaVa4gA"
+    },
+    {
+      "id": "annual",
+      "name": "AudioNotes Personal",
+      "price": 69,
+      "billingCycle": "/ year",
+      "features": [
+        "Unlimited Voice Notes, File Uploads & Text Notes",
+        "15 Mins/Voice Note & 50 Mb/File",
+        "Generate Unlimited Content",
+        "Generate Super Summaries",
+        "Notion, Zapier & Webhook Integrations"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "color: #355BE1 ",
+      "buttonText": "Upgrade Now!",
+      "buttonCss": "background: #355BE1",
+      "link": "https://buy.stripe.com/3cs6rYbd84SoaVa4gA"
+    },
+    {
+      "id": "premium-yearly",
+      "name": "AudioNotes Pro",
+      "price": 129,
+      "billingCycle": "/ year",
+
+      "features": [
+        "Unlimited Voice Notes, File Uploads & Text Notes",
+        "15 Mins/Voice Note & 50 Mb/File",
+        "Generate Unlimited Content",
+        "Generate Super Summaries",
+        "Notion, Zapier & Webhook Integrations"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "color: #FF4F00 ",
+      "buttonText": "Upgrade Now!",
+      "buttonCss": "background: #FF4F00",
+      "link": "https://buy.stripe.com/14kdUq4OKgB6e7m28t"
+    }
+  ],
+  "lifetime": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": 0,
+      "features": [
+        "10 Mins of Voice Notes Free",
+        "Upto 5 Mins/Voice Note",
+        "Generate Content",
+        "Search Voice Notes, Tag Notes, Mark as Favourites",
+        "Set Summary Language, Style & Length"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "text-red font-semibold text-[23px] opacity-60",
+      "buttonText": "Try Now!",
+      "buttonCss": "background: #F2F2F2; color: #595959;",
+      "link": "https://buy.stripe.com/3cs6rYbd84SoaVa4gA"
+    },
+    {
+      "id": "lifetime",
+      "name": "AudioNotes Personal",
+      "price": 129,
+      "features": [
+        "30 Speaking Session every month (15 minutes/session)",
+        "AI-Powered Feedback",
+        "Conversation History",
+        "Realtime Transcription",
+        "Realtime Translation into 100+ Languages",
+        "Basic Support Via Email"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "color: #355BE1 ",
+      "buttonText": "Upgrade Now!",
+      "buttonCss": "background: #355BE1",
+      "link": "https://buy.stripe.com/14kg2y1Cy1GcbZe4gG"
+    },
+    {
+      "id": "lifetime",
+      "name": "AudioNotes Pro",
+      "description": "",
+      "price": 249,
+      "features": [
+        "60 Speaking Session every month (15 minutes/session)",
+        "All Standard Tier Features",
+        "Multi Lingual Support (incoming)",
+        "Tailored Curriculum For User (incoming)",
+        "Priority Support Via Email & WhatsApp"
+      ],
+      "class": "border-3 rounded-2xl",
+      "css": "background: #FFFFFF",
+      "titleCss": "color: #FF4F00 ",
+      "buttonText": "Upgrade Now!",
+      "buttonCss": "background: #FF4F00",
+      "link": "https://buy.stripe.com/00g3fM6WSbgMe7m6oM"
+    }
+  ]
+}

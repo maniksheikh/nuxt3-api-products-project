@@ -3,7 +3,7 @@
     <nav
       class="bg-black text-white text-lg p-2 fixed top-0 left-0 right-0 w[100%]"
     >
-      <div class="flex justify-between m-auto w-[1500px]">
+      <div class="flex justify-between font-serif m-auto w-[1500px]">
         <div>
           <nuxt-link to="/">
             <img
@@ -19,27 +19,36 @@
         </div>
         <div class="flex items-center">
           <ul
-            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400 "
+            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400"
           >
             <NuxtLink to="/about">About</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400 "
+            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400"
           >
             <NuxtLink to="/">Blogs</NuxtLink>
           </ul>
           <ul
-            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400 "
+            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400"
           >
             <NuxtLink to="/products/product">Products</NuxtLink>
           </ul>
         </div>
-        <div class="flex items-center">
-          <ul
-            class="px-3 py-1  border bg-white font-semibold text-black rounded-md hover:text-blue-600"
+        <div class="flex space-x-4">
+          <div class="flex items-center">
+            <ul
+              class="px-4 py-1 border bg-white font-semibold text-black rounded-md hover:text-blue-600"
+            >
+              <NuxtLink to="/signin">Sign Up</NuxtLink>
+            </ul>
+          </div>
+          <!-- <button
+            id="toggleDark"
+            @click="toggleDark"
+            class="tex-medium font-serif px-4 py-0 bg-blue-400 rounded-md hover:bg-blue-700"
           >
-            <NuxtLink to="/signin">Sign Up</NuxtLink>
-          </ul>
+            Dark Mode
+          </button> -->
         </div>
       </div>
     </nav>
@@ -47,35 +56,17 @@
 </template>
   
   <script>
-import { ref, onMounted } from "vue";
-
-export default {
-  setup() {
-    const isDarkMode = ref(false);
-
-    const toggleDarkMode = () => {
-      isDarkMode.value = !isDarkMode.value;
-      applyDarkMode(isDarkMode.value);
-      localStorage.setItem("theme", isDarkMode.value ? "dark" : "light");
-      console.log('Hello Manik');
-    }; 
-
-    const applyDarkMode = (dark) => {
-      const htmlElement = document.documentElement;
-      htmlElement.classList.toggle("dark", dark);
-    };
-
-    onMounted(() => {
-      const currentTheme = localStorage.getItem("theme") || "light";
-      isDarkMode.value = currentTheme === "dark";
-      applyDarkMode(isDarkMode.value);
-    });
-
-    return {
-      toggleDarkMode,
-    };
-  },
-};
+// document.addEventListener("DOMContentLoaded", () => {
+//   const toggleDark = document.getElementById("toggleDark");
+//   toggleDark.addEventListener("click", function () {
+//     if (document.documentElement.classList.includes("dark")) {
+//       document.documentElement.classList.remove("dark");
+//     } else {
+//       document.documentElement.classList.add("dark");
+//     }
+//     alert("click");
+//   });
+// });
 </script>
   
   
