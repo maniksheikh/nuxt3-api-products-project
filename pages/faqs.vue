@@ -2,10 +2,8 @@
   <navbar></navbar>
   <div>
     <div id="faq" class="bg-[#F7F6FB] p-20 md:px-4 md:pt-6 md:pb-4">
-      <div class="max-w-[600px] mx-auto text-center mb-20 sm:mb-8">
-        <h2
-          class="text-[#343434] text-5xl sm:text-[25px] font-bold leading-relaxed sm:leading-loose"
-        >
+      <div class="w-[600px] m-auto text-center mb-20 sm:mb-8">
+        <h2 class="text-[#343434] text-5xl font-bold leading-relaxed">
           ALL <span class="ai-text">FAQs?</span>
         </h2>
       </div>
@@ -82,7 +80,7 @@ definePageMeta({
 });
 
 import faqs from "~/static/faqs.json";
-const selectedQuestion = ref(0);
+const selectedQuestion = ref(1);
 
 const faqData = reactive(faqs);
 

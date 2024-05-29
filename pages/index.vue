@@ -1,6 +1,6 @@
 <template>
   <div class="p-0 m-0">
-    <div class="bg-[#fafafc] m-auto w-[1500px]">
+    <div class="bg-[#fafafc] m-auto w-[1300px]">
       <div class="mt-10 py-10">
         <header class="mt-10 text-center py-8 space-y-3 font-sans">
           <h1
@@ -25,8 +25,8 @@
         <div class="flex items-center font-sans mt-10">
           <div class="w-[50%] px-20">
             <h2 class="font-bold text-[46px] w-[500px] text-[#91969a] py-2">
-              Creative Multipurpose <br />
-              Products <span class="text-[#da5f5c]">Template.</span>
+              <span class="text-[#ff4ff2]">Creative</span> Multipurpose Products
+              <span class="text-[#da5f5c]">Template.</span>
             </h2>
             <p
               class="text-gray-500 leading-6 mt-3 text-[18px] py-1 w-[490px] font-[600]"
@@ -263,7 +263,7 @@
 
         <!-- user section  -->
         <div class="mt-32">
-          <h1 class="text-center text-[52px] w-[52%] m-auto font-[600]">
+          <h1 class="text-center text-[52px] w-[60%] m-auto font-[600]">
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
@@ -396,8 +396,8 @@
 
         <!--Another Custom Card system -->
         <div class="mt-32">
-          <div class="w-[1500px] m-auto">
-            <div class="grid grid-cols-3 gap-14 px-2">
+          <div class="w-[1300px] m-auto">
+            <div class="grid grid-cols-3 gap-10 px-2">
               <div
                 v-for="customCart in customCartData"
                 :key="customCart.id"
@@ -482,7 +482,7 @@
             <div class="max-w-3xl mx-auto mb-10 sm:mb-1">
               <div class="flex flex-col gap-4">
                 <div
-                  v-for="(faq, index) in faqData"
+                  v-for="(faqs, index) in faqData"
                   :key="index"
                   :class="{
                     'bg-white p-4 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
@@ -497,7 +497,7 @@
                     <h2
                       class="text-[#5b268f] text-lg sm:text-base opacity-80 font-bold"
                     >
-                      {{ faq.question }}
+                      {{ faqs.question }}
                     </h2>
                     <button aria-label="faq" title="faq">
                       <svg
@@ -531,9 +531,9 @@
 
                   <p
                     v-if="selectedQuestion === index"
-                    class="text-[#938383] text-base sm:text-sm sm:leading-7 mt-3 leading-7"
+                    class="text-[#938383] text-base mt-3 leading-7"
                   >
-                    {{ faq.answer }}
+                    {{ faqs.answer }}
                   </p>
                 </div>
               </div>

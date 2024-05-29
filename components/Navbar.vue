@@ -1,7 +1,9 @@
 <template>
   <div>
-    <nav class="bg-black text-white text-lg fixed top-0 left-0 right-0 w[100%]">
-      <div class="flex justify-between font-serif m-auto w-[1500px]">
+    <nav
+      class="bg-black text-white py-1 text-lg fixed top-0 left-0 right-0 w-[100%]"
+    >
+      <div class="flex justify-between font-sans m-auto w-[1300px]">
         <div>
           <nuxt-link to="/">
             <img
@@ -17,19 +19,25 @@
         </div>
         <div class="flex items-center">
           <ul
-            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400"
+            class="px-5 transition-all font-[500] duration-300 ease-in-out hover:text-yellow-400"
           >
             <NuxtLink to="/about">About</NuxtLink>
           </ul>
+
           <ul
-            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400"
-          >
-            <NuxtLink to="/">Blogs</NuxtLink>
-          </ul>
-          <ul
-            class="px-7 transition-all font-semibold duration-300 ease-in-out hover:text-yellow-400"
+            class="px-5 transition-all font-[500] duration-300 ease-in-out hover:text-yellow-400"
           >
             <NuxtLink to="/products/product">Products</NuxtLink>
+          </ul>
+          <ul
+            class="px-5 transition-all font-[500] duration-300 ease-in-out hover:text-yellow-400"
+          >
+            <NuxtLink to="/pricing">Pricing</NuxtLink>
+          </ul>
+          <ul
+            class="px-5 transition-all font-[500] duration-300 ease-in-out hover:text-yellow-400"
+          >
+            <NuxtLink to="/faqs">Faqs</NuxtLink>
           </ul>
         </div>
         <div class="flex space-x-4">
