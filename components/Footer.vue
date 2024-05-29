@@ -9,7 +9,7 @@
                 class="rounded-full"
                 src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
                 jsaction="VQAsE"
-                style="max-width: 1100px; height: 40px; width: 40px"
+                style="max-width: 1100px; height: 46px; width: 46px"
                 alt="Shopping Cart Logo Design - MasterBundles"
                 jsname="kn3ccd"
                 aria-hidden="false"
@@ -24,7 +24,7 @@
             >
               <a
                 href="https://www.facebook.com/"
-                class="text-white hover:text-gray-400"
+                class="text-white transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
               >
                 <svg
                   class="h-6 w-6"
@@ -41,7 +41,7 @@
               </a>
               <a
                 href="https://www.instagram.com/dev.maniksheikh/?hl=en"
-                class="text-white hover:text-gray-400"
+                class="text-white transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
               >
                 <svg
                   class="h-6 w-6"
@@ -58,7 +58,7 @@
               </a>
               <a
                 href="https://www.linkedin.com/in/manik-sheikh-6766232b6/"
-                class="text-white hover:text-gray-400"
+                class="text-white transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@
               </a>
               <a
                 href="https://twitter.com/dev_man50733"
-                class="text-white hover:text-gray-400"
+                class="text-white transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
               >
                 <svg
                   class="h-6 w-6"
@@ -89,7 +89,7 @@
               </a>
               <a
                 href="https://github.com/maniksheikh"
-                class="text-white hover:text-gray-400"
+                class="text-white transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
               >
                 <svg
                   class="h-6 w-6"

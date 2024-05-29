@@ -62,7 +62,7 @@
   
   <script setup>
 import { ref, computed } from "vue";
-import plans from "~/static/plans.json";
+import plans from "~/store/plans.json";
 
 const planType = ref("monthly");
 

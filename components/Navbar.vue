@@ -1,8 +1,6 @@
 <template>
   <div>
-    <nav
-      class="bg-black text-white text-lg p-2 fixed top-0 left-0 right-0 w[100%]"
-    >
+    <nav class="bg-black text-white text-lg fixed top-0 left-0 right-0 w[100%]">
       <div class="flex justify-between font-serif m-auto w-[1500px]">
         <div>
           <nuxt-link to="/">
@@ -10,7 +8,7 @@
               class="rounded-full"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
               jsaction="VQAsE"
-              style="max-width: 1100px; height: 46px; margin: 0px; width: 46px"
+              style="max-width: 1100px; height: 50px; margin: 0px; width: 50px"
               alt="Shopping Cart Logo Design - MasterBundles"
               jsname="kn3ccd"
               aria-hidden="false"
