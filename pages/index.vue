@@ -351,6 +351,87 @@
             </Vue3Marquee>
           </div>
         </div>
+
+        <!-- Another chat cart  -->
+        <div class="mt-32">
+          <div class="">
+            <div class="grid grid-cols-3 gap-10">
+              <div
+                v-for="chatSection in chatSectionData"
+                :key="chatSection.id"
+                :class="chatSection.class"
+                :style="chatSection.bg"
+                class="block w-[410px] px-8 h-auto rounded-3xl border border-gray-300 dark:bg-surface-dark"
+              >
+                <div
+                  class="pt-14 pl-6 sm:items-center sm:justify-center text-surface dark:text-white"
+                >
+                  <div class="w-[48px]">
+                    <img
+                      class="w-[48px] h-[48px]"
+                      decoding="async"
+                      sizes="48px"
+                      :src="chatSection.avatar"
+                      alt=""
+                      style="
+                        display: block;
+
+                        border-radius: inherit;
+                        object-position: center;
+                        object-fit: cover;
+                        image-rendering: auto;
+                      "
+                    />
+                  </div>
+                  <div class="w-[320px] h-auto">
+                    <h5
+                      class="mb-3 mt-4 font-bold text-white text-[23px] leading-tight"
+                    >
+                      {{ chatSection.header }}
+                    </h5>
+                    <p class="mb-4 text-[18px] text-white font-[500]">
+                      {{ chatSection.content }}
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div class="hidden">
+                    <img
+                      width="40"
+                      height="40"
+                      src="https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg"
+                      alt="Back Arrow"
+                    />
+                  </div>
+                  <div class="hidden">
+                    <img
+                      width="40"
+                      height="40"
+                      src="https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg"
+                      alt="Next Arrow"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="relative overflow-hidden bg-cover bg-no-repeat"
+                  data-twe-ripple-init
+                  data-twe-ripple-color="light"
+                >
+                  <nuxt-link to="#">
+                    <img
+                      class="h-[200px] w-full"
+                      :src="chatSection.image"
+                      alt="images"
+                    />
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- social cart system -->
         <div
           class="flex items-center justify-between m-auto mt-32 bg-[#fffee7]"
@@ -567,13 +648,15 @@ useHead({
 import { Vue3Marquee } from "vue3-marquee";
 
 import user from "~/store/user.json";
+import chatSection from "~/store/chatSection.json";
 import customCart from "~/store/cartSection.json";
-import { ref } from "vue";
+
 import faqs from "~/store/faqs.json";
 const selectedQuestion = ref(1);
 
 const userData = reactive(user);
 const customCartData = reactive(customCart);
+const chatSectionData = reactive(chatSection);
 const faqData = reactive(faqs);
 
 const toggleQuestion = (index) => {
