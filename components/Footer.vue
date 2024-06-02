@@ -231,11 +231,9 @@
             </div>
           </div>
         </div>
-        <hr
-          class="my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
-        />
+        <hr class="my-3 border-gray-200 dark:border-gray-700" />
         <div class="copy-right-content">
-          <p class="text-white text-center opacity-90 justify-center pb-3">
+          <p class="text-white text-center opacity-90 justify-center">
             © Copyright All Rights {{ new Date().getFullYear() }} -
             <a href="/">Shooping.app</a>
           </p>

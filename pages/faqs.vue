@@ -1,5 +1,4 @@
 <template>
-  <navbar></navbar>
   <div>
     <div id="faq" class="bg-[#F7F6FB] p-20 md:px-4 md:pt-6 md:pb-4">
       <div class="w-[600px] m-auto text-center mb-20 sm:mb-8">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-[520px] m-auto text-center">
+    <div class="w-[580px] m-auto text-center">
       <h2 class="text-[#2A2A2A] text-[56px] font-[600] leading-relaxed">
         Choose Your Pricing
       </h2>
@@ -8,13 +8,13 @@
         Save Upto 50% with our Annual Plans:
       </p>
     </div>
-    <div class="grid grid-cols-3 bg-white mt-14 py-10 gap-10 px-10">
+    <div class="grid grid-cols-3 bg-white mt-14 py-10 gap-20 px-10">
       <div
         v-for="plan in plansData"
         :key="plan.id"
         :class="plan.class"
         :style="plan.css"
-        class="bg-[#FFFFFF] border border-gray-200 w-[330px] h-auto rounded-4xl shadow-md overflow-hidden"
+        class="bg-[#FFFFFF] border border-gray-200 w-full h-auto rounded-4xl shadow-md overflow-hidden"
       >
         <div class="p-5">
           <h2 :style="plan.titleCss" class="text-[22px] font-bold opacity-80">

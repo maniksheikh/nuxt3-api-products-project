@@ -1,14 +1,14 @@
 <template>
-  <div class="font-sans my-20">
+  <div class="mt-24">
     <div v-if="loading" class="mt-20 text-center">
       <p>Loading Products.....</p>
     </div>
-    <div v-else class="grid grid-cols-4 gap-7">
+    <div v-else class="grid grid-cols-3 gap-16">
       <router-link
         v-for="product in products"
         :key="product.id"
         :to="`/products/${product.id}`"
-        class="flex flex-col shadow-md bg-gray-100 cursor-pointer p-6 rounded-lg"
+        class="flex flex-col shadow-md bg-gray-100 cursor-pointer p-6 rounded-3xl"
       >
         <img
           class="w-full h-[320px] self-center object-cover"

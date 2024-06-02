@@ -21,7 +21,7 @@
   },
   {
     "id": "bd-monthly",
-    "name": "AudioNotes Personal",
+    "name": "Products Personal",
     "description": "Discounted price for Bangladeshi",
     "price": 69,
     "billingCycle": "/ monthly",
@@ -35,13 +35,13 @@
     ],
     "class": "border-3 rounded-2xl",
     "css": "background: #FFFFFF",
-    "titleCss": "color: #355BE1 ",
+    "titleCss": "color: #FF4F00 ",
     "buttonText": "Upgrade Now!",
-    "buttonCss": "background: #355BE1"
+    "buttonCss": "background: #FF4F00"
   },
   {
     "id": "bd-standard-yearly",
-    "name": "AudioNotes Pro",
+    "name": "Products Yearly",
     "description": "Discounted price for Bangladeshi",
     "price": 249,
     "billingCycle": "/ yearly",
@@ -54,8 +54,8 @@
     ],
     "class": "border-3 rounded-2xl",
     "css": "background: #FFFFFF",
-    "titleCss": "color: #FF4F00 ",
+    "titleCss": "color: #355BE1 ",
     "buttonText": "Upgrade Now!",
-    "buttonCss": "background: #FF4F00"
+    "buttonCss": "background: #355BE1"
   }
 ]

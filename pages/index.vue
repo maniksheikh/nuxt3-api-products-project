@@ -2,19 +2,18 @@
   <div class="p-0 m-0">
     <div class="bg-[#fafafc] m-auto w-[1300px]">
       <div class="mt-10 py-10">
-        <header class="mt-10 text-center py-8 space-y-3 font-sans">
-          <h1
-            class="text-[52px] font-bold leading-10 w-[600px] h-[65px] p-2 m-auto"
-          >
-            Product Landing page.
+        <header class="mt-10 text-center py-8 space-y-3">
+          <h1 class="text-[56px] leading-[60px] w-[550px] font-[500] m-auto">
+            <span class="text-[#FF4F00]">Product</span>
+            <span class="ml-4 italic opacity-80">Landing </span> page.
           </h1>
           <p
-            class="w-[400px] p-2 m-auto text-[18px] opacity-90 font-[600] leading-5"
+            class="mt-7 w-[400px] p-2 m-auto text-[18px] opacity-90 text-[600] leading-5"
           >
             A short tagline or description goes here.
           </p>
           <button
-            class="bg-blue-500 text-white px-6 py-2 rounded-md font-bold mt-8 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+            class="bg-[#FF4F00] text-white px-6 py-2 rounded-md font- mt-8 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
             type="button"
           >
             GET STARTED
@@ -22,30 +21,34 @@
         </header>
 
         <!-- Testimonial section  -->
-        <div class="flex items-center font-sans mt-10">
-          <div class="w-[50%] px-20">
-            <h2 class="font-bold text-[46px] w-[500px] text-[#91969a] py-2">
-              <span class="text-[#ff4ff2]">Creative</span> Multipurpose Products
-              <span class="text-[#da5f5c]">Template.</span>
-            </h2>
-            <p
-              class="text-gray-500 leading-6 mt-3 text-[18px] py-1 w-[490px] font-[600]"
-            >
-              This template is specially designed for a Products company,
-              <br />
-              that want`s something simple but professionaly.
-            </p>
-            <button
-              class="items-center justify-center m-auto bg-blue-500 text-white px-6 py-2 rounded-md font-bold mt-4 hover:bg-sky-700"
-              type="button"
-            >
-              Get Started
-            </button>
+        <div class="mt-10">
+          <div class="flex gap-10">
+            <div class="w-[47%] m-auto pl-2">
+              <h2 class="w-[550px] font-bold text-[46px] text-[#91969a] py-2">
+                <span class="text-[#ff4ff2]">Creative</span> Multipurpose
+                Products
+                <span class="text-[#da5f5c]">Template.</span>
+              </h2>
+              <p
+                class="text-gray-500 leading-6 mt-3 text-[18px] py-1 w-[490px] font-[400]"
+              >
+                This template is specially designed for a Products company, that
+                want`s something simple but professionaly.
+              </p>
+              <button
+                class="items-center justify-center m-auto bg-blue-500 text-white px-6 py-2 rounded-md font-bold mt-4 hover:bg-sky-700"
+                type="button"
+              >
+                Get Started
+              </button>
+            </div>
+            <div class="w-[50%] m-auto">
+              <img
+                class="w-full h-[450px] cursor-pointer"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpJAsryOXV1dZKZDRIsoxwI4jx0K90uDn-A&usqp=CAU"
+              />
+            </div>
           </div>
-          <img
-            class="w-[50%] h-[450px] cursor-pointer"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpJAsryOXV1dZKZDRIsoxwI4jx0K90uDn-A&usqp=CAU"
-          />
         </div>
 
         <!-- Testimonial section  -->
@@ -142,11 +145,14 @@
               Trusted by World`s Most Favourite Brands
             </h1>
           </div>
-          <div class="flex mt-20 m-auto">
-            <div class="flex items-center justify-between w-[65%] m-auto">
-              <div
-                class="items-center justify-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
-              >
+          <div class="flex items-center w-[780px] mt-20 m-auto">
+            <Vue3Marquee
+              :clone="true"
+              :duration="20"
+              :direction="'reverse'"
+              class="flex items-center justify-between w-[65%] m-auto"
+            >
+              <div class="items-center justify-center w-[100%]">
                 <nuxt-link to="">
                   <img
                     class="cursor-pointer"
@@ -160,9 +166,7 @@
                 </nuxt-link>
               </div>
 
-              <div
-                class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
-              >
+              <div class="items-center w-[100%]">
                 <nuxt-link>
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlr8-q5Gf77IvD7z9T48FUdTyHaZkY5gWh6w&amp;usqp=CAU"
@@ -175,9 +179,7 @@
                   />
                 </nuxt-link>
               </div>
-              <div
-                class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
-              >
+              <div class="items-center w-[100%]">
                 <nuxt-link>
                   <img
                     src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg"
@@ -191,9 +193,7 @@
                 </nuxt-link>
               </div>
 
-              <div
-                class="items-center w-[100%] transition-all duration-300 ease-in-out hover:text-blue-600 hover:scale-105"
-              >
+              <div class="items-center w-[100%]">
                 <nuxt-link>
                   <img
                     src="https://businesspostbd.com/files/thumbs/daily-media/Dated/2021-/November/07/800x457/56.jpg"
@@ -206,9 +206,7 @@
                   />
                 </nuxt-link>
               </div>
-              <div
-                class="items-center w-[100%] transition-all duration-300 ease-in-out hover:opacity-100 hover:scale-105"
-              >
+              <div class="items-center w-[100%]">
                 <nuxt-link to="">
                   <img
                     src="https://logicoretech.com/wp-content/uploads/2021/05/ScaleLeap-logo_Full-Color.png"
@@ -221,49 +219,51 @@
                   />
                 </nuxt-link>
               </div>
-            </div>
+            </Vue3Marquee>
           </div>
         </div>
 
         <!-- Review section  -->
-        <div class="flex mt-20">
-          <div class="w-[50%]">
-            <img
-              class="h-[570px] w-[500px] cursor-pointer rounded-md object-cover justify-center m-auto"
-              src="../assets/my-best-img.JPG"
-            />
-          </div>
-          <div class="w-[50%] font-serif">
-            <h1
-              class="text-[34px] w-[350px] text-[#191924] p-2 font-[600] opacity-90 leading-tight"
-            >
-              Revolution Your Experience with Our Innovative Digital Product.
-            </h1>
-            <p class="py-5 px-2 mt-3 text-[#000007] opacity-70">
-              Our Smart Home Security System offers 24/7 surveillance, motion
-              detection, and smart access control. With environmental monitoring
-              and integration with other smart devices, it provides
-              comprehensive security. The user-friendly mobile app allows remote
-              monitoring and customization. Enjoy peace of mind with our
-              cutting-edge security solution.
-            </p>
-            <p class="px-2 mt-3">
-              With a range of fetures and customization options, our digital
-              product can be tailord to meet the unique needs od each user.
-            </p>
-            <button
-              class="mt-5 px-6 ml-2 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
-              type="button"
-            >
-              Learn More
-            </button>
+        <div class="mt-20">
+          <div class="flex gap-10">
+            <div class="w-[50%] m-auto">
+              <img
+                class="h-[770px] w-full cursor-pointer rounded-md object-cover justify-center"
+                src="../assets/project-img.jpg"
+              />
+            </div>
+            <div class="w-[50%]">
+              <h1
+                class="text-[52px] w-[500px] text-[#191924] p-5 font-[500] opacity-80 leading-tight"
+              >
+                Revolution Your Experience with Our Innovative Digital Product.
+              </h1>
+              <p class="py-5 px-3 mt-3 text-[#000007] opacity-70">
+                Our Smart Home Security System offers 24/7 surveillance, motion
+                detection, and smart access control. With environmental
+                monitoring and integration with other smart devices, it provides
+                comprehensive security. The user-friendly mobile app allows
+                remote monitoring and customization. Enjoy peace of mind with
+                our cutting-edge security solution.
+              </p>
+              <p class="px-3 mt-3">
+                With a range of fetures and customization options, our digital
+                product can be tailord to meet the unique needs od each user.
+              </p>
+              <button
+                class="mt-5 px-6 ml-2 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+                type="button"
+              >
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
         <hr />
 
         <!-- user section  -->
         <div class="mt-32">
-          <h1 class="text-center text-[52px] w-[60%] m-auto font-[600]">
+          <h1 class="text-center text-[52px] w-[67%] m-auto font-[600]">
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
@@ -361,11 +361,9 @@
                 :key="chatSection.id"
                 :class="chatSection.class"
                 :style="chatSection.bg"
-                class="block w-[410px] px-8 h-auto rounded-3xl border border-gray-300 dark:bg-surface-dark"
+                class="relative w-full h-[450px] m-auto px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
               >
-                <div
-                  class="pt-14 pl-6 sm:items-center sm:justify-center text-surface dark:text-white"
-                >
+                <div class="pt-14 pl-6 text-surface dark:text-white">
                   <div class="w-[48px]">
                     <img
                       class="w-[48px] h-[48px]"
@@ -375,7 +373,6 @@
                       alt=""
                       style="
                         display: block;
-
                         border-radius: inherit;
                         object-position: center;
                         object-fit: cover;
@@ -415,17 +412,13 @@
                 </div>
 
                 <div
-                  class="relative overflow-hidden bg-cover bg-no-repeat"
-                  data-twe-ripple-init
-                  data-twe-ripple-color="light"
+                  class="absolute left-0 bottom-0 overflow-hidden bg-cover px-2 bg-no-repeat w-full"
                 >
-                  <nuxt-link to="#">
-                    <img
-                      class="h-[200px] w-full"
-                      :src="chatSection.image"
-                      alt="images"
-                    />
-                  </nuxt-link>
+                  <img
+                    class="h-[200px] w-full rounded-md m-auto"
+                    :src="chatSection.image"
+                    alt="images"
+                  />
                 </div>
               </div>
             </div>
@@ -433,48 +426,47 @@
         </div>
 
         <!-- social cart system -->
-        <div
-          class="flex items-center justify-between m-auto mt-32 bg-[#fffee7]"
-        >
-          <div class="w-[50%] m-auto px-20">
-            <h2 class="text-4xl font-semibold leading-snug">
-              Try Out Our Awesome <br />
-              Feature Now and Enjoy <br />
-              It`s Benefits.
-            </h2>
-            <div class="mt-3">
-              <button
-                class="rounded-md px-5 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
-                type="button"
-              >
-                DOWULOAD NOW
-              </button>
-              <button
-                class="mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
-                type="submit"
-              >
-                SIGN UP WITH GOOGLE
-              </button>
+        <div class="mt-32 bg-[#fffee7]">
+          <div class="flex gap-10 items-center justify-between m-auto">
+            <div class="w-[50%] m-auto pl-4">
+              <h2 class="text-[46px] font-[600] leading-snug">
+                Try Out Our Awesome <br />
+                Feature Now and Enjoy <br />
+                It`s Benefits.
+              </h2>
+              <div class="mt-3">
+                <button
+                  class="rounded-md px-5 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
+                  type="button"
+                >
+                  DOWUNLOAD NOW
+                </button>
+                <button
+                  class="mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
+                  type="submit"
+                >
+                  SIGN UP WITH GOOGLE
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="flex w-[50%] h-auto items-center justify-center">
-            <div class="relative">
-              <img
-                class="h-[400px] w-full object-cover cursor-pointer"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
-                alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG"
-              />
+            <div class="flex w-[50%] h-auto items-center justify-center">
+              <div class="relative">
+                <img
+                  class="h-[400px] w-full object-cover cursor-pointer"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
+                  alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG"
+                />
 
-              <div
-                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal"
-              >
-                <h3 class="text-6xl font-bold">40+</h3>
-                <span class="font-bold opacity-70">Download</span>
+                <div
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal"
+                >
+                  <h3 class="text-6xl font-bold">40+</h3>
+                  <span class="font-bold opacity-70">Download</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
         <!--Another Custom Card system -->
         <div class="mt-32">
           <div class="w-[1300px] m-auto">
@@ -554,16 +546,16 @@
           <div id="faq" class="w-[50%] m-auto p-20 md:px-4 md:pt-6 md:pb-4">
             <div class="w-[600px] mx-auto text-center mb-20">
               <h2 class="text-[#343434] text-[42px] font-[600] leading-relaxed">
-                Freequently <span class="ai-text">Asked FAQs Question?</span>
+                Frequently <span class="ai-text">Asked FAQs Question</span>
               </h2>
               <p class="opacity-70 text-[17px] mt-2">
-                What fetures does the managemtnt tool offer?
+                What features does the management tool offer?
               </p>
             </div>
             <div class="max-w-3xl mx-auto mb-10 sm:mb-1">
               <div class="flex flex-col gap-4">
                 <div
-                  v-for="(faqs, index) in faqData"
+                  v-for="(faq, index) in faqData"
                   :key="index"
                   :class="{
                     'bg-white p-4 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
@@ -578,7 +570,7 @@
                     <h2
                       class="text-[#5b268f] text-lg sm:text-base opacity-80 font-bold"
                     >
-                      {{ faqs.question }}
+                      {{ faq.question }}
                     </h2>
                     <button aria-label="faq" title="faq">
                       <svg
@@ -609,12 +601,11 @@
                       </svg>
                     </button>
                   </div>
-
                   <p
                     v-if="selectedQuestion === index"
                     class="text-[#938383] text-base mt-3 leading-7"
                   >
-                    {{ faqs.answer }}
+                    {{ faq.answer }}
                   </p>
                 </div>
               </div>
@@ -623,11 +614,8 @@
           <div class="w-[50%] m-auto">
             <img
               src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
-              jsaction="VQAsE"
               class="w-[100%] h-[500px] cursor-pointer object-cover"
               alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey"
-              jsname="kn3ccd"
-              aria-hidden="false"
             />
           </div>
         </div>
@@ -646,18 +634,19 @@ useHead({
   title: "Nuxt3 api Products",
 });
 import { Vue3Marquee } from "vue3-marquee";
+import { ref, reactive } from "vue";
 
 import user from "~/store/user.json";
 import chatSection from "~/store/chatSection.json";
 import customCart from "~/store/cartSection.json";
-
 import faqs from "~/store/faqs.json";
-const selectedQuestion = ref(1);
 
 const userData = reactive(user);
 const customCartData = reactive(customCart);
 const chatSectionData = reactive(chatSection);
 const faqData = reactive(faqs);
+
+const selectedQuestion = ref(null);
 
 const toggleQuestion = (index) => {
   selectedQuestion.value = selectedQuestion.value === index ? null : index;
