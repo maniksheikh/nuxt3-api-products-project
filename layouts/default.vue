@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[1300px] m-auto">
+  <div class="w-[1200px] m-auto">
     <Navbar></Navbar>
     <slot />
     <Footer></Footer>

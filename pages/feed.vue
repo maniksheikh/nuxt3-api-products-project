@@ -1,8 +1,8 @@
 <template>
   <div class="p-0 m-0">
-    <div class="bg-[#fafafc] m-auto w-[1300px]">
+    <div class="bg-[#fafafc]">
       <div class="mt-10 py-10">
-        <header class="mt-10 text-center py-8 space-y-3">
+        <header class="mt-10 text-center m-auto w-[1100px] py-8 space-y-3">
           <h1 class="text-[56px] leading-[60px] w-[550px] font-[500] m-auto">
             <span class="text-[#FF4F00]">Product</span>
             <span class="ml-4 italic opacity-80">Landing </span> page.
@@ -22,7 +22,7 @@
 
         <!-- Testimonial section  -->
         <div class="mt-10">
-          <div class="flex gap-10">
+          <div class="flex gap-10 m-auto w-[1100px]">
             <div class="w-[47%] m-auto pl-2">
               <h2 class="w-[550px] font-bold text-[46px] text-[#91969a] py-2">
                 <span class="text-[#ff4ff2]">Creative</span> Multipurpose
@@ -228,7 +228,7 @@
           <div class="flex gap-10">
             <div class="w-[50%] m-auto">
               <img
-                class="h-[770px] w-full cursor-pointer rounded-md object-cover justify-center"
+                class="h-[700px] w-full cursor-pointer rounded-md object-cover justify-center"
                 src="../assets/project-img.jpg"
               />
             </div>
@@ -267,7 +267,7 @@
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
-          <div class="mt-10">
+          <div class="mt-12">
             <Vue3Marquee
               :pause-on-hover="true"
               @on-pause="playState = 'paused'"

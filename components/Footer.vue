@@ -1,8 +1,8 @@
 <template>
   <div>
-    <footer class="bg-black w-[1300px] m-auto">
+    <footer class="bg-black">
       <div class="p-4 py-6 px-6 lg:py-8">
-        <div class="md:flex md:justify-between">
+        <div class="flex justify-between">
           <div class="mb-6 md:mb-0">
             <a href="#" class="flex items-center">
               <img
