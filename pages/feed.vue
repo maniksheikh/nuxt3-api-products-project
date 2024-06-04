@@ -1,36 +1,41 @@
 <template>
   <div class="p-0 m-0">
     <div class="bg-[#fafafc]">
-      <div class="mt-10 py-10">
-        <header class="mt-10 text-center m-auto w-[1100px] py-8 space-y-3">
-          <h1 class="text-[56px] leading-[60px] w-[550px] font-[500] m-auto">
+      <div class="sm:mt-10 sm:py-10">
+        <header class="mt-20 text-center m-auto w-auto sm:w-[1200px] space-y-3">
+          <h1
+            class="text-[32px] sm:text-[56px] leading-[40px] sm:leading-[70px] w-auto sm:w-[550px] pt-1 font-medium m-auto"
+          >
             <span class="text-[#FF4F00]">Product</span>
-            <span class="ml-4 italic opacity-80">Landing </span> page.
+            <span class="ml-4 italic opacity-80">Landing</span> page.
           </h1>
           <p
-            class="mt-7 w-[400px] p-2 m-auto text-[18px] opacity-90 text-[600] leading-5"
+            class="mt-7 w-auto sm:w-[400px] p-2 m-auto text-[16px] sm:text-[18px] opacity-90 font-semibold leading-5 sm:leading-5"
           >
             A short tagline or description goes here.
           </p>
           <button
             class="bg-[#FF4F00] text-white px-7 py-3 rounded-3xl text-[14px] mt-8 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
-            type="button"
           >
             GET STARTED
           </button>
         </header>
 
         <!-- Testimonial section  -->
-        <div class="mt-10">
-          <div class="flex gap-10 m-auto w-[1100px]">
-            <div class="w-[47%] m-auto pl-2">
-              <h2 class="w-[550px] font-bold text-[46px] text-[#91969a] py-2">
+        <div class="sm:mt-10">
+          <div class="sm:flex block sm:gap-10 m-auto sm:w-[1200px]">
+            <div
+              class="sm:w-[47%] w-[100%] text-center items-center justify-center m-auto sm:pl-2"
+            >
+              <h2
+                class="sm:w-[550px] w-[400px] font-bold sm:text-[46px] text-[36px] text-center text-[#91969a] py-2"
+              >
                 <span class="text-[#ff4ff2]">Creative</span> Multipurpose
                 Products
                 <span class="text-[#da5f5c]">Template.</span>
               </h2>
               <p
-                class="text-gray-500 leading-6 mt-3 text-[18px] py-1 w-[490px] font-[400]"
+                class="text-gray-500 leading-6 mt-3 sm:text-[18px] text-center py-1 sm:w-[490px] w-[300px] font-[400]"
               >
                 This template is specially designed for a Products company, that
                 want`s something simple but professionaly.
@@ -42,7 +47,7 @@
                 Get Started
               </button>
             </div>
-            <div class="w-[50%] m-auto">
+            <div class="sm:w-[50%] m-auto">
               <img
                 class="w-full h-[450px] cursor-pointer"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpJAsryOXV1dZKZDRIsoxwI4jx0K90uDn-A&usqp=CAU"
@@ -54,10 +59,10 @@
         <!-- Testimonial section  -->
         <div>
           <div
-            class="bg-[#ffffff] font-sans h-[100px] flex items-center justify-between w-[60%] m-auto mt-20"
+            class="bg-[#ffffff] sm:h-[100px] h-[100%] sm:flex sm:items-center sm:justify-between sm:w-[60%] m-auto mt-20"
           >
             <div
-              class="flex text-center items-center justify-center w-[400px] py-6 border-r-2 border-gray-200"
+              class="sm:flex flex sm:text-center sm:items-center sm:justify-center sm:w-[400px] w-[100%] m-auto py-6 sm:border-r-2 border-gray-200"
             >
               <svg
                 class="bg-red-100 rounded-full p-1 cursor-pointer"
@@ -82,7 +87,7 @@
               </div>
             </div>
             <div
-              class="flex text-center items-center justify-center w-[400px] py-6 border-r-2 border-gray-200"
+              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200"
             >
               <svg
                 class="bg-red-100 rounded-full p-1 cursor-pointer"
@@ -116,7 +121,7 @@
               </div>
             </div>
             <div
-              class="flex text-center items-center justify-center w-[400px] py-6"
+              class="flex text-center items-center justify-center w-[100%] m-auto py-6"
             >
               <svg
                 class="bg-red-100 rounded-full p-1 cursor-pointer"
@@ -139,13 +144,17 @@
         </div>
 
         <!-- payment section  -->
-        <div class="bg-[#fffee7] mt-32 py-10">
-          <div class="text-center w-[600px] m-auto">
-            <h1 class="font-[600] text-[52px] opacity-90 text-[#2e2d35]">
+        <div class="bg-[#fffee7] sm:mt-32 sm:py-10">
+          <div
+            class="sm:text-center text-center sm:w-[600px] w-[520px] sm:m-auto"
+          >
+            <h1
+              class="font-[600] sm:text-[52px] text-[36px] opacity-90 text-[#2e2d35]"
+            >
               Trusted by World`s Most Favourite Brands
             </h1>
           </div>
-          <div class="flex items-center w-[780px] mt-20 m-auto">
+          <div class="sm:flex items-center sm:w-[780px] sm:mt-20 m-auto">
             <Vue3Marquee
               :clone="true"
               :duration="20"
@@ -224,21 +233,21 @@
         </div>
 
         <!-- Review section  -->
-        <div class="mt-20">
-          <div class="flex gap-10">
-            <div class="w-[50%] m-auto">
+        <div class="sm:mt-20">
+          <div class="sm:flex sm:gap-10">
+            <div class="sm:w-[50%] m-auto">
               <img
-                class="h-[700px] w-full cursor-pointer rounded-md object-cover justify-center"
+                class="sm:h-[700px] h-[700px] w-full sm:w-full cursor-pointer rounded-md object-cover justify-center"
                 src="../assets/project-img.jpg"
               />
             </div>
-            <div class="w-[50%]">
+            <div class="sm:w-[50%]">
               <h1
-                class="text-[52px] w-[500px] text-[#191924] p-5 font-[500] opacity-80 leading-tight"
+                class="sm:text-[52px] sm:w-[500px] text-[#191924] sm:p-5 font-[500] opacity-80 leading-tight"
               >
                 Revolution Your Experience with Our Innovative Digital Product.
               </h1>
-              <p class="py-5 px-3 mt-3 text-[#000007] opacity-70">
+              <p class="sm:py-5 sm:px-3 sm:mt-3 text-[#000007] opacity-70">
                 Our Smart Home Security System offers 24/7 surveillance, motion
                 detection, and smart access control. With environmental
                 monitoring and integration with other smart devices, it provides
@@ -246,12 +255,12 @@
                 remote monitoring and customization. Enjoy peace of mind with
                 our cutting-edge security solution.
               </p>
-              <p class="px-3 mt-3">
+              <p class="sm:px-3 sm:mt-3">
                 With a range of fetures and customization options, our digital
                 product can be tailord to meet the unique needs od each user.
               </p>
               <button
-                class="mt-5 px-6 ml-2 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+                class="sm:mt-5 sm:px-6 sm:ml-2 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
                 type="button"
               >
                 Learn More
@@ -262,12 +271,14 @@
         <hr />
 
         <!-- user section  -->
-        <div class="mt-32">
-          <h1 class="text-center text-[52px] w-[67%] m-auto font-[600]">
+        <div class="sm:mt-32">
+          <h1
+            class="sm:text-center sm:text-[52px] sm:w-[67%] m-auto font-[600]"
+          >
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
-          <div class="mt-12">
+          <div class="sm:mt-12">
             <Vue3Marquee
               :pause-on-hover="true"
               @on-pause="playState = 'paused'"
@@ -353,17 +364,17 @@
         </div>
 
         <!-- Another chat cart  -->
-        <div class="mt-32">
+        <div class="sm:mt-32">
           <div class="">
-            <div class="grid grid-cols-3 gap-10">
+            <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10">
               <div
                 v-for="chatSection in chatSectionData"
                 :key="chatSection.id"
                 :class="chatSection.class"
                 :style="chatSection.bg"
-                class="relative w-full h-[450px] m-auto px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
+                class="relative sm:w-full sm:h-[450px] h-auto w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
               >
-                <div class="pt-14 pl-6 text-surface dark:text-white">
+                <div class="sm:pt-14 p-10 h-auto text-surface dark:text-white">
                   <div class="w-[48px]">
                     <img
                       class="w-[48px] h-[48px]"
@@ -380,9 +391,9 @@
                       "
                     />
                   </div>
-                  <div class="w-[320px] h-auto">
+                  <div class="sm:w-[300px] w-[250px] sm:m-auto sm:h-auto">
                     <h5
-                      class="mb-3 mt-4 font-bold text-white text-[23px] leading-tight"
+                      class="mb-3 mt-4 font-bold text-white sm:text-[23px] leading-tight"
                     >
                       {{ chatSection.header }}
                     </h5>
@@ -392,8 +403,8 @@
                   </div>
                 </div>
 
-                <div class="flex justify-between">
-                  <div class="hidden">
+                <div class="sm:flex sm:justify-between">
+                  <div class="sm:hidden block">
                     <img
                       width="40"
                       height="40"
@@ -401,7 +412,7 @@
                       alt="Back Arrow"
                     />
                   </div>
-                  <div class="hidden">
+                  <div class="sm:hidden block">
                     <img
                       width="40"
                       height="40"
@@ -415,7 +426,7 @@
                   class="absolute left-0 bottom-0 overflow-hidden bg-cover px-2 bg-no-repeat w-full"
                 >
                   <img
-                    class="h-[200px] w-full rounded-md m-auto"
+                    class="sm:h-[200px] h-[200px] w-full sm:w-full rounded-md m-auto"
                     :src="chatSection.image"
                     alt="images"
                   />
@@ -426,15 +437,17 @@
         </div>
 
         <!-- social cart system -->
-        <div class="mt-32 bg-[#fffee7]">
-          <div class="flex gap-10 items-center justify-between m-auto">
-            <div class="w-[50%] m-auto pl-4">
-              <h2 class="text-[46px] font-[600] leading-snug">
+        <div class="sm:mt-32 mt-20 bg-[#fffee7]">
+          <div
+            class="sm:flex block sm:gap-10 items-center justify-between m-auto"
+          >
+            <div class="sm:w-[50%] m-auto sm:pl-4">
+              <h2 class="sm:text-[46px] text-[32px] font-[600] leading-snug">
                 Try Out Our Awesome <br />
                 Feature Now and Enjoy <br />
                 It`s Benefits.
               </h2>
-              <div class="mt-3">
+              <div class="sm:mt-3">
                 <button
                   class="rounded-md px-5 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
                   type="button"
@@ -442,17 +455,17 @@
                   DOWUNLOAD NOW
                 </button>
                 <button
-                  class="mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
+                  class="sm:mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
                   type="submit"
                 >
                   SIGN UP WITH GOOGLE
                 </button>
               </div>
             </div>
-            <div class="flex w-[50%] h-auto items-center justify-center">
+            <div class="flex sm:w-[50%] h-auto items-center justify-center">
               <div class="relative">
                 <img
-                  class="h-[400px] w-full object-cover cursor-pointer"
+                  class="sm:h-[400px] sm:w-full object-cover cursor-pointer"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
                   alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG"
                 />
@@ -468,13 +481,13 @@
           </div>
         </div>
         <!--Another Custom Card system -->
-        <div class="mt-32">
-          <div class="w-[1300px] m-auto">
-            <div class="grid grid-cols-3 gap-10 px-2">
+        <div class="sm:mt-32">
+          <div class="sm:w-[1200px] m-auto">
+            <div class="sm:grid sm:grid-cols-3 sm:gap-10 sm:px-2">
               <div
                 v-for="customCart in customCartData"
                 :key="customCart.id"
-                class="p-2 w-full h-auto rounded-3xl border mb-0 transition duration-300 ease-out hover:ease-in border-gray-300 hover:border-red-400 shadow-secondary-1 dark:bg-surface-dark"
+                class="p-2 sm:w-full h-auto rounded-3xl border mb-0 transition duration-300 ease-out hover:ease-in border-gray-300 hover:border-red-400 shadow-secondary-1 dark:bg-surface-dark"
               >
                 <div
                   class="relative overflow-hidden bg-cover bg-no-repeat"
@@ -531,7 +544,7 @@
         </div>
 
         <!-- Pricing section  -->
-        <div class="py-16 mt-32">
+        <div class="sm:py-16 sm:mt-32 mt-20">
           <div class="">
             <div class="bg-white">
               <div>
@@ -542,17 +555,22 @@
         </div>
 
         <!-- Free faq section  -->
-        <div class="flex m-auto bg-[#fffee7] gap-10 mt-20">
-          <div id="faq" class="w-[50%] m-auto p-20 md:px-4 md:pt-6 md:pb-4">
-            <div class="w-[600px] mx-auto text-center mb-20">
-              <h2 class="text-[#343434] text-[42px] font-[600] leading-relaxed">
+        <div class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mt-20">
+          <div
+            id="faq"
+            class="sm:w-[50%] m-auto sm:p-20 md:px-4 md:pt-6 md:pb-4"
+          >
+            <div class="sm:w-[600px] m-auto text-center mb-20">
+              <h2
+                class="text-[#343434] sm:text-[42px] font-[600] leading-relaxed"
+              >
                 Frequently <span class="ai-text">Asked FAQs Question</span>
               </h2>
               <p class="opacity-70 text-[17px] mt-2">
                 What features does the management tool offer?
               </p>
             </div>
-            <div class="max-w-3xl mx-auto mb-10 sm:mb-1">
+            <div class="sm:max-w-3xl mx-auto sm:mb-10 mb-1">
               <div class="flex flex-col gap-4">
                 <div
                   v-for="(faq, index) in faqData"
@@ -611,17 +629,17 @@
               </div>
             </div>
           </div>
-          <div class="w-[50%] m-auto">
+          <div class="sm:w-[50%] m-auto">
             <img
               src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
-              class="w-[100%] h-[500px] cursor-pointer object-cover"
+              class="sm:w-[100%] sm:h-[500px] cursor-pointer object-cover"
               alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey"
             />
           </div>
         </div>
 
         <!-- Footer section  -->
-        <div class="mt-20">
+        <div class="sm:mt-20">
           <footer></footer>
         </div>
       </div>

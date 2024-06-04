@@ -1,27 +1,27 @@
 <template>
-  <div class="pb-5 hidden sm:block">
+  <div class="pb-5 sm:hidden block">
     <ul
-      class="block text-[#535251] text-[14px] px-3 p-3 text-center font-[500]"
+      class="block text-[#535251] text-[15px] mt-20 px-3 p-3 text-center space-y-2 font-[500]"
     >
-      <li class="p-2 py-1 hover:rounded-md font-semibold">
+      <li class="font-semibold">
         <nuxt-link to="#">Home</nuxt-link>
       </li>
-      <li class="p-2 py-1 hover:rounded-md font-semibold">
+      <li class="font-semibold">
         <nuxt-link to="/about">About</nuxt-link>
       </li>
-      <li class="p-2 py-1 hover:rounded-md font-semibold">
+      <li class="font-semibold">
         <nuxt-link to="/pricing">Pricing</nuxt-link>
       </li>
-      <li class="p-2 py-1 hover:rounded-md font-semibold">
-        <nuxt-link to="/product">Products</nuxt-link>
+      <li class="font-semibold">
+        <nuxt-link to="/products/product">Products</nuxt-link>
       </li>
-      <li class="p-2 py-1 hover:rounded-md font-semibold">
+      <li class="font-semibold">
         <nuxt-link to="#">Blog</nuxt-link>
       </li>
     </ul>
 
     <button
-      class="flex justify-center text-center bg-[#ff4f00] m-auto text-white text-[14px] rounded-full px-4 py-2.5"
+      class="flex justify-center text-center bg-[#ff4f00] m-auto text-white text-[13px] rounded-full px-4 py-2.5"
     >
       <nuxt-link
         to="/"
@@ -41,8 +41,7 @@
   </div>
 </template>
     
-    <script setup>
+<script setup>
 const isShowMobileNav = ref(false);
 </script>
     
-    <style lang="scss" scoped></style>

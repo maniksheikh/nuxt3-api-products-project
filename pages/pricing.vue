@@ -1,6 +1,6 @@
 <template>
-  <div class="w-[1300px] m-auto">
-    <div class="bg-white mt-10">
+  <div class="sm:w-[1200px] m-auto">
+    <div class="bg-white sm:mt-10">
       <div>
         <pricing></pricing>
       </div>

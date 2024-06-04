@@ -1,15 +1,18 @@
 <template>
   <div>
-    <footer class="bg-black">
-      <div class="p-4 py-6 px-6 lg:py-8">
-        <div class="flex justify-between">
-          <div class="mb-6 md:mb-0">
-            <a href="#" class="flex items-center">
+    <footer class="bg-black sm:rounded-lg">
+      <div class="py-5">
+        <div class="sm:flex block sm:justify-between px-5">
+          <div class="sm:mb-6 md:mb-0">
+            <a
+              href="#"
+              class="sm:flex flex items-center justify-between sm:items-center"
+            >
               <img
                 class="rounded-full"
                 src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
                 jsaction="VQAsE"
-                style="max-width: 1100px; height: 46px; width: 46px"
+                style="height: 46px; width: 46px"
                 alt="Shopping Cart Logo Design - MasterBundles"
                 jsname="kn3ccd"
                 aria-hidden="false"
@@ -107,7 +110,7 @@
             </div>
           </div>
           <div
-            class="grid font-sans grid-flow-col w-[60%] gap-8 sm:gap-6 sm:grid-cols-3"
+            class="sm:flex sm:gap-10 space-x-10 gap-0 sm:mt-0 mt-10 sm:px-0 px-5"
           >
             <div>
               <h2
@@ -231,15 +234,15 @@
             </div>
           </div>
         </div>
-        <hr class="my-3 border-gray-200 dark:border-gray-700" />
-        <div class="copy-right-content">
-          <p
-            class="text-white text-center items-center opacity-90 justify-center"
-          >
-            © Copyright All Rights {{ new Date().getFullYear() }} -
-            <a href="/">Shooping.app</a>
-          </p>
-        </div>
+      </div>
+      <hr class="my-3 border-gray-200 dark:border-gray-700" />
+      <div class="copy-right-content">
+        <p
+          class="text-white text-center items-center opacity-90 justify-center"
+        >
+          © Copyright All Rights {{ new Date().getFullYear() }} -
+          <a href="/">Shooping.app</a>
+        </p>
       </div>
     </footer>
   </div>

@@ -1,20 +1,24 @@
 <template>
   <div>
-    <div class="w-[580px] m-auto text-center">
-      <h2 class="text-[#2A2A2A] text-[56px] font-[600] leading-relaxed">
+    <div class="sm:w-[580px] m-auto text-center">
+      <h2
+        class="text-[#2A2A2A] sm:text-[56px] text-[36px] font-[600] leading-relaxed"
+      >
         Choose Your Pricing
       </h2>
-      <p class="text-black opacity-70 text-[18px] font-[400] leading-6 mt-3">
+      <p class="text-black opacity-70 sm:text-[18px] font-[400] leading-6 mt-3">
         Save Upto 50% with our Annual Plans:
       </p>
     </div>
-    <div class="grid grid-cols-3 bg-white mt-14 py-10 gap-20 px-10">
+    <div
+      class="sm:grid sm:grid-cols-3 grid-cols-1 gap-5 bg-white sm:mt-14 sm:py-10 sm:gap-20 sm:px-10"
+    >
       <div
         v-for="plan in plansData"
         :key="plan.id"
         :class="plan.class"
         :style="plan.css"
-        class="bg-[#FFFFFF] border border-gray-200 w-full h-auto rounded-4xl shadow-md overflow-hidden"
+        class="bg-[#FFFFFF] border border-gray-200 sm:w-full w-[400px] h-auto rounded-4xl shadow-md overflow-hidden"
       >
         <div class="p-5">
           <h2 :style="plan.titleCss" class="text-[22px] font-bold opacity-80">

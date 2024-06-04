@@ -1,10 +1,8 @@
 <template>
   <div>
-    <nav
-      class="bg-black text-white py-0 text-lg fixed top-0 left-0 right-0 max-w-[100%]"
-    >
+    <nav class="bg-black text-white py-0 fixed top-0 left-0 right-0">
       <div
-        class="flex justify-between items-center mx-auto max-w-[1100px] sm:max-w-[100%] sm:px-2"
+        class="flex justify-between items-center sm:m-auto sm:w-[1200px] py-2"
       >
         <div>
           <nuxt-link to="/">
@@ -12,14 +10,14 @@
               class="rounded-full"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
               jsaction="VQAsE"
-              style="max-width: 1100px; height: 50px; margin: 0px; width: 50px"
+              style="height: 47px; margin: 0px; width: 47px"
               alt="Shopping Cart Logo Design - MasterBundles"
               jsname="kn3ccd"
               aria-hidden="false"
             />
           </nuxt-link>
         </div>
-        <div class="flex sm:none items-center text-[16px] font-[500]">
+        <div class="sm:flex items-center hidden sm:text-[16px] font-[500]">
           <ul
             class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400"
           >
@@ -48,7 +46,7 @@
           </ul>
         </div>
 
-        <div class="cursor-pointer hidden sm:block">
+        <div class="cursor-pointer sm:hidden block">
           <img
             class="bg-white"
             @click="isShowMobileNav = !isShowMobileNav"
@@ -72,8 +70,8 @@
             <svg
               class="cursor-pointer rounded-full"
               xmlns="http://www.w3.org/2000/svg"
-              width="2em"
-              height="2em"
+              width="44px"
+              height="44px"
               viewBox="0 0 24 24"
             >
               <path
