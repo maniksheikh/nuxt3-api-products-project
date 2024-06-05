@@ -181,7 +181,7 @@
             <div
               class="flex mt-5 sm:mt-0 sm:space-x-10 sm:text-center justify-between"
             >
-              <div class="">
+              <div>
                 <h2
                   class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white"
                 >
@@ -197,7 +197,7 @@
                       >Contact Us</a
                     >
                   </li>
-                  <li class="mb-4">
+                  <li class="sm:mb-4 mb-2">
                     <a
                       href="#"
                       class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"

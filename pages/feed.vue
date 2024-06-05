@@ -374,7 +374,9 @@
         <!-- Another chat cart  -->
         <div class="sm:mt-32 mt-16">
           <div class="sm:px-0 px-2">
-            <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 space-y-5">
+            <div
+              class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 sm:space-y-0 space-y-5"
+            >
               <div
                 v-for="chatSection in chatSectionData"
                 :key="chatSection.id"
@@ -486,7 +488,7 @@
         <div class="sm:mt-32">
           <div class="sm:w-[1200px] m-auto">
             <div
-              class="sm:grid sm:grid-cols-3 sm:gap-10 space-y-7 sm:px-2 px-1"
+              class="sm:grid sm:grid-cols-3 sm:gap-10 space-y-7 sm:space-y-0 sm:px-2 px-1"
             >
               <div
                 v-for="customCart in customCartData"

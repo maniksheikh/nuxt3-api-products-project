@@ -13,7 +13,7 @@
       </p>
     </div>
     <div
-      class="sm:grid sm:grid-cols-3 grid-cols-1 space-y-8 bg-white sm:mt-14 sm:py-10 sm:gap-10 sm:px-10 px-2"
+      class="sm:grid sm:grid-cols-3 grid-cols-1 sm:space-y-0 space-y-8 bg-white sm:mt-14 sm:py-10 sm:gap-10 sm:px-10 px-2"
     >
       <div
         v-for="plan in plansData"

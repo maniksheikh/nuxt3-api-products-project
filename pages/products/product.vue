@@ -1,21 +1,26 @@
 <template>
-  <div class="mt-24">
-    <div v-if="loading" class="mt-20 text-center">
+  <div class="sm:mt-24">
+    <div v-if="loading" class="sm:mt-20 sm:text-center">
       <p>Loading Products.....</p>
     </div>
-    <div v-else class="grid grid-cols-3 gap-16">
+    <div
+      v-else
+      class="sm:grid sm:grid-cols-3 space-y-6 sm:space-y-0 sm:gap-16 sm:px-0 px-2"
+    >
       <router-link
         v-for="product in products"
         :key="product.id"
         :to="`/products/${product.id}`"
-        class="flex flex-col shadow-md bg-gray-100 cursor-pointer p-6 rounded-3xl"
+        class="flex flex-col sm:shadow-md bg-gray-200 cursor-pointer sm:p-6 p-2 rounded-3xl"
       >
         <img
-          class="w-full h-[320px] self-center object-cover"
+          class="sm:w-full sm:h-[320px] h-[300px] w-full mb-5 sm:mb-0 self-center object-cover"
           :src="product.image"
           alt=""
         />
-        <h2 class="text-black mt-auto text-xl pt-2">{{ product.title }}</h2>
+        <h2 class="text-black mt-auto sm:text-xl sm:pt-2 sm:p-0 p-2">
+          {{ product.title }}
+        </h2>
       </router-link>
     </div>
   </div>

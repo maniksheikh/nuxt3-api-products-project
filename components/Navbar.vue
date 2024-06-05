@@ -7,7 +7,7 @@
         <div>
           <nuxt-link to="/">
             <img
-              class="rounded-full sm:w-[47px] sm:h-[47px] h-[42px] w-[42px]"
+              class="rounded-full sm:w-[45px] sm:h-[45px] h-[35px] w-[35px]"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
               jsaction="VQAsE"
               alt="Shopping Cart Logo Design - MasterBundles"
@@ -47,7 +47,7 @@
 
         <div class="cursor-pointer sm:hidden block">
           <img
-            class="bg-white rounded-full sm:w-[46px] sm:h-[46px] h-[27px] w-[27px]"
+            class="bg-white rounded-full sm:w-[40px] sm:h-[40px] h-[25px] w-[25px]"
             @click="isShowMobileNav = !isShowMobileNav"
             decoding="async"
             src="https://framerusercontent.com/images/dG1Azogn9b3q4VAzzfU8jvuvqo.svg"
@@ -65,7 +65,7 @@
         <div class="flex justify-center items-center">
           <nuxt-link to="">
             <svg
-              class="cursor-pointer rounded-full sm:w-[47px] sm:h-[47px] h-[40px] w-[40px]"
+              class="cursor-pointer rounded-full sm:w-[42px] sm:h-[42px] h-[30px] w-[30px]"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
