@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <div class="sm:w-[580px] m-auto text-center">
+  <div class="mb-12 sm:mb-0">
+    <div
+      class="sm:w-[580px] w-[100%] m-auto text-center sm:px-0 px-2 sm:mb-0 mb-10"
+    >
       <h2
         class="text-[#2A2A2A] sm:text-[56px] text-[36px] font-[600] leading-relaxed"
       >
@@ -11,21 +13,21 @@
       </p>
     </div>
     <div
-      class="sm:grid sm:grid-cols-3 grid-cols-1 gap-5 bg-white sm:mt-14 sm:py-10 sm:gap-20 sm:px-10"
+      class="sm:grid sm:grid-cols-3 grid-cols-1 space-y-8 bg-white sm:mt-14 sm:py-10 sm:gap-10 sm:px-10 px-2"
     >
       <div
         v-for="plan in plansData"
         :key="plan.id"
         :class="plan.class"
         :style="plan.css"
-        class="bg-[#FFFFFF] border border-gray-200 sm:w-full w-[400px] h-auto rounded-4xl shadow-md overflow-hidden"
+        class="bg-[#FFFFFF] border border-gray-200 w-full h-auto rounded-4xl shadow-md overflow-hidden"
       >
         <div class="p-5">
           <h2 :style="plan.titleCss" class="text-[22px] font-bold opacity-80">
             {{ plan.name }}
           </h2>
           <div class="flex items-center">
-            <p class="font-[600] text-[50px]">
+            <p class="font-[600] sm:text-[50px] text-[36px]">
               <span :style="plan.titleCss">{{
                 plan.price === 0 ? "Free" : `${plan.price}`
               }}</span>
@@ -59,14 +61,14 @@
                     />
                   </svg>
                 </span>
-                <span class="text-[15px]">{{ feature }}</span>
+                <span class="sm:text-[15px] text-[14px]">{{ feature }}</span>
               </div>
             </div>
           </div>
           <a :href="plan.link">
             <button
               :style="plan.buttonCss"
-              class="inline-block mt-6 rounded-3xl px-6 py-2 text-white text-[15px] font-semibold text-center bg-blue-500 hover:bg-blue-600"
+              class="inline-block mt-6 rounded-3xl sm:px-6 px-4 py-2 text-white sm:text-[15px] text-[14px] font-[600] text-center bg-blue-500 hover:bg-blue-600"
               :aria-label="plan.buttonText"
               :title="plan.buttonText"
             >

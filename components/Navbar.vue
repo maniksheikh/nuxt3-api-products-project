@@ -2,15 +2,14 @@
   <div>
     <nav class="bg-black text-white py-0 fixed top-0 left-0 right-0">
       <div
-        class="flex justify-between items-center sm:m-auto sm:w-[1200px] py-2"
+        class="flex justify-between items-center sm:m-auto sm:w-[1200px] sm:py-1 py-1"
       >
         <div>
           <nuxt-link to="/">
             <img
-              class="rounded-full"
+              class="rounded-full sm:w-[47px] sm:h-[47px] h-[42px] w-[42px]"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
               jsaction="VQAsE"
-              style="height: 47px; margin: 0px; width: 47px"
               alt="Shopping Cart Logo Design - MasterBundles"
               jsname="kn3ccd"
               aria-hidden="false"
@@ -48,15 +47,13 @@
 
         <div class="cursor-pointer sm:hidden block">
           <img
-            class="bg-white"
+            class="bg-white rounded-full sm:w-[46px] sm:h-[46px] h-[27px] w-[27px]"
             @click="isShowMobileNav = !isShowMobileNav"
             decoding="async"
             src="https://framerusercontent.com/images/dG1Azogn9b3q4VAzzfU8jvuvqo.svg"
             alt=""
             style="
               display: block;
-              width: 1.6em;
-              height: 1.6em;
               border-radius: inherit;
               object-position: center center;
               object-fit: cover;
@@ -68,10 +65,8 @@
         <div class="flex justify-center items-center">
           <nuxt-link to="">
             <svg
-              class="cursor-pointer rounded-full"
+              class="cursor-pointer rounded-full sm:w-[47px] sm:h-[47px] h-[40px] w-[40px]"
               xmlns="http://www.w3.org/2000/svg"
-              width="44px"
-              height="44px"
               viewBox="0 0 24 24"
             >
               <path

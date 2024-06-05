@@ -1,29 +1,31 @@
 <template>
   <div>
     <footer class="bg-black sm:rounded-lg">
-      <div class="py-5">
-        <div class="sm:flex block sm:justify-between px-5">
-          <div class="sm:mb-6 md:mb-0">
-            <a
-              href="#"
-              class="sm:flex flex items-center justify-between sm:items-center"
-            >
-              <img
-                class="rounded-full"
-                src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
-                jsaction="VQAsE"
-                style="height: 46px; width: 46px"
-                alt="Shopping Cart Logo Design - MasterBundles"
-                jsname="kn3ccd"
-                aria-hidden="false"
-              />
-              <span
-                class="self-center ml-4 text-2xl italic font-bold text-white whitespace-nowrap dark:text-white"
-                >Shooping</span
+      <div class="sm:py-5 py-1 mb-7 sm:mb-0">
+        <div class="sm:flex block sm:justify-between sm:px-5 px-2">
+          <div class="">
+            <div>
+              <a
+                href="#"
+                class="sm:flex sm:justify-start flex justify-between sm:items-center"
               >
-            </a>
+                <img
+                  class="rounded-full"
+                  src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
+                  jsaction="VQAsE"
+                  style="height: 46px; width: 46px"
+                  alt="Shopping Cart Logo Design - MasterBundles"
+                  jsname="kn3ccd"
+                  aria-hidden="false"
+                />
+                <span
+                  class="self-center sm:ml-4 text-2xl italic font-bold text-white whitespace-nowrap dark:text-white"
+                  >Shooping</span
+                >
+              </a>
+            </div>
             <div
-              class="flex justify-start items-start sm:justify-center mt-10 space-x-6"
+              class="flex justify-center items-center sm:justify-center mt-10 sm:space-x-6 space-x-10"
             >
               <a
                 href="https://www.facebook.com/"
@@ -109,136 +111,148 @@
               </a>
             </div>
           </div>
-          <div
-            class="sm:flex sm:gap-10 space-x-10 gap-0 sm:mt-0 mt-10 sm:px-0 px-5"
-          >
-            <div>
-              <h2
-                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
-              >
-                Links
-              </h2>
-              <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Blogs</a
-                  >
-                </li>
-                <li class="mb-4">
-                  <a
-                    href="/pricing"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Pricing</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/faqs"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >FAQs</a
-                  >
-                </li>
-              </ul>
+          <div class="sm:flex block sm:space-x-10 space-x-0 sm:mt-0 mt-10">
+            <div class="flex sm:justify-center sm:space-x-10 justify-between">
+              <div>
+                <h2
+                  class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white"
+                >
+                  Links
+                </h2>
+                <ul
+                  class="text-gray-500 sm:text-[16px] text-[14px] dark:text-gray-400 font-medium"
+                >
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Blogs</a
+                    >
+                  </li>
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="/pricing"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/faqs"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >FAQs</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2
+                  class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white"
+                >
+                  Company
+                </h2>
+                <ul
+                  class="text-gray-500 sm:text-[16px] text-[14px] dark:text-gray-400 font-medium"
+                >
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Leadership</a
+                    >
+                  </li>
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >News</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <h2
-                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
-              >
-                Company
-              </h2>
-              <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >About Us</a
-                  >
-                </li>
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Leadership</a
-                  >
-                </li>
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >News</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2
-                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
-              >
-                Follow us
-              </h2>
-              <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Github</a
-                  >
-                </li>
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Social Media</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Discord</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2
-                class="mb-6 text-lg font-semibold text-white uppercase dark:text-white"
-              >
-                About
-              </h2>
-              <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Contact Us</a
-                  >
-                </li>
-                <li class="mb-4">
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Privacy Policy</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
-                    >Terms &amp; Conditions</a
-                  >
-                </li>
-              </ul>
+            <div
+              class="flex mt-5 sm:mt-0 sm:space-x-10 sm:text-center justify-between"
+            >
+              <div class="">
+                <h2
+                  class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white"
+                >
+                  About
+                </h2>
+                <ul
+                  class="text-gray-500 sm:text-[16px] text-[14px] dark:text-gray-400 font-medium"
+                >
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li class="mb-4">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2
+                  class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white"
+                >
+                  Follow us
+                </h2>
+                <ul
+                  class="text-gray-500 sm:text-[16px] text-[14px] dark:text-gray-400 font-medium"
+                >
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Github</a
+                    >
+                  </li>
+                  <li class="sm:mb-4 mb-2">
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Social Media</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="transition-all font-semibold duration-300 ease-in-out hover:text-gray-400"
+                      >Discord</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <hr class="my-3 border-gray-200 dark:border-gray-700" />
+      <hr class="border-gray-200 dark:border-gray-700" />
       <div class="copy-right-content">
         <p
-          class="text-white text-center items-center opacity-90 justify-center"
+          class="text-white sm:p-5 p-3 text-center items-center opacity-90 justify-center"
         >
           © Copyright All Rights {{ new Date().getFullYear() }} -
           <a href="/">Shooping.app</a>

@@ -1,10 +1,12 @@
 <template>
   <div class="p-0 m-0">
-    <div class="bg-[#fafafc]">
-      <div class="sm:mt-10 sm:py-10">
-        <header class="mt-20 text-center m-auto w-auto sm:w-[1200px] space-y-3">
+    <div class="bg-[rgb(250,250,252)]">
+      <div class="sm:mt-10 mt-5 sm:py-10">
+        <header
+          class="mt-20 text-center m-auto sm:w-[1200px] w-[100%] space-y-3 sm:px-0 px-2"
+        >
           <h1
-            class="text-[32px] sm:text-[56px] leading-[40px] sm:leading-[70px] w-auto sm:w-[550px] pt-1 font-medium m-auto"
+            class="text-[36px] sm:text-[56px] leading-[40px] sm:leading-[70px] leading-tight w-auto sm:w-[550px] pt-1 font-medium m-auto"
           >
             <span class="text-[#FF4F00]">Product</span>
             <span class="ml-4 italic opacity-80">Landing</span> page.
@@ -15,41 +17,41 @@
             A short tagline or description goes here.
           </p>
           <button
-            class="bg-[#FF4F00] text-white px-7 py-3 rounded-3xl text-[14px] mt-8 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+            class="bg-[#FF4F00] text-white sm:px-7 px-3 sm:py-3 py-2 rounded-3xl text-[14px] sm:mt-8 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
           >
             GET STARTED
           </button>
         </header>
 
         <!-- Testimonial section  -->
-        <div class="sm:mt-10">
+        <div class="sm:mt-10 mt-10">
           <div class="sm:flex block sm:gap-10 m-auto sm:w-[1200px]">
             <div
-              class="sm:w-[47%] w-[100%] text-center items-center justify-center m-auto sm:pl-2"
+              class="sm:w-[47%] w-[100%] text-center items-center justify-center m-auto px-2 sm:px-0 sm:pl-2"
             >
               <h2
-                class="sm:w-[550px] w-[400px] font-bold sm:text-[46px] text-[36px] text-center text-[#91969a] py-2"
+                class="sm:w-[554px] w-full font-bold sm:text-[46px] text-[32px] text-center text-[#91969a] py-2"
               >
                 <span class="text-[#ff4ff2]">Creative</span> Multipurpose
                 Products
                 <span class="text-[#da5f5c]">Template.</span>
               </h2>
               <p
-                class="text-gray-500 leading-6 mt-3 sm:text-[18px] text-center py-1 sm:w-[490px] w-[300px] font-[400]"
+                class="text-gray-500 leading-6 mt-3 sm:text-[18px] text-center py-1 sm:w-[490px] w-[100%] font-[400]"
               >
                 This template is specially designed for a Products company, that
                 want`s something simple but professionaly.
               </p>
               <button
-                class="items-center justify-center m-auto bg-blue-500 text-white px-6 py-2 rounded-md font-bold mt-4 hover:bg-sky-700"
+                class="items-center justify-center m-auto bg-blue-500 text-white px-6 py-2 text-[14px] rounded-md font-[600] mt-4 hover:bg-sky-700"
                 type="button"
               >
                 Get Started
               </button>
             </div>
-            <div class="sm:w-[50%] m-auto">
+            <div class="sm:w-[50%] w-[100%] sm:mt-0 mt-5 m-auto px-2 sm:px-0">
               <img
-                class="w-full h-[450px] cursor-pointer"
+                class="w-full sm:h-[450px] cursor-pointer"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpJAsryOXV1dZKZDRIsoxwI4jx0K90uDn-A&usqp=CAU"
               />
             </div>
@@ -58,11 +60,11 @@
 
         <!-- Testimonial section  -->
         <div>
-          <div
-            class="bg-[#ffffff] sm:h-[100px] h-[100%] sm:flex sm:items-center sm:justify-between sm:w-[60%] m-auto mt-20"
+          <Vue3Marquee
+            class="bg-[#ffffff] sm:flex items-center justify-center sm:items-center sm:justify-between sm:w-[60%] m-auto mt-20"
           >
             <div
-              class="sm:flex flex sm:text-center sm:items-center sm:justify-center sm:w-[400px] w-[100%] m-auto py-6 sm:border-r-2 border-gray-200"
+              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200"
             >
               <svg
                 class="bg-red-100 rounded-full p-1 cursor-pointer"
@@ -120,8 +122,9 @@
                 <p class="text-gray-700 text-md">Locations</p>
               </div>
             </div>
+
             <div
-              class="flex text-center items-center justify-center w-[100%] m-auto py-6"
+              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200"
             >
               <svg
                 class="bg-red-100 rounded-full p-1 cursor-pointer"
@@ -140,114 +143,119 @@
                 <p class="text-gray-700 text-md">Servar</p>
               </div>
             </div>
-          </div>
+          </Vue3Marquee>
         </div>
 
         <!-- payment section  -->
-        <div class="bg-[#fffee7] sm:mt-32 sm:py-10">
-          <div
-            class="sm:text-center text-center sm:w-[600px] w-[520px] sm:m-auto"
-          >
-            <h1
-              class="font-[600] sm:text-[52px] text-[36px] opacity-90 text-[#2e2d35]"
+        <div class="">
+          <div class="bg-[#fffee7] sm:mt-32 mt-16 sm:py-10">
+            <div
+              class="sm:text-center sm:px-3 p-3 text-center sm:w-[600px] w-full sm:m-auto"
             >
-              Trusted by World`s Most Favourite Brands
-            </h1>
-          </div>
-          <div class="sm:flex items-center sm:w-[780px] sm:mt-20 m-auto">
-            <Vue3Marquee
-              :clone="true"
-              :duration="20"
-              :direction="'reverse'"
-              class="flex items-center justify-between w-[65%] m-auto"
+              <h1
+                class="font-[600] sm:text-[52px] text-[36px] opacity-90 text-[#2e2d35]"
+              >
+                Trusted by World`s Most Favourite Brands
+              </h1>
+            </div>
+            <div
+              class="sm:flex items-center sm:w-[780px] sm:mt-20 mt-10 m-auto"
             >
-              <div class="items-center justify-center w-[100%]">
-                <nuxt-link to="">
-                  <img
-                    class="cursor-pointer"
-                    src="https://static.vecteezy.com/system/resources/thumbnails/022/721/558/small/google-logo-for-search-site-free-png.png"
-                    jsaction="VQAsE"
-                    style="height: 70px"
-                    alt="Google Logo PNGs for Free Download"
-                    jsname="kn3ccd"
-                    aria-hidden="false"
-                  />
-                </nuxt-link>
-              </div>
+              <Vue3Marquee
+                :clone="true"
+                :duration="20"
+                :direction="'reverse'"
+                class="flex items-center justify-between w-[65%] m-auto"
+              >
+                <div class="items-center justify-center w-[100%]">
+                  <nuxt-link to="">
+                    <img
+                      class="cursor-pointer"
+                      src="https://static.vecteezy.com/system/resources/thumbnails/022/721/558/small/google-logo-for-search-site-free-png.png"
+                      jsaction="VQAsE"
+                      style="height: 70px"
+                      alt="Google Logo PNGs for Free Download"
+                      jsname="kn3ccd"
+                      aria-hidden="false"
+                    />
+                  </nuxt-link>
+                </div>
 
-              <div class="items-center w-[100%]">
-                <nuxt-link>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlr8-q5Gf77IvD7z9T48FUdTyHaZkY5gWh6w&amp;usqp=CAU"
-                    jsaction="VQAsE"
-                    class="cursor-pointer"
-                    alt="bKash Logo • Download bKash vector logo SVG • Logotyp.us"
-                    jsname="JuXqh"
-                    style="height: 70px"
-                    data-iml="401289.1000000015"
-                  />
-                </nuxt-link>
-              </div>
-              <div class="items-center w-[100%]">
-                <nuxt-link>
-                  <img
-                    src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg"
-                    jsaction="VQAsE"
-                    class="cursor-pointer"
-                    style="height: 70px"
-                    alt="Download bKash Logo in SVG Vector or PNG File Format - Logo.wine"
-                    jsname="kn3ccd"
-                    aria-hidden="false"
-                  />
-                </nuxt-link>
-              </div>
+                <div class="items-center w-[100%]">
+                  <nuxt-link>
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlr8-q5Gf77IvD7z9T48FUdTyHaZkY5gWh6w&amp;usqp=CAU"
+                      jsaction="VQAsE"
+                      class="cursor-pointer"
+                      alt="bKash Logo • Download bKash vector logo SVG • Logotyp.us"
+                      jsname="JuXqh"
+                      style="height: 70px"
+                      data-iml="401289.1000000015"
+                    />
+                  </nuxt-link>
+                </div>
+                <div class="items-center w-[100%]">
+                  <nuxt-link>
+                    <img
+                      src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg"
+                      jsaction="VQAsE"
+                      class="cursor-pointer"
+                      style="height: 70px"
+                      alt="Download bKash Logo in SVG Vector or PNG File Format - Logo.wine"
+                      jsname="kn3ccd"
+                      aria-hidden="false"
+                    />
+                  </nuxt-link>
+                </div>
 
-              <div class="items-center w-[100%]">
-                <nuxt-link>
-                  <img
-                    src="https://businesspostbd.com/files/thumbs/daily-media/Dated/2021-/November/07/800x457/56.jpg"
-                    jsaction="VQAsE"
-                    class="cursor-pointer"
-                    style="height: 70px"
-                    alt="bKash relaunches digital payroll solution - The Business Post"
-                    jsname="kn3ccd"
-                    aria-hidden="false"
-                  />
-                </nuxt-link>
-              </div>
-              <div class="items-center w-[100%]">
-                <nuxt-link to="">
-                  <img
-                    src="https://logicoretech.com/wp-content/uploads/2021/05/ScaleLeap-logo_Full-Color.png"
-                    jsaction="VQAsE"
-                    class="cursor-pointer"
-                    style="height: 70px"
-                    alt="ClickUp Services – LogiCore Tech – Professional Services"
-                    jsname="kn3ccd"
-                    aria-hidden="false"
-                  />
-                </nuxt-link>
-              </div>
-            </Vue3Marquee>
+                <div class="items-center w-[100%]">
+                  <nuxt-link>
+                    <img
+                      src="https://businesspostbd.com/files/thumbs/daily-media/Dated/2021-/November/07/800x457/56.jpg"
+                      jsaction="VQAsE"
+                      class="cursor-pointer"
+                      style="height: 70px"
+                      alt="bKash relaunches digital payroll solution - The Business Post"
+                      jsname="kn3ccd"
+                      aria-hidden="false"
+                    />
+                  </nuxt-link>
+                </div>
+                <div class="items-center w-[100%]">
+                  <nuxt-link to="">
+                    <img
+                      src="https://logicoretech.com/wp-content/uploads/2021/05/ScaleLeap-logo_Full-Color.png"
+                      jsaction="VQAsE"
+                      class="cursor-pointer"
+                      style="height: 70px"
+                      alt="ClickUp Services – LogiCore Tech – Professional Services"
+                      jsname="kn3ccd"
+                      aria-hidden="false"
+                    />
+                  </nuxt-link>
+                </div>
+              </Vue3Marquee>
+            </div>
           </div>
         </div>
-
         <!-- Review section  -->
-        <div class="sm:mt-20">
-          <div class="sm:flex sm:gap-10">
+        <div class="sm:mt-20 mt-16">
+          <div class="sm:flex sm:gap-10 px-2 sm:px-0">
             <div class="sm:w-[50%] m-auto">
               <img
-                class="sm:h-[700px] h-[700px] w-full sm:w-full cursor-pointer rounded-md object-cover justify-center"
+                class="sm:h-[700px] h-[450px] w-full sm:w-full cursor-pointer rounded-md object-cover justify-center"
                 src="../assets/project-img.jpg"
               />
             </div>
-            <div class="sm:w-[50%]">
+            <div class="sm:w-[50%] mb-5 sm:mt-0 sm:mb-0 mt-5">
               <h1
-                class="sm:text-[52px] sm:w-[500px] text-[#191924] sm:p-5 font-[500] opacity-80 leading-tight"
+                class="sm:text-[52px] p-1 text-[24px] sm:w-[500px] sm:p-5 font-[500] leading-tight"
               >
                 Revolution Your Experience with Our Innovative Digital Product.
               </h1>
-              <p class="sm:py-5 sm:px-3 sm:mt-3 text-[#000007] opacity-70">
+              <p
+                class="sm:py-5 mt-3 p-1 sm:px-3 sm:mt-3 text-[#000007] opacity-70"
+              >
                 Our Smart Home Security System offers 24/7 surveillance, motion
                 detection, and smart access control. With environmental
                 monitoring and integration with other smart devices, it provides
@@ -255,12 +263,12 @@
                 remote monitoring and customization. Enjoy peace of mind with
                 our cutting-edge security solution.
               </p>
-              <p class="sm:px-3 sm:mt-3">
+              <p class="sm:px-3 mt-3 p-1 sm:mt-3">
                 With a range of fetures and customization options, our digital
                 product can be tailord to meet the unique needs od each user.
               </p>
               <button
-                class="sm:mt-5 sm:px-6 sm:ml-2 font-bold text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+                class="sm:mt-5 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
                 type="button"
               >
                 Learn More
@@ -271,14 +279,14 @@
         <hr />
 
         <!-- user section  -->
-        <div class="sm:mt-32">
+        <div class="sm:mt-32 mt-16">
           <h1
-            class="sm:text-center sm:text-[52px] sm:w-[67%] m-auto font-[600]"
+            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] w-[80%] m-auto font-[600]"
           >
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
-          <div class="sm:mt-12">
+          <div class="sm:mt-12 mt-10">
             <Vue3Marquee
               :pause-on-hover="true"
               @on-pause="playState = 'paused'"
@@ -364,15 +372,15 @@
         </div>
 
         <!-- Another chat cart  -->
-        <div class="sm:mt-32">
-          <div class="">
-            <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10">
+        <div class="sm:mt-32 mt-16">
+          <div class="sm:px-0 px-2">
+            <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 space-y-5">
               <div
                 v-for="chatSection in chatSectionData"
                 :key="chatSection.id"
                 :class="chatSection.class"
                 :style="chatSection.bg"
-                class="relative sm:w-full sm:h-[450px] h-auto w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
+                class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
               >
                 <div class="sm:pt-14 p-10 h-auto text-surface dark:text-white">
                   <div class="w-[48px]">
@@ -393,32 +401,15 @@
                   </div>
                   <div class="sm:w-[300px] w-[250px] sm:m-auto sm:h-auto">
                     <h5
-                      class="mb-3 mt-4 font-bold text-white sm:text-[23px] leading-tight"
+                      class="mb-3 mt-4 font-bold text-white sm:text-[23px] text-[22px] leading-tight"
                     >
                       {{ chatSection.header }}
                     </h5>
-                    <p class="mb-4 text-[18px] text-white font-[500]">
+                    <p
+                      class="sm:mb-4 mb-2 sm:text-[18px] text-[15px] text-white font-[500]"
+                    >
                       {{ chatSection.content }}
                     </p>
-                  </div>
-                </div>
-
-                <div class="sm:flex sm:justify-between">
-                  <div class="sm:hidden block">
-                    <img
-                      width="40"
-                      height="40"
-                      src="https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg"
-                      alt="Back Arrow"
-                    />
-                  </div>
-                  <div class="sm:hidden block">
-                    <img
-                      width="40"
-                      height="40"
-                      src="https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg"
-                      alt="Next Arrow"
-                    />
                   </div>
                 </div>
 
@@ -426,7 +417,7 @@
                   class="absolute left-0 bottom-0 overflow-hidden bg-cover px-2 bg-no-repeat w-full"
                 >
                   <img
-                    class="sm:h-[200px] h-[200px] w-full sm:w-full rounded-md m-auto"
+                    class="sm:h-[200px] h-[150px] w-full sm:w-full rounded-md m-auto"
                     :src="chatSection.image"
                     alt="images"
                   />
@@ -437,19 +428,23 @@
         </div>
 
         <!-- social cart system -->
-        <div class="sm:mt-32 mt-20 bg-[#fffee7]">
+        <div class="sm:mt-32 mt-16 bg-[#fffee7]">
           <div
-            class="sm:flex block sm:gap-10 items-center justify-between m-auto"
+            class="sm:flex sm:gap-20 block items-center justify-between m-auto"
           >
-            <div class="sm:w-[50%] m-auto sm:pl-4">
-              <h2 class="sm:text-[46px] text-[32px] font-[600] leading-snug">
+            <div class="sm:w-[50%] m-auto sm:pl-4 sm:px-0 px-2">
+              <h2
+                class="sm:text-[46px] text-[30px] p-1 font-[600] opacity-90 leading-snug"
+              >
                 Try Out Our Awesome <br />
                 Feature Now and Enjoy <br />
                 It`s Benefits.
               </h2>
-              <div class="sm:mt-3">
+              <div
+                class="sm:mt-8 sm:flex sm:justify-between flex text-[14px] space-x-5 mt-5 mb-10"
+              >
                 <button
-                  class="rounded-md px-5 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
+                  class="rounded-md sm:px-5 px-4 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
                   type="button"
                 >
                   DOWUNLOAD NOW
@@ -462,10 +457,12 @@
                 </button>
               </div>
             </div>
-            <div class="flex sm:w-[50%] h-auto items-center justify-center">
-              <div class="relative">
+            <div
+              class="flex sm:w-[44%] w-[100%] h-auto m-auto items-center justify-center mb-14"
+            >
+              <div class="relative px-2 sm:px-0">
                 <img
-                  class="sm:h-[400px] sm:w-full object-cover cursor-pointer"
+                  class="sm:h-[400px] h-auto sm:w-full w-[400px] m-auto object-cover cursor-pointer"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
                   alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG"
                 />
@@ -473,8 +470,13 @@
                 <div
                   class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal"
                 >
-                  <h3 class="text-6xl font-bold">40+</h3>
-                  <span class="font-bold opacity-70">Download</span>
+                  <h3 class="sm:text-6xl text-[32px] sm:font-bold font-[600]">
+                    40+
+                  </h3>
+                  <span
+                    class="sm:font-bold font-[600] sm:opacity-70 opacity-100"
+                    >Download</span
+                  >
                 </div>
               </div>
             </div>
@@ -483,7 +485,9 @@
         <!--Another Custom Card system -->
         <div class="sm:mt-32">
           <div class="sm:w-[1200px] m-auto">
-            <div class="sm:grid sm:grid-cols-3 sm:gap-10 sm:px-2">
+            <div
+              class="sm:grid sm:grid-cols-3 sm:gap-10 space-y-7 sm:px-2 px-1"
+            >
               <div
                 v-for="customCart in customCartData"
                 :key="customCart.id"
@@ -512,7 +516,7 @@
                     />
                   </nuxt-link>
                 </div>
-                <div class="px-5 pt-3 text-surface dark:text-white">
+                <div class="sm:px-5 sm:pt-3 text-surface dark:text-white">
                   <div>
                     <img
                       class="mb-3 w-[24px] h-[24px]"
@@ -530,11 +534,13 @@
                     />
                   </div>
                   <h5
-                    class="mb-2 opacity-90 text-[20px] font-[600] leading-tight"
+                    class="mb-2 opacity-90 sm:text-[20px] text-[19px] font-[600] leading-tight"
                   >
                     {{ customCart.header }}
                   </h5>
-                  <p class="text-[17px] text-gray-500 font-[400]">
+                  <p
+                    class="sm:text-[17px] text-[16px] text-gray-500 font-[400]"
+                  >
                     {{ customCart.content }}
                   </p>
                 </div>
@@ -555,30 +561,29 @@
         </div>
 
         <!-- Free faq section  -->
-        <div class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mt-20">
-          <div
-            id="faq"
-            class="sm:w-[50%] m-auto sm:p-20 md:px-4 md:pt-6 md:pb-4"
-          >
-            <div class="sm:w-[600px] m-auto text-center mb-20">
+        <div
+          class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20"
+        >
+          <div id="faq" class="sm:w-[50%] m-auto sm:p-0 sm:px-0 px-2">
+            <div class="sm:w-[600px] m-auto text-center mb-10">
               <h2
-                class="text-[#343434] sm:text-[42px] font-[600] leading-relaxed"
+                class="text-[#343434] sm:text-[42px] text-[34px] font-[600] leading-relaxed"
               >
                 Frequently <span class="ai-text">Asked FAQs Question</span>
               </h2>
-              <p class="opacity-70 text-[17px] mt-2">
+              <p class="opacity-70 sm:text-[17px] mt-3">
                 What features does the management tool offer?
               </p>
             </div>
-            <div class="sm:max-w-3xl mx-auto sm:mb-10 mb-1">
+            <div class="sm:max-w-3xl mx-auto sm:mb-5 mb-10 sm:px-3">
               <div class="flex flex-col gap-4">
                 <div
                   v-for="(faq, index) in faqData"
                   :key="index"
                   :class="{
-                    'bg-white p-4 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
+                    'bg-white sm:p-4 p-2  shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
                       selectedQuestion === index,
-                    'p-4 bg-white rounded': selectedQuestion !== index,
+                    'sm:p-4 p-2 bg-white rounded': selectedQuestion !== index,
                   }"
                 >
                   <div
@@ -586,7 +591,7 @@
                     class="flex items-center justify-between cursor-pointer"
                   >
                     <h2
-                      class="text-[#5b268f] text-lg sm:text-base opacity-80 font-bold"
+                      class="text-[#5b268f] text-[16px] sm:text-base opacity-80 font-[600]"
                     >
                       {{ faq.question }}
                     </h2>
@@ -621,7 +626,7 @@
                   </div>
                   <p
                     v-if="selectedQuestion === index"
-                    class="text-[#938383] text-base mt-3 leading-7"
+                    class="text-[#938383] sm:text-base text-[15px] mt-3 leading-7"
                   >
                     {{ faq.answer }}
                   </p>
@@ -629,10 +634,10 @@
               </div>
             </div>
           </div>
-          <div class="sm:w-[50%] m-auto">
+          <div class="sm:w-[50%] w-[100%] m-auto px-2 sm:px-0">
             <img
               src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
-              class="sm:w-[100%] sm:h-[500px] cursor-pointer object-cover"
+              class="sm:w-[100%] w-[100%] sm:h-[500px] cursor-pointer object-cover"
               alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey"
             />
           </div>
