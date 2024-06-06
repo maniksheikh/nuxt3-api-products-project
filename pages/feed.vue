@@ -16,11 +16,13 @@
           >
             A short tagline or description goes here.
           </p>
-          <button
-            class="bg-[#FF4F00] text-white sm:px-7 px-3 sm:py-3 py-2 rounded-3xl text-[14px] sm:mt-8 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
-          >
-            GET STARTED
-          </button>
+          <nuxt-link to="/products/product">
+            <button
+              class="bg-[#FF4F00] text-white sm:px-7 px-3 sm:py-3 py-2 rounded-3xl text-[14px] sm:mt-5 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+            >
+              GET STARTED
+            </button>
+          </nuxt-link>
         </header>
 
         <!-- Testimonial section  -->
