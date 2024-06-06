@@ -20,7 +20,7 @@
           <ul
             class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400"
           >
-            <NuxtLink to="/">Home</NuxtLink>
+            <NuxtLink to="/feed">Home</NuxtLink>
           </ul>
           <ul
             class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400"
