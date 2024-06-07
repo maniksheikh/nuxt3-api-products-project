@@ -1,6 +1,6 @@
 <template>
   <div class="sm:mt-24 mt-20 sm:mb-10">
-    <div v-if="loading" class="sm:mt-20 sm:text-center">
+    <div v-if="loading" class="sm:mt-20 sm:mb-8 mb-5 sm:text-center">
       <p>Loading Products.....</p>
     </div>
     <div
