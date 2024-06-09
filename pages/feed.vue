@@ -2,51 +2,29 @@
   <div class="p-0 m-0">
     <div class="bg-[rgb(250,250,252)]">
       <div class="sm:mt-10 mt-5 sm:py-10">
-        <div class="">
-          <img
-            class="sm:hidden block"
-            decoding="async"
-            sizes="100vw"
-            srcset="
-              https://framerusercontent.com/images/6pm8enuwSnGY9Y2MKWDfEfKs.png?scale-down-to=512   512w,
-              https://framerusercontent.com/images/6pm8enuwSnGY9Y2MKWDfEfKs.png?scale-down-to=1024 1024w,
-              https://framerusercontent.com/images/6pm8enuwSnGY9Y2MKWDfEfKs.png?scale-down-to=2048 2048w,
-              https://framerusercontent.com/images/6pm8enuwSnGY9Y2MKWDfEfKs.png                    2880w
-            "
-            src="https://framerusercontent.com/images/6pm8enuwSnGY9Y2MKWDfEfKs.png"
-            alt=""
-            style="
-              max-width: 100%;
-              max-height: 100%;
-              border-radius: inherit;
-              object-position: center;
-              object-fit: cover;
-              image-rendering: auto;
-            "
-          />
-          <header
-            class="mt-10 text-center m-auto sm:w-[1200px] w-[100%] space-y-3 sm:px-0 px-2"
+        <header
+          class="mt-10 text-center m-auto sm:w-[1200px] w-[100%] space-y-3 sm:px-0 px-2"
+        >
+          <h1
+            class="text-[36px] sm:text-[56px] leading-[40px] sm:leading-[70px] sm:opacity-85 w-auto sm:w-[550px] pt-1 font-medium m-auto"
           >
-            <h1
-              class="text-[36px] sm:text-[56px] leading-[40px] sm:leading-[70px] w-auto sm:w-[550px] pt-1 font-medium m-auto"
+            <span class="text-[#FF4F00]">Product</span>
+            <span class="ml-4 italic opacity-90">Landing</span> page.
+          </h1>
+          <p
+            class="mt-7 w-auto sm:w-[400px] p-2 m-auto text-[16px] sm:text-[18px] opacity-90 font-semibold leading-5 sm:leading-5"
+          >
+            A short tagline or description goes here.
+          </p>
+          <nuxt-link to="">
+            <button
+              class="bg-[#FF4F00] text-white sm:px-7 px-3 sm:py-3 py-2 rounded-3xl text-[14px] sm:mt-5 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
             >
-              <span class="text-[#FF4F00]">Product</span>
-              <span class="ml-4 italic opacity-80">Landing</span> page.
-            </h1>
-            <p
-              class="mt-7 w-auto sm:w-[400px] p-2 m-auto text-[16px] sm:text-[18px] opacity-90 font-semibold leading-5 sm:leading-5"
-            >
-              A short tagline or description goes here.
-            </p>
-            <nuxt-link to="/products/product">
-              <button
-                class="bg-[#FF4F00] text-white sm:px-7 px-3 sm:py-3 py-2 rounded-3xl text-[14px] sm:mt-5 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
-              >
-                GET STARTED
-              </button>
-            </nuxt-link>
-          </header>
-        </div>
+              GET STARTED
+            </button>
+          </nuxt-link>
+        </header>
+
         <!-- Testimonial section  -->
         <div class="sm:mt-10 mt-10">
           <div class="sm:flex block sm:gap-20 m-auto sm:w-[1200px]">
@@ -306,9 +284,9 @@
                 src="../assets/project-img.jpg"
               />
             </div>
-            <div class="sm:w-[50%] mb-5 sm:mt-0 sm:mb-0 mt-5">
+            <div class="sm:w-[50%] w-[100%] mb-5 sm:mt-0 sm:mb-0 mt-5">
               <h1
-                class="sm:text-[52px] p-1 text-[24px] sm:w-[500px] sm:p-5 font-[500] leading-tight"
+                class="sm:text-[52px] text-[28px] sm:w-[500px] w-[100%] sm:p-5 p-2 font-[500] leading-tight"
               >
                 Revolution Your Experience with Our Innovative Digital Product.
               </h1>
@@ -611,23 +589,23 @@
         </div>
 
         <!-- Another review  -->
-        <div class="sm:mt-32 mt-20 sm:px-2">
+        <div class="sm:mt-32 mt-20 sm:px-2 px-2">
           <div>
             <header
-              class="sm:text-[54px] font-[600] opacity-90 sm:mb-10 text-center justify-center"
+              class="sm:text-[54px] text-[36px] font-[600] opacity-90 sm:mb-10 mb-5 p-5 text-center justify-center"
             >
               <span class="text-[#FF4F00]">Testimonials</span> Review
             </header>
           </div>
-          <div class="sm:grid sm:grid-cols-3 sm:gap-12">
+          <div class="sm:grid sm:grid-cols-3 sm:space-y-0 space-y-4 sm:gap-12">
             <div
               v-for="review in reviews"
               :key="review"
-              class="sm:p-5 border border-gray-300 rounded-lg"
+              class="sm:p-5 border-2 border-gray-300 rounded-xl"
             >
               <div class="">
                 <svg
-                  class="h-12 cursor-pointer mx-auto mb-3 text-gray-300 dark:text-gray-600"
+                  class="sm:h-14 h-12 p-3 cursor-pointer m-auto text-gray-300 dark:text-gray-600"
                   viewBox="0 0 24 27"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -635,19 +613,23 @@
                   <path :d="review.svg" fill="currentColor"></path>
                 </svg>
               </div>
-              <p class="mb-4 font-[400] opacity-90">{{ review.description }}</p>
+              <p class="mb-4 p-1 font-[400] opacity-90">
+                {{ review.description }}
+              </p>
               <div class="sm:flex sm:justify-between sm:items-center">
-                <div class="sm:flex sm:space-x-5 sm:items-center">
+                <div
+                  class="sm:flex sm:space-x-5 sm:space-y-0 space-y-3 sm:items-center"
+                >
                   <img
                     class="h-[40px] w-[40px] rounded-full cursor-pointer"
                     :src="review.avatar"
                     alt="image"
                   />
-                  <p class="sm:text-[18px] font-bold opacity-90">
+                  <p class="sm:text-[18px] text-[17px] font-bold opacity-80">
                     {{ review.name }}
                   </p>
                 </div>
-                <p class="font-[500] opacity-90 mt-2 sm:mt-0">
+                <p class="font-[500] opacity-90 text-[15px] sm:mt-0">
                   {{ review.content }}
                 </p>
               </div>
@@ -656,7 +638,7 @@
         </div>
 
         <!-- Pricing section  -->
-        <div class="sm:py-16 sm:mt-32 mt-20">
+        <div class="sm:mt-32 mt-20">
           <div class="">
             <div class="bg-white">
               <div>

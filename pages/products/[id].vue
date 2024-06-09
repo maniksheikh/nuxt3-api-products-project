@@ -1,15 +1,15 @@
 <template>
   <div class="sm:mt-20">
     <div class="sm:p-0 p-4 sm:mt-12 sm:mb-10 sm:px-0 px-2">
-      <div class="sm:flex sm:gap-40 sm:justify-between">
+      <div v-if="product" class="sm:flex sm:gap-20 sm:justify-between">
         <div
-          v-if="product"
           class="sm:w-[50%] sm:p-5 w-full h-auto bg-white border border-gray-200 m-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
         >
           <a href="#">
             <img
-              class="rounded-t-lg sm:w-[70%] sm:h-[100%] h-[300px] m-auto"
+              class="rounded-t-lg sm:w-[100%] sm:h-[440px] h-[300px] m-auto"
               :src="product.image"
+              alt="Product Image"
             />
           </a>
         </div>
@@ -30,7 +30,7 @@
             {{ product.category }}
           </h5>
           <p
-            class="sm:mb-3 mb-2 text-[15px] sm:p-2 sm:font-normal text-gray-700 border border-gray-200 dark:text-gray-400"
+            class="sm:mb-3 mb-2 sm:text-[16px] text-[15px] sm:p-2 p-1 sm:font-normal text-gray-700 border border-gray-200 dark:text-gray-400"
           >
             {{ product.description }}
           </p>
@@ -65,15 +65,19 @@ import { ref, onMounted } from "vue";
 import axios from "axios";
 import { useRoute } from "vue-router";
 
-const { id } = useRoute().params;
+const route = useRoute();
 const product = ref(null);
+const errorMessage = ref(null);
 
 const fetchData = async () => {
   try {
+    const { id } = route.params;
+    console.log("Fetching product with id:", id);
     const { data } = await axios.get(`https://fakestoreapi.com/products/${id}`);
     product.value = data;
-    console.log(product.value);
+    console.log("Product data fetched:", product.value);
   } catch (error) {
+    errorMessage.value = "Error fetching product data. Please try again.";
     console.error("Error fetching product:", error);
   }
 };
@@ -81,16 +85,4 @@ const fetchData = async () => {
 onMounted(() => {
   fetchData();
 });
-
-function trucateDesciption(desciption, wordsCount) {
-  if (desciption) {
-    let words = desciption.split(" ");
-    if (words.length > wordsCount) {
-      words = words.slice(0, wordsCount);
-      return words.join(" ") + "...";
-    }
-    return desciption;
-  }
-  return "";
-}
 </script>

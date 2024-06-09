@@ -5,7 +5,7 @@
         class="flex justify-between items-center sm:m-auto sm:w-[1200px] sm:py-1 py-1"
       >
         <div>
-          <nuxt-link to="/">
+          <nuxt-link to="/feed">
             <img
               class="rounded-full sm:w-[45px] sm:h-[45px] h-[35px] w-[35px]"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg"
