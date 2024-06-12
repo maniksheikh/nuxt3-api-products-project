@@ -78,7 +78,7 @@ definePageMeta({
   layout: "simple",
 });
 
-import faqs from "~/static/faqs.json";
+import faqs from "../store/faqs.json";
 const selectedQuestion = ref(1);
 
 const faqData = reactive(faqs);
