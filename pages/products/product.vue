@@ -1,6 +1,6 @@
 <template>
   <div class="sm:mt-20 mt-20 sm:w-[1200px] m-auto sm:mb-10">
-    <div v-if="loading" class="sm:mt-20 sm:mb-8 mb-5 sm:text-center">
+    <div v-if="loading" class="sm:mt-20 sm:mb-8 mb-5 text-center">
       <p>Loading Products.....</p>
     </div>
     <div
