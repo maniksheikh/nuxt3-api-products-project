@@ -1,24 +1,24 @@
 <template>
-  <div class="p-0 m-0">
+  <div class="p-0 sm:w-[1200px] w-[100%] m-auto">
     <div class="bg-[rgb(250,250,252)]">
       <div class="sm:mt-10 mt-5 sm:py-10">
         <header
-          class="mt-10 text-center m-auto sm:w-[1200px] w-[100%] space-y-3 sm:px-0 px-2"
+          class="mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-3 px-2 md:px-0"
         >
           <h1
-            class="text-[36px] sm:text-[56px] leading-[40px] sm:leading-[70px] sm:opacity-85 w-auto sm:w-[550px] pt-1 font-medium m-auto"
+            class="text-[36px] md:text-[48px] lg:text-[56px] leading-[40px] md:leading-[55px] lg:leading-[70px] opacity-85 w-auto md:w-[500px] lg:w-[550px] pt-1 font-medium mx-auto"
           >
             <span class="text-[#FF4F00]">Product</span>
             <span class="ml-4 italic opacity-90">Landing</span> page.
           </h1>
           <p
-            class="mt-7 w-auto sm:w-[400px] p-2 m-auto text-[16px] sm:text-[18px] opacity-90 font-semibold leading-5 sm:leading-5"
+            class="mt-7 w-auto md:w-[400px] p-2 mx-auto text-[16px] md:text-[17px] lg:text-[18px] opacity-90 font-semibold leading-5"
           >
             A short tagline or description goes here.
           </p>
-          <nuxt-link to="">
+          <nuxt-link to="/products/product">
             <button
-              class="bg-[#FF4F00] text-white sm:px-7 px-3 sm:py-3 py-2 rounded-3xl text-[14px] sm:mt-5 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+              class="bg-[#FF4F00] text-white md:px-5 lg:px-7 px-3 md:py-2 lg:py-3 py-2 rounded-3xl text-[14px] md:text-[16px] lg:text-[15px] md:mt-5 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
             >
               GET STARTED
             </button>
@@ -29,10 +29,10 @@
         <div class="sm:mt-10 mt-10">
           <div class="sm:flex block sm:gap-20 m-auto sm:w-[1200px]">
             <div
-              class="sm:w-[46%] w-[100%] text-center items-center justify-center m-auto px-2 sm:px-0"
+              class="sm:w-[48%] w-[100%] text-center items-center justify-center m-auto px-2 sm:px-2"
             >
               <h2
-                class="sm:w-[554px] w-full font-bold sm:text-[46px] text-[32px] text-center text-[#91969a] py-2"
+                class="sm:w-[554px] w-full font-bold sm:text-[46px] md:text-[38px] text-[32px] text-center text-[#91969a] py-2"
               >
                 <span class="text-[#ff4ff2]">Creative</span> Multipurpose
                 Products
@@ -421,7 +421,9 @@
                 :style="chatSection.bg"
                 class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
               >
-                <div class="sm:pt-14 p-10 h-auto text-surface dark:text-white">
+                <div
+                  class="sm:pt-14 p-10 sm:p-0 h-auto text-surface dark:text-white"
+                >
                   <div class="w-[48px]">
                     <img
                       class="w-[48px] h-[48px]"
@@ -438,7 +440,7 @@
                       "
                     />
                   </div>
-                  <div class="sm:w-[300px] w-[250px] sm:m-auto sm:h-auto">
+                  <div class="sm:w-[300px] w-[300px] sm:m-auto sm:h-auto">
                     <h5
                       class="mb-3 mt-4 font-bold text-white sm:text-[23px] text-[22px] leading-tight"
                     >
@@ -456,7 +458,7 @@
                   class="absolute left-0 bottom-0 overflow-hidden bg-cover px-2 bg-no-repeat w-full"
                 >
                   <img
-                    class="sm:h-[200px] h-[150px] w-full sm:w-full rounded-md m-auto"
+                    class="sm:h-[170px] h-[160px] w-full sm:w-full rounded-md m-auto"
                     :src="chatSection.image"
                     alt="images"
                   />
@@ -588,50 +590,64 @@
           </div>
         </div>
 
-        <!-- Another review  -->
-        <div class="sm:mt-32 mt-20 sm:px-2 px-2">
+        <!-- Another review section -->
+        <div class="sm:mt-32 mt-16 sm:px-2 px-2">
           <div>
             <header
-              class="sm:text-[54px] text-[36px] font-[600] opacity-90 sm:mb-10 mb-5 p-5 text-center justify-center"
+              class="sm:text-5xl text-3xl font-semibold opacity-90 sm:mb-10 mb-5 p-4 text-center justify-center"
             >
               <span class="text-[#FF4F00]">Testimonials</span> Review
             </header>
           </div>
-          <div class="sm:grid sm:grid-cols-3 sm:space-y-0 space-y-4 sm:gap-12">
-            <div
-              v-for="review in reviews"
-              :key="review"
-              class="sm:p-5 border-2 border-gray-300 rounded-xl"
-            >
-              <div class="">
-                <svg
-                  class="sm:h-14 h-12 p-3 cursor-pointer m-auto text-gray-300 dark:text-gray-600"
-                  viewBox="0 0 24 27"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path :d="review.svg" fill="currentColor"></path>
-                </svg>
-              </div>
-              <p class="mb-4 p-1 font-[400] opacity-90">
-                {{ review.description }}
-              </p>
-              <div class="sm:flex sm:justify-between sm:items-center">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                v-for="slide in Math.ceil(reviews.length / 3)"
+                :key="slide"
+              >
                 <div
-                  class="sm:flex sm:space-x-5 sm:space-y-0 space-y-3 sm:items-center"
+                  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
                 >
-                  <img
-                    class="h-[40px] w-[40px] rounded-full cursor-pointer"
-                    :src="review.avatar"
-                    alt="image"
-                  />
-                  <p class="sm:text-[18px] text-[17px] font-bold opacity-80">
-                    {{ review.name }}
-                  </p>
+                  <div
+                    v-for="review in reviews.slice((slide - 1) * 3, slide * 3)"
+                    :key="review.id"
+                    class="p-5 border-2 border-gray-300 rounded-xl shadow-lg"
+                  >
+                    <div class="flex justify-center mb-4">
+                      <svg
+                        class="h-12 sm:h-14 p-3 cursor-pointer text-gray-300 dark:text-gray-600"
+                        viewBox="0 0 24 27"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path :d="review.svg" fill="currentColor"></path>
+                      </svg>
+                    </div>
+                    <p
+                      class="sm:mb-7 mb-4 text-center sm:text-start font-normal opacity-95"
+                    >
+                      {{ review.description }}
+                    </p>
+                    <div
+                      class="flex flex-col sm:flex-row sm:justify-between items-center"
+                    >
+                      <div class="flex items-center space-x-3 mb-3 sm:mb-0">
+                        <img
+                          class="h-10 w-10 cursor-pointer rounded-full"
+                          :src="review.avatar"
+                          alt="image"
+                        />
+                        <p class="text-lg font-semibold opacity-80">
+                          {{ review.name }}
+                        </p>
+                      </div>
+                      <p class="text-sm font-medium opacity-90 text-left">
+                        {{ review.content }}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <p class="font-[500] opacity-90 text-[15px] sm:mt-0">
-                  {{ review.content }}
-                </p>
               </div>
             </div>
           </div>
@@ -650,9 +666,9 @@
 
         <!-- Free faq section  -->
         <div
-          class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20"
+          class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2"
         >
-          <div id="faq" class="sm:w-[50%] m-auto sm:p-0 sm:px-0 px-2">
+          <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
             <div class="sm:w-[600px] m-auto text-center mb-10">
               <h2
                 class="text-[#343434] sm:text-[42px] text-[34px] font-[600] leading-relaxed"
@@ -732,7 +748,7 @@
         </div>
 
         <!-- Footer section  -->
-        <div class="sm:mt-20">
+        <div>
           <footer></footer>
         </div>
       </div>
@@ -764,6 +780,56 @@ const selectedQuestion = ref(null);
 const toggleQuestion = (index) => {
   selectedQuestion.value = selectedQuestion.value === index ? null : index;
 };
+
+// var reviews = [
+//   {
+//     id: 1,
+//     svg: "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z",
+//     description: "Great service!",
+//     avatar: "avatar1.png",
+//     name: "John Doe",
+//     content: "Lorem ipsum dolor sit amet.",
+//   },
+//   {
+//     id: 2,
+//     svg: "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z",
+//     description: "Amazing experience!",
+//     avatar: "avatar2.png",
+//     name: "Jane Smith",
+//     content: "Consectetur adipiscing elit.",
+//   },
+//   // Add more review objects as needed
+// ];
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   new Swiper(".swiper-container", {
+//     modules: [Swiper.Autoplay, Swiper.EffectCreative],
+//     slidesPerView: 1,
+//     loop: true,
+//     autoplay: {
+//       delay: 8000,
+//       disableOnInteraction: true,
+//     },
+//     effect: "creative",
+//     creativeEffect: {
+//       prev: {
+//         shadow: false,
+//         translate: ["-20%", 0, -1],
+//       },
+//       next: {
+//         translate: ["100%", 0, 0],
+//       },
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//   });
+// });
 </script>
   
   

@@ -36,7 +36,7 @@
     "class": "border-3 rounded-2xl",
     "css": "background: #FFFFFF",
     "titleCss": "color: #FF4F00 ",
-    "buttonText": "Upgrade Now!",
+    "buttonText": "Start Now!",
     "buttonCss": "background: #FF4F00"
   },
   {
@@ -50,7 +50,8 @@
       "Everything in Personal",
       "900 Mins/month of Longer Voice Notes (50 mins/note)",
       "Whatsapp Bot",
-      "Chat & Magic Chat with your notes"
+      "Chat & Magic Chat with your notes",
+      "Everything share with your Friends"
     ],
     "class": "border-3 rounded-2xl",
     "css": "background: #FFFFFF",

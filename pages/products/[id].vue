@@ -1,7 +1,7 @@
 <template>
-  <div class="sm:mt-20">
+  <div class="sm:mt-20 sm:w-[1200px] m-auto">
     <div class="sm:p-0 p-4 sm:mt-12 sm:mb-10 sm:px-0 px-2">
-      <div v-if="product" class="sm:flex sm:gap-20 sm:justify-between">
+      <div v-if="product" class="sm:flex block sm:gap-20 sm:justify-between">
         <div
           class="sm:w-[50%] sm:p-5 w-full h-auto bg-white border border-gray-200 m-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
         >

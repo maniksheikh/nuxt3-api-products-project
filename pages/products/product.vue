@@ -1,11 +1,11 @@
 <template>
-  <div class="sm:mt-24 mt-20 sm:mb-10">
+  <div class="sm:mt-20 mt-20 sm:w-[1200px] m-auto sm:mb-10">
     <div v-if="loading" class="sm:mt-20 sm:mb-8 mb-5 sm:text-center">
       <p>Loading Products.....</p>
     </div>
     <div
       v-else
-      class="sm:grid sm:grid-cols-3 space-y-6 sm:space-y-0 sm:gap-16 sm:px-0 px-2"
+      class="sm:grid sm:grid-cols-3 space-y-6 sm:space-y-0 sm:gap-10 sm:px-0 px-2"
     >
       <router-link
         v-for="product in products"

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sm:w-[1200px] m-auto">
     <footer class="bg-black sm:rounded-lg">
       <div class="sm:py-5 py-1 mb-7 sm:mb-0">
         <div class="sm:flex block sm:justify-between sm:px-5 px-2">

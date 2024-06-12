@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-5 sm:hidden block">
+  <div class="pb-5 sm:hidden block px-2">
     <ul
       class="block text-[#535251] text-[15px] mt-20 px-3 p-3 text-center space-y-2 font-[500]"
     >

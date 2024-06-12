@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nav class="bg-black text-white py-0 fixed top-0 left-0 right-0">
+    <nav
+      class="bg-black text-white relative py-0 sm:fixed top-0 left-0 right-0"
+    >
       <div
         class="flex justify-between items-center sm:m-auto sm:w-[1200px] sm:py-1 py-1"
       >
@@ -65,6 +67,7 @@
         <div class="flex justify-center items-center">
           <nuxt-link to="">
             <svg
+              @click="isshopingCartshow = !isshopingCartshow"
               class="cursor-pointer rounded-full sm:w-[42px] sm:h-[42px] h-[30px] w-[30px]"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -78,6 +81,9 @@
         </div>
       </div>
     </nav>
+    <div class="absolute top-0 right-0">
+      <shopingCart v-if="isshopingCartshow"></shopingCart>
+    </div>
     <div class="mt-14">
       <MobileNavbar v-show="isShowMobileNav"></MobileNavbar>
     </div>
@@ -86,6 +92,7 @@
 
 <script setup>
 const isShowMobileNav = ref(false);
+const isshopingCartshow = ref(false);
 </script>
   
   
