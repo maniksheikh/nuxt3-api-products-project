@@ -1,10 +1,8 @@
 <template>
   <div>
-    <nav
-      class="bg-black text-white relative py-0 sm:fixed top-0 left-0 right-0"
-    >
+    <nav class="bg-black text-white py-0 fixed top-0 left-0 right-0">
       <div
-        class="flex justify-between items-center sm:m-auto sm:w-[1200px] sm:py-1 py-1"
+        class="flex relative justify-between items-center sm:m-auto sm:w-[1200px] sm:py-1 py-1"
       >
         <div>
           <nuxt-link to="/feed">
@@ -81,7 +79,7 @@
         </div>
       </div>
     </nav>
-    <div class="absolute top-0 right-0">
+    <div class="absolute sm:top-0 sm:right-0 right-4">
       <shopingCart v-if="isshopingCartshow"></shopingCart>
     </div>
     <div class="mt-14">

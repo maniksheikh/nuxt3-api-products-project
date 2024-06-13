@@ -1,8 +1,8 @@
 <template>
-  <div class="mt-20">
-    <div class="flex justify-end">
+  <div class="sm:mt-20 mt-2">
+    <div class="flex bg-white z-50 justify-end relative">
       <div
-        class="w-[340px] max-w-sm bg-white border border-gray-300 shadow-md rounded-xl p-6"
+        class="sm:w-[340px] w-[350px] m-auto border border-gray-300 shadow-md rounded-xl p-6"
       >
         <h2 class="text-[42px] text-center font-semibold mb-4">Your Cart</h2>
         <hr class="mb-5 border-2 border-red-600" />
@@ -13,7 +13,7 @@
           <div class="items-center mb-4">
             <p class="text-xl font-medium">Title</p>
             <span class="text-lg text-gray-600 font-[600] mt-3">$ price</span>
-            <div class="text-lg font-medium">Total</div>
+            <div class="text-lg font-medium">Total :</div>
           </div>
         </div>
         <button
