@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nav class="bg-black text-white py-0 fixed top-0 left-0 right-0">
+    <nav
+      class="bg-black text-white z-50 w-[100%] py-0 sm:fixed top-0 left-0 right-0"
+    >
       <div
         class="flex relative justify-between items-center sm:m-auto sm:w-[1200px] sm:py-1 py-1"
       >

@@ -1,6 +1,6 @@
 <template>
   <div class="p-0 sm:w-[1200px] w-[100%] m-auto">
-    <div class="bg-[rgb(250,250,252)]">
+    <div class="">
       <div class="sm:mt-10 mt-5 sm:py-10">
         <header
           class="mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-3 px-2 md:px-0"
@@ -18,7 +18,7 @@
           </p>
           <nuxt-link to="/products/product">
             <button
-              class="bg-[#FF4F00] text-white md:px-5 lg:px-7 px-3 md:py-2 lg:py-3 py-2 rounded-3xl text-[14px] md:text-[16px] lg:text-[15px] md:mt-5 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+              class="bg-[#FF4F00] mt-2 text-white px-3 py-2 rounded-3xl text-[13px] sm:text-[16px] transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
             >
               GET STARTED
             </button>
@@ -63,7 +63,7 @@
         <!-- Testimonial section  -->
         <div>
           <Vue3Marquee
-            class="bg-[#ffffff] sm:flex items-center justify-center sm:items-center sm:justify-between sm:w-[60%] m-auto mt-20"
+            class="sm:flex items-center justify-center sm:items-center sm:justify-between sm:w-[60%] m-auto mt-20"
           >
             <div
               class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200"
@@ -338,7 +338,7 @@
                 class="flex-none px-2"
               >
                 <div
-                  class="h-[390px] w-[310px] gap-5 bg-white border border-gray-200 rounded-2xl overflow-hidden mx-auto"
+                  class="h-[390px] w-[310px] gap-5 border border-gray-200 rounded-2xl overflow-hidden mx-auto"
                 >
                   <div class="p-4">
                     <div class="flex items-center">
@@ -419,11 +419,9 @@
                 :key="chatSection.id"
                 :class="chatSection.class"
                 :style="chatSection.bg"
-                class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300 dark:bg-surface-dark"
+                class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300"
               >
-                <div
-                  class="sm:pt-14 p-10 sm:p-0 h-auto text-surface dark:text-white"
-                >
+                <div class="sm:pt-14 p-10 sm:p-0 h-auto text-surface">
                   <div class="w-[48px]">
                     <img
                       class="w-[48px] h-[48px]"
@@ -532,7 +530,7 @@
               <div
                 v-for="customCart in customCartData"
                 :key="customCart.id"
-                class="p-2 sm:w-full h-auto rounded-3xl border mb-0 transition duration-300 ease-out hover:ease-in border-gray-300 hover:border-red-400 shadow-secondary-1 dark:bg-surface-dark"
+                class="p-2 sm:w-full h-auto rounded-3xl border mb-0 transition duration-300 ease-out hover:ease-in border-gray-300 hover:border-red-400 shadow-secondary-1"
               >
                 <div
                   class="relative overflow-hidden bg-cover bg-no-repeat"
@@ -557,7 +555,7 @@
                     />
                   </nuxt-link>
                 </div>
-                <div class="sm:px-5 sm:pt-3 text-surface dark:text-white">
+                <div class="sm:px-5 sm:pt-3 text-surface">
                   <div>
                     <img
                       class="mb-3 w-[24px] h-[24px]"
