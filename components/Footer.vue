@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-gradient-to-r from-[rgba(235,100,226,0.9)] to-[rgba(115,94,199,0.8)]">
+  <div class="bg-black ">
     <div class="sm:w-[1300px] m-auto">
-      <footer class="bg-black sm:rounded-lg">
+      <footer class="sm:rounded-lg">
         <div class="sm:py-5 py-1 mb-7 sm:mb-0">
-          <div class="sm:flex block sm:justify-between sm:px-5 px-2">
+          <div class="sm:flex block sm:justify-between sm:px-0 px-2">
             <div class="">
               <div>
                 <a href="#" class="sm:flex sm:justify-start flex justify-between sm:items-center">
