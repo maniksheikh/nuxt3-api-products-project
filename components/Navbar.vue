@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav class="bg-black text-white z-50 w-[100%] py-0 sm:fixed top-0 left-0 right-0">
-      <div class="flex relative justify-between items-center sm:m-auto sm:w-[1300px] sm:py-1 py-1">
+    <nav class="bg-black text-white z-50 w-[100%] py-1 fixed top-0 left-0 right-0">
+      <div class="flex relative justify-between items-center sm:m-auto sm:w-[1300px] py-1 sm:px-0 px-1">
         <div>
           <nuxt-link to="/feed">
-            <img class="rounded-full sm:w-[45px] sm:h-[45px] h-[35px] w-[35px]"
+            <img class="rounded-full h-[45px] w-[45px]"
               src="https://masterbundles.com/wp-content/uploads/2022/12/shopping-logo-158.jpg" jsaction="VQAsE"
               alt="Shopping Cart Logo Design - MasterBundles" jsname="kn3ccd" aria-hidden="false" />
           </nuxt-link>
@@ -39,7 +39,6 @@
               image-rendering: auto;
             " />
         </div>
-
         <div class="flex justify-center items-center">
           <nuxt-link to="">
             <svg @click="isshopingCartshow = !isshopingCartshow"

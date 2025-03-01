@@ -38,8 +38,8 @@
 
 <script setup>
 import { ref } from 'vue';
-import { signInWithPopup, signOut } from 'firebase/auth';
-import { auth, provider } from '@/plugins/firebase';
+// import { signInWithPopup, signOut } from 'firebase/auth';
+// import { auth, provider } from '@/plugins/firebase';
 
 const username = ref('');
 const email = ref('');

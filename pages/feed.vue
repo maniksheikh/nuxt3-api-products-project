@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gradient-to-r  from-[#2575fc] to-[#e939bd]">
     <div class="p-0 sm:w-[1300px] w-[100%] m-auto">
-      <div class="sm:mt-10 mt-5 sm:py-16">
+      <div class="mt-12 sm:py-16 py-1">
         <header class="mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-4 px-2 md:px-0">
           <h1
             class="text-[40px] md:text-[52px] lg:text-[64px] leading-[50px] md:leading-[65px] lg:leading-[80px] opacity-90 w-auto md:w-[500px] lg:w-[550px] pt-1 font-semibold mx-auto">
@@ -158,9 +158,8 @@
         <!--Review section  -->
         <div class="sm:mt-20 mt-16">
           <div class="sm:flex sm:gap-10 px-2 sm:px-0 border border-white rounded-md">
-            <div class="sm:w-[50%] m-auto">
-              <img class="sm:h-[700px] h-[450px] w-full sm:w-full cursor-pointer rounded-md object-cover justify-center"
-                src="../assets/project-img.jpg" />
+            <div class="sm:w-[50%] w-full m-auto">
+              <compare-image></compare-image>
             </div>
             <div class="sm:w-[50%] w-[100%] mb-5 sm:mt-0 sm:mb-0 mt-5">
               <h1
@@ -180,7 +179,7 @@
                 product can be tailord to meet the unique needs od each user.
               </p>
               <button
-                class="sm:mt-5 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+                class="sm:mt-5 sm:mb-5 mb-0 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
                 type="button">
                 Learn More
               </button>

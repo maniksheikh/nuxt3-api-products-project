@@ -26,15 +26,21 @@
             class="sm:mb-3 mb-2 sm:text-[18px] text-[15px] sm:p-2 p-1 sm:font-normal text-gray-700 border border-gray-200 dark:text-gray-400">
             {{ product.description }}
           </p>
-          <button @click="addToCart"
-            class="inline-flex items-center px-3 py-2 sm:mt-7 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Buy Now
-            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-              fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </button>
+          <div class="flex justify-between items-center sm:mt-7 mt-3">
+            <button @click="addToCart"
+              class="inline-flex items-center px-3 py-2.5  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Buy Now
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </button>
+            <button @click="goBack"
+              class="px-4 py-2 text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+              ← Back
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -44,9 +50,10 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import axios from "axios";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "nuxt/app";
 
 const route = useRoute();
+const router = useRouter();
 const product = ref(null);
 const errorMessage = ref(null);
 const isCartVisible = ref(false);
@@ -71,15 +78,16 @@ const addToCart = () => {
     price: product.value.price,
     image: product.value.image
   };
-
-  // Emit event to parent or use a state management solution
   const event = new CustomEvent('update-cart', {
     detail: cartProduct
   });
   window.dispatchEvent(event);
 
-  // Show the cart
   isCartVisible.value = true;
+};
+
+const goBack = () => {
+  router.back();
 };
 
 onMounted(() => {
