@@ -67,7 +67,6 @@ const isShowMobileNav = ref(false);
 const isshopingCartshow = ref(false);
 const selectedProduct = ref(null);
 
-// Listen for cart updates
 onMounted(() => {
   window.addEventListener('update-cart', (event) => {
     selectedProduct.value = event.detail;
@@ -75,7 +74,6 @@ onMounted(() => {
   });
 });
 
-// Clean up event listener
 onUnmounted(() => {
   window.removeEventListener('update-cart', (event) => {
     selectedProduct.value = event.detail;
@@ -83,7 +81,6 @@ onUnmounted(() => {
   });
 });
 
-// Handle remove item from cart
 const handleRemoveItem = () => {
   isshopingCartshow.value = false;
 };

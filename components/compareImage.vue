@@ -27,7 +27,6 @@
     object-fit: cover;
   }
   
-  /* Responsive adjustments */
   @media (max-width: 1024px) { 
     .image-container {
       width: 95%;
