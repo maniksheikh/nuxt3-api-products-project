@@ -23,10 +23,10 @@
           <div class="mt-4 text-xl text-center font-bold">Total Amount : $ {{ cartTotal.toFixed(2) }}</div>
         </div>
         <div v-else class="text-center text-gray-500">Your cart is empty</div>
-        <button v-if="cartItems.length > 0" @click="clearCart" class="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 mt-4">Clear Cart</button>
-        
-        <button v-if="cartItems.length > 0" @click="placeOrder" class="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 mt-4">Order Now</button>
-        
+        <button v-if="cartItems.length > 0" @click="clearCart"
+          class="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 mt-4">Clear Cart</button>
+        <button v-if="cartItems.length > 0" @click="placeOrder"
+          class="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 mt-4">Order Now</button>
         <div v-if="orderSuccess" class="mt-4 text-green-600 text-center font-semibold">Order placed successfully!</div>
       </div>
     </div>

@@ -79,7 +79,6 @@
                 <p class="text-gray-700 text-md">Locations</p>
               </div>
             </div>
-
             <div
               class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200">
               <svg class="bg-red-100 rounded-full p-1 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="2rem"
@@ -106,7 +105,6 @@
             </div>
           </Vue3Marquee>
         </div>
-
         <!-- payment section  -->
         <div class="">
           <div class="bg-[#fffee7] sm:mt-32 mt-16 sm:py-10 rounded-md">
@@ -186,7 +184,6 @@
             </div>
           </div>
         </div>
-
         <!-- user section  -->
         <div class="sm:mt-32 mt-16 bg-white rounded-md">
           <h1
@@ -240,7 +237,6 @@
             </Vue3Marquee>
           </div>
         </div>
-
         <!-- Another chat cart  -->
         <div class="sm:mt-32 mt-16">
           <div class="sm:px-0 px-2">
@@ -267,7 +263,6 @@
                     </p>
                   </div>
                 </div>
-
                 <div class="absolute left-0 bottom-0 overflow-hidden bg-cover px-2 bg-no-repeat w-full">
                   <img class="sm:h-[170px] h-[160px] w-full sm:w-full rounded-md m-auto" :src="chatSection.image"
                     alt="images" />
@@ -276,7 +271,6 @@
             </div>
           </div>
         </div>
-
         <!-- social cart system -->
         <div class="sm:mt-32 mt-16 bg-[#fffee7] rounded-md">
           <div class="sm:flex sm:gap-20 block items-center justify-between m-auto">
@@ -304,7 +298,6 @@
                 <img class="sm:h-[400px] h-auto sm:w-full w-[400px] m-auto object-cover cursor-pointer"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
                   alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG" />
-
                 <div
                   class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal">
                   <h3 class="sm:text-6xl text-[32px] sm:font-bold font-[600]">
@@ -358,7 +351,6 @@
             </div>
           </div>
         </div>
-
         <!-- Another review section -->
         <div class="sm:mt-32 mt-16 sm:px-7 px-2 sm:py-5 py-2 bg-white rounded-md">
           <div>
@@ -398,7 +390,6 @@
             </div>
           </div>
         </div>
-
         <!-- Pricing section  -->
         <div class="sm:mt-32 mt-20 ">
           <div class="">
@@ -409,7 +400,6 @@
             </div>
           </div>
         </div>
-
         <!-- Free faq section  -->
         <div class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
           <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
@@ -458,7 +448,6 @@
               alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey" />
           </div>
         </div>
-
         <!-- Footer section  -->
         <div>
           <footer></footer>
@@ -492,54 +481,4 @@ const selectedQuestion = ref(null);
 const toggleQuestion = (index) => {
   selectedQuestion.value = selectedQuestion.value === index ? null : index;
 };
-
-// var reviews = [
-//   {
-//     id: 1,
-//     svg: "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z",
-//     description: "Great service!",
-//     avatar: "avatar1.png",
-//     name: "John Doe",
-//     content: "Lorem ipsum dolor sit amet.",
-//   },
-//   {
-//     id: 2,
-//     svg: "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z",
-//     description: "Amazing experience!",
-//     avatar: "avatar2.png",
-//     name: "Jane Smith",
-//     content: "Consectetur adipiscing elit.",
-//   },
-//   // Add more review objects as needed
-// ];
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   new Swiper(".swiper-container", {
-//     modules: [Swiper.Autoplay, Swiper.EffectCreative],
-//     slidesPerView: 1,
-//     loop: true,
-//     autoplay: {
-//       delay: 8000,
-//       disableOnInteraction: true,
-//     },
-//     effect: "creative",
-//     creativeEffect: {
-//       prev: {
-//         shadow: false,
-//         translate: ["-20%", 0, -1],
-//       },
-//       next: {
-//         translate: ["100%", 0, 0],
-//       },
-//     },
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//     },
-//   });
-// });
 </script>

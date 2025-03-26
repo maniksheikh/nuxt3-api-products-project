@@ -6,29 +6,23 @@
         <label for="username" class="block text-md font-medium text-gray-600">Username</label>
         <input v-model="username" type="text" id="username" name="username" class="mt-1 p-2 w-full border rounded" />
       </div>
-
       <div class="mb-4">
         <label for="email" class="block text-md font-medium text-gray-600">Email</label>
         <input v-model="email" type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded" />
       </div>
-
       <div class="mb-4">
         <label for="password" class="block text-md font-medium text-gray-600">Password</label>
         <input v-model="password" type="password" id="password" name="password"
           class="mt-1 p-2 w-full border rounded" />
       </div>
-
       <button type="submit"
         class="w-full bg-blue-500 text-white p-2 rounded transition-all duration-1000 ease-in-out hover:text-green-300 hover:scale-110">
         Sign In
       </button>
-
       <button @click.prevent="signInWithGoogle" class="w-full bg-red-500 text-white p-2 rounded mt-4">
         Sign In With Google
       </button>
-
       <div v-if="userEmail" class="mt-4 text-center">Logged in as: {{ userEmail }}</div>
-
       <button v-if="userEmail" @click="logout" class="w-full bg-gray-500 text-white p-2 rounded mt-4">
         Logout
       </button>
