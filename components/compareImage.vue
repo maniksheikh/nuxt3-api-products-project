@@ -10,7 +10,7 @@
   import { VueCompareImage } from "vue3-compare-image";
   
   import inputImage from "../assets/project-img.jpg";
-  import outputImage from "../assets/my-best-img.JPG";
+  import outputImage from "../assets/my-post-img.JPG";
   </script>
   
   <style scoped>

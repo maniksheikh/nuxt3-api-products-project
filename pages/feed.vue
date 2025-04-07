@@ -187,7 +187,7 @@
         <!-- user section  -->
         <div class="sm:mt-32 mt-16 bg-white rounded-md">
           <h1
-            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] w-[80%] m-auto font-[600]">
+            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] p-6 w-[80%] m-auto font-[600]">
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
@@ -254,7 +254,7 @@
                         image-rendering: auto;
                       " />
                   </div>
-                  <div class="sm:w-[300px] w-[300px] sm:m-auto sm:h-auto">
+                  <div class="sm:w-[300px] w-[300px] sm:h-auto">
                     <h5 class="mb-3 mt-4 font-bold text-white sm:text-[23px] text-[22px] leading-tight">
                       {{ chatSection.header }}
                     </h5>
@@ -263,7 +263,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="absolute left-0 bottom-0 overflow-hidden bg-cover px-2 bg-no-repeat w-full">
+                <div class="absolute left-0 bottom-0 overflow-hidden bg-cover bg-no-repeat w-full">
                   <img class="sm:h-[170px] h-[160px] w-full sm:w-full rounded-md m-auto" :src="chatSection.image"
                     alt="images" />
                 </div>
@@ -392,19 +392,17 @@
         </div>
         <!-- Pricing section  -->
         <div class="sm:mt-32 mt-20 ">
-          <div class="">
             <div class="bg-white rounded-md">
               <div>
                 <pricing></pricing>
               </div>
-            </div>
           </div>
         </div>
         <!-- Free faq section  -->
         <div class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
           <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
             <div class="sm:w-[600px] m-auto text-center mb-10">
-              <h2 class="text-[#343434] sm:text-[42px] text-[34px] font-[600] leading-relaxed">
+              <h2 class="text-[#343434] sm:text-[42px] p-4 text-[34px] font-[600] leading-relaxed">
                 Frequently <span class="ai-text">Asked FAQs Question</span>
               </h2>
               <p class="opacity-70 sm:text-[17px] mt-3">
