@@ -3,8 +3,9 @@
     "id": "free",
     "name": "Free",
     "description": "Perfect for getting started",
-    "price": 0,
-    "billingCycle": "",
+    "monthlyPrice": "free",
+    "yearlyPrice": "free",
+    "billingCycle": "/mo",
     "billingType": "Billed Free.",
     "features": [
       "10 Mins of Voice Notes Free",
@@ -23,8 +24,9 @@
     "id": "bd-monthly",
     "name": "Products Personal",
     "description": "Discounted price for Bangladeshi",
-    "price": 69,
-    "billingCycle": "/ monthly",
+    "monthlyPrice": "$39",
+    "yearlyPrice": "$100",
+    "billingCycle": "/mo",
     "billingType": "For 1 month access",
     "features": [
       "Unlimited Voice Notes, File Uploads & Text Notes",
@@ -43,7 +45,8 @@
     "id": "bd-standard-yearly",
     "name": "Products Yearly",
     "description": "Discounted price for Bangladeshi",
-    "price": 249,
+    "monthlyPrice": "$62",
+    "yearlyPrice": "$200",
     "billingCycle": "/ yearly",
     "billingType": "For Yearly Access",
     "features": [
