@@ -69,7 +69,6 @@ const logout = async () => {
 };
 
 const showSuccessAlert = () => {
-  alert("Sign-in successful!");
 };
 
 const showFillFieldsAlert = () => {

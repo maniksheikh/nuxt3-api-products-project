@@ -474,7 +474,7 @@ const customCartData = reactive(customCart);
 const chatSectionData = reactive(chatSection);
 const faqData = reactive(faqs);
 
-const selectedQuestion = ref(null);
+const selectedQuestion = ref(0);
 
 const toggleQuestion = (index) => {
   selectedQuestion.value = selectedQuestion.value === index ? null : index;
