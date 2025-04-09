@@ -402,7 +402,7 @@
         <div class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
           <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
             <div class="sm:w-[600px] m-auto text-center mb-10">
-              <h2 class="text-[#343434] sm:text-[42px] p-4 text-[34px] font-[600] leading-relaxed">
+              <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-relaxed">
                 Frequently <span class="ai-text">Asked FAQs Question</span>
               </h2>
               <p class="opacity-70 sm:text-[17px] mt-3">
