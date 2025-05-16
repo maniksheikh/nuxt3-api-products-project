@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r  from-[#2575fc] to-[#e939bd]">
+  <div class="bg-gradient-to-r  from-[] to-[]">
     <div class="p-0 sm:w-[1300px] w-[100%] m-auto">
       <div class="mt-12 sm:py-16 py-1">
         <header class="mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-4 px-2 md:px-0">
