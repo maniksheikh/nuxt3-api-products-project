@@ -23,9 +23,6 @@
           <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
             <NuxtLink to="/pricing">Pricing</NuxtLink>
           </ul>
-          <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
-            <NuxtLink to="#">Blog</NuxtLink>
-          </ul>
         </div>
         <div class="cursor-pointer sm:hidden block">
           <img class="bg-white rounded-full sm:w-[40px] sm:h-[40px] h-[25px] w-[25px]"

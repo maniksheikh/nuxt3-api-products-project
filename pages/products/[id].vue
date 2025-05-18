@@ -3,13 +3,14 @@
     <div class="sm:p-0 p-4 sm:mt-12 sm:mb-10 sm:px-0 px-2">
       <div v-if="product" class="sm:flex block sm:gap-20 sm:justify-between">
         <div
-          class="sm:w-[50%] sm:p-5 w-full h-auto bg-white border border-gray-200 m-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          class="sm:w-[50%] sm:p-5 w-full h-auto bg-gray-200 border border-gray-200 m-auto rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl transition-shadow duration-300"
+          style="box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);">
           <a href="#">
             <img class="rounded-t-lg sm:w-[100%] sm:h-[440px] h-[300px] m-auto" :src="product.image"
               alt="Product Image" />
           </a>
         </div>
-        <div class="sm:p-5 sm:w-[50%] p-2 sm:rounded-md border border-gray-200">
+        <div class="sm:p-5 sm:w-[50%] p-2 sm:rounded-md  border border-gray-200">
           <h5
             class="sm:mb-2 mb-2 sm:p-2 p-1 sm:text-2xl text-[22px] font-[600] tracking-tight border border-gray-200 text-gray-900 dark:text-white">
             {{ product.title }}

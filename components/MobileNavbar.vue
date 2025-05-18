@@ -13,9 +13,6 @@
       <li class="font-semibold">
         <nuxt-link to="/products/product">Products</nuxt-link>
       </li>
-      <li class="font-semibold">
-        <nuxt-link to="#">Blog</nuxt-link>
-      </li>
     </ul>
     <button class="flex justify-center text-center bg-[#ff4f00] m-auto text-white text-[13px] rounded-full px-4 py-2.5">
       <nuxt-link to="/products/product" aria-label="Get Started" title="Get Started" class="flex items-center">

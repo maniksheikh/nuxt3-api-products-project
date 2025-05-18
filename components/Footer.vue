@@ -32,7 +32,7 @@
                       clip-rule="evenodd"></path>
                   </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/manik-sheikh-6766232b6/"
+                <a href="https://www.linkedin.com/in/muhammad-manik-sheikh-6ab92433b/"
                   class="text-white transition-all font-semibold duration-300 ease-in-out hover:text-gray-400">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" aria-hidden="false">
                     <path fill="currentColor"
@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="sm:flex block sm:space-x-10 space-x-0 sm:mt-0 mt-10">
-              <div class="flex sm:justify-center sm:space-x-10 justify-between">
+              <div class="flex sm:justify-center sm:space-x-16 justify-between">
                 <div>
                   <h2 class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white">
                     Links

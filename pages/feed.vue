@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-gradient-to-r  from-[] to-[]">
+  <div class="bg-gradient-to-r from-[#2E3192] to-[#ce45ce]">
     <div class="p-0 sm:w-[1300px] w-[100%] m-auto">
       <div class="mt-12 sm:py-16 py-1">
-        <header class="mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-4 px-2 md:px-0">
+        <header class=" mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-4 px-2 md:px-0">
           <h1
             class="text-[40px] md:text-[52px] lg:text-[64px] leading-[50px] md:leading-[65px] lg:leading-[80px] opacity-90 w-auto md:w-[500px] lg:w-[550px] pt-1 font-semibold mx-auto">
             <span class="text-[#FF4F00]">Product</span>
@@ -19,7 +19,7 @@
             </button>
           </nuxt-link>
         </header>
-        <!-- Testimonial section  -->
+        <!-- Body section  -->
         <div class="sm:mt-10 mt-10">
           <div class="sm:flex block sm:gap-20 m-auto sm:w-[1200px]">
             <div class="sm:w-[48%] w-[100%] text-center items-center justify-center m-auto px-2 sm:px-2">
@@ -154,14 +154,14 @@
           </div>
         </div>
         <!--Review section  -->
-        <div class="sm:mt-20 mt-16">
+        <div class="sm:mt-32 mt-16">
           <div class="sm:flex sm:gap-10 px-2 sm:px-0 border border-white rounded-md">
             <div class="sm:w-[50%] w-full m-auto">
               <compare-image></compare-image>
             </div>
             <div class="sm:w-[50%] w-[100%] mb-5 sm:mt-0 sm:mb-0 mt-5">
               <h1
-                class="sm:text-[52px] text-[28px] text-white sm:w-[500px] w-[100%] sm:p-5 p-2 font-[500] leading-tight">
+                class="sm:text-[48px] text-[28px] text-white sm:p-5 p-2 font-[500] leading-tight">
                 Revolution Your Experience with Our Innovative Digital Product.
               </h1>
               <p class="sm:py-5 mt-3 p-1 sm:px-3 sm:mt-3 text-[white] opacity-70">
@@ -187,14 +187,14 @@
         <!-- user section  -->
         <div class="sm:mt-32 mt-16 bg-white rounded-md">
           <h1
-            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] p-6 w-[80%] m-auto font-[600]">
+            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] p-8 w-[80%] m-auto font-[600]">
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
           <div class="sm:mt-12 mt-10">
             <Vue3Marquee :pause-on-hover="true" @on-pause="playState = 'paused'" @on-resume="playState = 'playing'"
               :clone="true" :duration="140" :direction="'reverse'">
-              <div v-for="user in userData" :key="user.id" class="flex-none px-2 pb-5">
+              <div v-for="user in userData" :key="user.id" class="cursor-pointer flex-none px-2 sm:pb-10 pb-5">
                 <div class="h-[390px] w-[310px] gap-5 border border-gray-200 rounded-2xl overflow-hidden mx-auto">
                   <div class="p-4">
                     <div class="flex items-center">
@@ -243,7 +243,7 @@
             <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 sm:space-y-0 space-y-5">
               <div v-for="chatSection in chatSectionData" :key="chatSection.id" :class="chatSection.class"
                 :style="chatSection.bg"
-                class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] m-auto sm:px-8 rounded-3xl border border-gray-300">
+                class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] cursor-pointer m-auto sm:px-8 rounded-3xl transition duration-500 ease-out hover:ease-in border-gray-300 hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform">
                 <div class="sm:pt-14 p-10 sm:p-0 h-auto text-surface">
                   <div class="w-[48px]">
                     <img class="w-[48px] h-[48px]" decoding="async" sizes="48px" :src="chatSection.avatar" alt="" style="
@@ -263,7 +263,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="absolute left-0 bottom-0 overflow-hidden bg-cover bg-no-repeat w-full">
+                <div class="absolute left-0 bottom-1 overflow-hidden bg-cover bg-no-repeat w-full">
                   <img class="sm:h-[170px] h-[160px] w-full sm:w-full rounded-md m-auto" :src="chatSection.image"
                     alt="images" />
                 </div>
@@ -274,7 +274,7 @@
         <!-- social cart system -->
         <div class="sm:mt-32 mt-16 bg-[#fffee7] rounded-md">
           <div class="sm:flex sm:gap-20 block items-center justify-between m-auto">
-            <div class="sm:w-[50%] m-auto sm:pl-4 sm:px-0 px-2">
+            <div class="sm:w-[50%] m-auto sm:pl-7 sm:px-0 px-2">
               <h2 class="sm:text-[46px] text-[30px] p-1 font-[600] opacity-90 leading-snug">
                 Try Out Our Awesome <br />
                 Feature Now and Enjoy <br />
@@ -312,13 +312,14 @@
         <!--Another Custom Card system -->
         <div class="sm:mt-32">
           <div class="sm:w-[1200px] m-auto">
-            <div class="sm:grid sm:grid-cols-3 sm:gap-10 space-y-7 sm:space-y-0 sm:px-2 px-1">
+            <div class="sm:grid sm:grid-cols-3 sm:gap-10 space-y-7 sm:space-y-0">
               <div v-for="customCart in customCartData" :key="customCart.id"
-                class="p-2 sm:w-full h-auto rounded-3xl border mb-0 transition duration-300 ease-out hover:ease-in border-gray-300 hover:border-red-400 shadow-secondary-1">
+                class="p-1 sm:w-full h-auto rounded-3xl cursor-pointer border mb-0 transition duration-500 ease-out hover:ease-in border-gray-300 hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform"
+                :style="{ background: customCart.bg}">
                 <div class="relative overflow-hidden bg-cover bg-no-repeat" data-twe-ripple-init
                   data-twe-ripple-color="light">
-                  <nuxt-link to="#">
-                    <img decoding="async" sizes="336.6667px" :src="customCart.image" alt="" style="
+                    <img decoding="async" sizes="336.6667px" :src="customCart.image" alt=""
+                      style="
                         display: block;
                         width: 100%;
                         height: 100%;
@@ -326,12 +327,12 @@
                         object-position: center;
                         object-fit: cover;
                         image-rendering: auto;
+                        border-radius: 20px;
                       " />
-                  </nuxt-link>
                 </div>
                 <div class="sm:px-5 sm:pt-3 text-surface">
                   <div>
-                    <img class="mb-3 w-[24px] h-[24px]" decoding="async" sizes="24px" :src="customCart.avatar" alt=""
+                    <img class="mb-3 w-[24px] h-[24px] transition-all duration-300 hover:rotate-12 hover:scale-125" decoding="async" sizes="24px" :src="customCart.avatar" alt=""
                       style="
                         display: block;
                         border-radius: inherit;
@@ -340,10 +341,11 @@
                         image-rendering: auto;
                       " />
                   </div>
-                  <h5 class="mb-2 opacity-90 sm:text-[20px] text-[19px] font-[600] leading-tight">
+                  <h5 :style="{ color: customCart.headerColor }" 
+                    class="mb-2 opacity-90 sm:text-[22px] text-[19px] font-[600] leading-tight transition-all duration-300 hover:translate-x-1">
                     {{ customCart.header }}
                   </h5>
-                  <p class="sm:text-[17px] text-[16px] text-gray-200 font-[400]">
+                  <p class="mb-2 sm:text-[17px] text-[16px] text-gray-200 font-[400] transition-opacity duration-300 hover:opacity-100">
                     {{ customCart.content }}
                   </p>
                 </div>
