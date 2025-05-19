@@ -4,11 +4,11 @@
       <h2 class="text-[#2A2A2A] p-4 sm:text-[56px] text-[36px] font-[600] leading-relaxed">
         Choose Your Pricing
       </h2>
-      <p class="text-black opacity-70 sm:text-[18px] font-[400] leading-6 mt-3">
+      <p class="text-black opacity-70 sm:text-[18px] font-[400] leading-6">
         Save Upto 50% with our Annual Plans:
       </p>
     </div>
-    <div class="flex justify-center items-center gap-5 mt-5">
+    <div class="flex justify-center items-center gap-5 mt-3 mb-4">
       <span :class="['font-medium', !isYearly ? 'text-gray-900' : 'text-gray-500']">Monthly</span>
       <div @click="isYearly = !isYearly"
         class="w-12 h-6 bg-[#FF5F38] rounded-full relative cursor-pointer transition-all"
@@ -19,7 +19,7 @@
       </div>
       <span :class="['font-medium', isYearly ? 'text-gray-900' : 'text-gray-500']">Yearly</span>
     </div>
-    <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:space-y-0 space-y-8 bg-white sm:py-10 sm:gap-10 sm:px-10 px-2">
+    <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:space-y-0 space-y-8 bg-white sm:py-10 py-5 sm:gap-10 sm:px-10 px-2">
       <div v-for="plan in plansData" :key="plan.id" :class="plan.class" :style="plan.css"
         class="bg-[#FFFFFF] border border-gray-200 w-full h-auto rounded-4xl shadow-md overflow-hidden">
         <div class="p-5">

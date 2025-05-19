@@ -37,7 +37,7 @@
   @media (max-width: 768px) {
     .image-container {
       width: 100%;
-      height: auto;
+      height: 420px;
     }
   }
   </style>

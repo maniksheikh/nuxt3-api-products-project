@@ -20,6 +20,7 @@
     "axios": "^1.6.7",
     "firebase": "^11.1.0",
     "nuxt-swiper": "^1.2.2",
+    "swiper": "^11.2.6",
     "vue3-compare-image": "^1.2.5",
     "vue3-marquee": "^4.2.0"
   },

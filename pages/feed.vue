@@ -45,75 +45,15 @@
             </div>
           </div>
         </div>
-        <!-- Testimonial section  -->
-        <div class="bg-white rounded-lg">
-          <Vue3Marquee
-            class="sm:flex items-center justify-center sm:items-center sm:justify-between sm:w-[60%] m-auto mt-20">
-            <div
-              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200">
-              <svg class="bg-red-100 rounded-full p-1 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="2rem"
-                height="2rem" viewBox="0 0 24 24">
-                <g fill="none" fill-rule="evenodd">
-                  <path
-                    d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" />
-                  <path fill="black"
-                    d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2M8.5 9.5a3.5 3.5 0 1 1 7 0a3.5 3.5 0 0 1-7 0m9.758 7.484A7.985 7.985 0 0 1 12 20a7.985 7.985 0 0 1-6.258-3.016C7.363 15.821 9.575 15 12 15s4.637.821 6.258 1.984" />
-                </g>
-              </svg>
-              <div class="px-4">
-                <span class="font-bold text-xl">390+</span>
-                <p class="text-gray-700 text-md">Users</p>
-              </div>
-            </div>
-            <div
-              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200">
-              <svg class="bg-red-100 rounded-full p-1 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="2rem"
-                height="2rem" viewBox="0 0 512 512">
-                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
-                  d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137" />
-                <circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round"
-                  stroke-linejoin="round" stroke-width="32" />
-              </svg>
-              <div class="px-4">
-                <span class="font-bold text-xl">20+</span>
-                <p class="text-gray-700 text-md">Locations</p>
-              </div>
-            </div>
-            <div
-              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200">
-              <svg class="bg-red-100 rounded-full p-1 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="2rem"
-                height="2rem" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                  d="M2 4.6v4.8c0 .9.5 1.6 1.2 1.6h17.7c.6 0 1.2-.7 1.2-1.6V4.6C22 3.7 21.5 3 20.8 3H3.2C2.5 3 2 3.7 2 4.6M10 8V6H9v2zM5 8h2V6H5zm15 1H4V5h16zM2 14.6v4.8c0 .9.5 1.6 1.2 1.6h17.7c.6 0 1.2-.7 1.2-1.6v-4.8c0-.9-.5-1.6-1.2-1.6H3.2c-.7 0-1.2.7-1.2 1.6m8 3.4v-2H9v2zm-5 0h2v-2H5zm15 1H4v-4h16z" />
-              </svg>
-              <div class="px-4">
-                <span class="font-bold text-xl">50+</span>
-                <p class="text-gray-700 text-md">Servar</p>
-              </div>
-            </div>
-            <div
-              class="flex text-center items-center justify-center w-[100%] m-auto py-6 sm:border-r-2 border-gray-200">
-              <svg class="bg-red-100 rounded-full p-1 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="2rem"
-                height="2rem" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                  d="M18.72 14.76c.35-.85.54-1.76.54-2.76c0-.72-.11-1.41-.3-2.05c-.65.15-1.33.23-2.04.23A9.07 9.07 0 0 1 9.5 6.34a9.2 9.2 0 0 1-4.73 4.88c-.04.25-.04.52-.04.78A7.27 7.27 0 0 0 12 19.27c1.05 0 2.06-.23 2.97-.64c.57 1.09.83 1.63.81 1.63c-1.64.55-2.91.82-3.78.82c-2.42 0-4.73-.95-6.43-2.66a9 9 0 0 1-2.24-3.69H2v-4.55h1.09a9.09 9.09 0 0 1 15.33-4.6a9 9 0 0 1 2.47 4.6H22v4.55h-.06L18.38 18l-5.3-.6v-1.67h4.83zm-9.45-2.99c.3 0 .59.12.8.34a1.136 1.136 0 0 1 0 1.6c-.21.21-.5.33-.8.33c-.63 0-1.14-.5-1.14-1.13s.51-1.14 1.14-1.14m5.45 0c.63 0 1.13.51 1.13 1.14s-.5 1.13-1.13 1.13s-1.14-.5-1.14-1.13a1.14 1.14 0 0 1 1.14-1.14" />
-              </svg>
-              <div class="px-4">
-                <span class="font-bold text-xl">95+</span>
-                <p class="text-gray-700 text-md">Customer</p>
-              </div>
-            </div>
-          </Vue3Marquee>
-        </div>
         <!-- payment section  -->
         <div class="">
           <div class="bg-[#fffee7] sm:mt-32 mt-16 sm:py-10 rounded-md">
             <div class="sm:text-center sm:px-3 p-3 text-center sm:w-[600px] w-full sm:m-auto">
-              <h1 class="font-[600] sm:text-[54px] text-[36px] opacity-95 text-[#2e2d35]">
+              <h1 class="font-[600] sm:text-[54px] text-[32px] opacity-95 text-[#2e2d35]">
                 Trusted by World`s Most Favourite Brands
               </h1>
             </div>
-            <div class="sm:flex items-center sm:w-[800px] sm:mt-20 mt-10 m-auto">
+            <div class="sm:flex items-center sm:w-[800px] sm:mt-20 mt-5 mb-5 m-auto">
               <Vue3Marquee :clone="true" :duration="10" :direction="'left'"
                 class="flex items-center sm:space-x-10 justify-between w-full">
                 <div class="items-center justify-center w-[100%]">
@@ -155,13 +95,12 @@
         </div>
         <!--Review section  -->
         <div class="sm:mt-32 mt-16">
-          <div class="sm:flex sm:gap-10 px-2 sm:px-0 border border-white rounded-md">
+          <div class="sm:flex sm:gap-10 sm:border border-white sm:rounded-md">
             <div class="sm:w-[50%] w-full m-auto">
               <compare-image></compare-image>
             </div>
-            <div class="sm:w-[50%] w-[100%] mb-5 sm:mt-0 sm:mb-0 mt-5">
-              <h1
-                class="sm:text-[48px] text-[28px] text-white sm:p-5 p-2 font-[500] leading-tight">
+            <div class="sm:w-[50%] w-[100%]  sm:mt-0 mt-5 sm:pl-0 pl-3">
+              <h1 class="sm:text-[48px] text-[28px] text-white sm:p-5 p-2 font-[500] leading-tight">
                 Revolution Your Experience with Our Innovative Digital Product.
               </h1>
               <p class="sm:py-5 mt-3 p-1 sm:px-3 sm:mt-3 text-[white] opacity-70">
@@ -172,12 +111,12 @@
                 remote monitoring and customization. Enjoy peace of mind with
                 our cutting-edge security solution.
               </p>
-              <p class="sm:px-3 mt-3 p-1 sm:mt-3">
+              <p class="sm:px-3 mt-3 p-1 text-[white] sm:mt-3">
                 With a range of fetures and customization options, our digital
                 product can be tailord to meet the unique needs od each user.
               </p>
               <button
-                class="sm:mt-5 sm:mb-5 mb-0 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+                class="sm:mb-5 mb-0 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
                 type="button">
                 Learn More
               </button>
@@ -185,17 +124,17 @@
           </div>
         </div>
         <!-- user section  -->
-        <div class="sm:mt-32 mt-16 bg-white rounded-md">
+        <div class="sm:mt-32 mt-10 bg-white rounded-md">
           <h1
-            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] p-8 w-[80%] m-auto font-[600]">
+            class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] p-8 w-full m-auto font-[600]">
             <span class="text-[#FF4F00] font-[600]">Loved by</span>
             6000+ Happy Users ❤️
           </h1>
-          <div class="sm:mt-12 mt-10">
+          <div class="sm:mt-12 mt-5">
             <Vue3Marquee :pause-on-hover="true" @on-pause="playState = 'paused'" @on-resume="playState = 'playing'"
               :clone="true" :duration="140" :direction="'reverse'">
               <div v-for="user in userData" :key="user.id" class="cursor-pointer flex-none px-2 sm:pb-10 pb-5">
-                <div class="h-[390px] w-[310px] gap-5 border border-gray-200 rounded-2xl overflow-hidden mx-auto">
+                <div class="h-[380px] w-[310px] gap-5 border border-gray-200 rounded-2xl overflow-hidden mx-auto">
                   <div class="p-4">
                     <div class="flex items-center">
                       <div class="w-12 h-12">
@@ -238,7 +177,7 @@
           </div>
         </div>
         <!-- Another chat cart  -->
-        <div class="sm:mt-32 mt-16">
+        <div class="sm:mt-32 mt-10">
           <div class="sm:px-0 px-2">
             <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 sm:space-y-0 space-y-5">
               <div v-for="chatSection in chatSectionData" :key="chatSection.id" :class="chatSection.class"
@@ -274,7 +213,7 @@
         <!-- social cart system -->
         <div class="sm:mt-32 mt-16 bg-[#fffee7] rounded-md">
           <div class="sm:flex sm:gap-20 block items-center justify-between m-auto">
-            <div class="sm:w-[50%] m-auto sm:pl-7 sm:px-0 px-2">
+            <div class="sm:w-[50%] m-auto sm:pl-7 sm:px-0 px-2 sm:py-0 py-4">
               <h2 class="sm:text-[46px] text-[30px] p-1 font-[600] opacity-90 leading-snug">
                 Try Out Our Awesome <br />
                 Feature Now and Enjoy <br />
@@ -293,8 +232,8 @@
                 </button>
               </div>
             </div>
-            <div class="flex sm:w-[44%] w-[100%] h-auto m-auto items-center justify-center mb-14">
-              <div class="relative px-2 sm:px-0">
+            <div class="flex sm:w-[44%] w-[100%] h-auto m-auto items-center justify-center sm:mb-14 mb-5">
+              <div class="relative px-2 sm:px-0 mb-3 sm:mb-0">
                 <img class="sm:h-[400px] h-auto sm:w-full w-[400px] m-auto object-cover cursor-pointer"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
                   alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG" />
@@ -311,15 +250,14 @@
         </div>
         <!--Another Custom Card system -->
         <div class="sm:mt-32">
-          <div class="sm:w-[1200px] m-auto">
+          <div class="sm:w-[1200px] w-[95%] m-auto">
             <div class="sm:grid sm:grid-cols-3 sm:gap-10 space-y-7 sm:space-y-0">
               <div v-for="customCart in customCartData" :key="customCart.id"
                 class="p-1 sm:w-full h-auto rounded-3xl cursor-pointer border mb-0 transition duration-500 ease-out hover:ease-in border-gray-300 hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform"
-                :style="{ background: customCart.bg}">
+                :style="{ background: customCart.bg }">
                 <div class="relative overflow-hidden bg-cover bg-no-repeat" data-twe-ripple-init
                   data-twe-ripple-color="light">
-                    <img decoding="async" sizes="336.6667px" :src="customCart.image" alt=""
-                      style="
+                  <img decoding="async" sizes="336.6667px" :src="customCart.image" alt="" style="
                         display: block;
                         width: 100%;
                         height: 100%;
@@ -330,10 +268,10 @@
                         border-radius: 20px;
                       " />
                 </div>
-                <div class="sm:px-5 sm:pt-3 text-surface">
+                <div class="sm:px-5 sm:pt-3 pt-4 ml-2 text-surface">
                   <div>
-                    <img class="mb-3 w-[24px] h-[24px] transition-all duration-300 hover:rotate-12 hover:scale-125" decoding="async" sizes="24px" :src="customCart.avatar" alt=""
-                      style="
+                    <img class="mb-3 w-[24px] h-[24px] transition-all duration-300 hover:rotate-12 hover:scale-125"
+                      decoding="async" sizes="24px" :src="customCart.avatar" alt="" style="
                         display: block;
                         border-radius: inherit;
                         object-position: center;
@@ -341,11 +279,12 @@
                         image-rendering: auto;
                       " />
                   </div>
-                  <h5 :style="{ color: customCart.headerColor }" 
+                  <h5 :style="{ color: customCart.headerColor }"
                     class="mb-2 opacity-90 sm:text-[22px] text-[19px] font-[600] leading-tight transition-all duration-300 hover:translate-x-1">
                     {{ customCart.header }}
                   </h5>
-                  <p class="mb-2 sm:text-[17px] text-[16px] text-gray-200 font-[400] transition-opacity duration-300 hover:opacity-100">
+                  <p
+                    class="mb-2 sm:text-[17px] text-[16px] text-gray-200 font-[400] transition-opacity duration-300 hover:opacity-100">
                     {{ customCart.content }}
                   </p>
                 </div>
@@ -354,104 +293,118 @@
           </div>
         </div>
         <!-- Another review section -->
-        <div class="sm:mt-32 mt-16 sm:px-7 px-2 sm:py-5 py-2 bg-white rounded-md">
+        <div class="sm:mt-32 mt-10 sm:px-7 px-2 sm:py-5 py-2 bg-white rounded-md">
           <div>
             <header class="sm:text-5xl text-3xl font-semibold opacity-90 sm:mb-10 mb-5 p-4 text-center justify-center">
               <span class="text-[#FF4F00]">Testimonials</span> Review
             </header>
           </div>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide" v-for="slide in Math.ceil(reviews.length / 3)" :key="slide">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:pb-10 pb-5">
-                  <div v-for="review in reviews.slice((slide - 1) * 3, slide * 3)" :key="review.id"
-                    class="p-5 border-2 border-gray-300 rounded-xl shadow-lg">
-                    <div class="flex justify-center mb-4">
-                      <svg class="h-12 sm:h-14 p-3 cursor-pointer text-gray-300 dark:text-gray-600" viewBox="0 0 24 27"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path :d="review.svg" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                    <p class="sm:mb-7 mb-4 text-center sm:text-start font-normal opacity-95">
-                      {{ review.description }}
-                    </p>
-                    <div class="flex flex-col sm:flex-row sm:justify-between items-center">
-                      <div class="flex items-center space-x-3 mb-3 sm:mb-0">
-                        <img class="h-10 w-10 cursor-pointer rounded-full" :src="review.avatar" alt="image" />
-                        <p class="text-lg font-semibold opacity-80">
-                          {{ review.name }}
-                        </p>
-                      </div>
-                      <p class="text-sm font-medium opacity-90 text-left">
-                        {{ review.content }}
-                      </p>
-                    </div>
+          <div>
+            <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="3" :space-between="30" :breakpoints="{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30
+              }
+            }" :loop="true" :pagination="{ clickable: true }" :autoplay="{
+                  delay: 3000,
+                  disableOnInteraction: false
+                }" class="mySwiper">
+              <SwiperSlide class="pt-3" v-for="review in reviews" :key="review.id">
+                <div
+                  class="p-5 border-2 border-gray-300 rounded-xl shadow-lg transition duration-500 ease-out hover:ease-in hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform">
+                  <div class="flex justify-center mb-4">
+                    <svg class="h-12 sm:h-14 p-3 cursor-pointer text-gray-300 dark:text-gray-600" viewBox="0 0 24 27"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path :d="review.svg" fill="currentColor"></path>
+                    </svg>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Pricing section  -->
-        <div class="sm:mt-32 mt-20 ">
-            <div class="bg-white rounded-md">
-              <div>
-                <pricing></pricing>
-              </div>
-          </div>
-        </div>
-        <!-- Free faq section  -->
-        <div class="sm:flex m-auto bg-[#fffee7] sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
-          <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
-            <div class="sm:w-[600px] m-auto text-center mb-10">
-              <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-relaxed">
-                Frequently <span class="ai-text">Asked FAQs Question</span>
-              </h2>
-              <p class="opacity-70 sm:text-[17px] mt-3">
-                What features does the management tool offer?
-              </p>
-            </div>
-            <div class="sm:max-w-3xl mx-auto sm:mb-5 mb-10 sm:px-3">
-              <div class="flex flex-col gap-4">
-                <div v-for="(faq, index) in faqData" :key="index" :class="{
-                  'bg-white sm:p-4 p-2  shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
-                    selectedQuestion === index,
-                  'sm:p-4 p-2 bg-white rounded': selectedQuestion !== index,
-                }">
-                  <div @click="toggleQuestion(index)" class="flex items-center justify-between cursor-pointer">
-                    <h2 class="text-[#5b268f] text-[16px] sm:text-base opacity-80 font-[600]">
-                      {{ faq.question }}
-                    </h2>
-                    <button aria-label="faq" title="faq">
-                      <svg v-if="selectedQuestion === index" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none">
-                        <path d="M7.41 8.57812L12 13.1681L16.59 8.57812L18 9.99813L12 15.9981L6 9.99813L7.41 8.57812Z"
-                          fill="#5B4747" />
-                      </svg>
-                      <svg v-else xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none">
-                        <path d="M16.59 15.4219L12 10.8319L7.41 15.4219L6 14.0019L12 8.00187L18 14.0019L16.59 15.4219Z"
-                          fill="#5B4747" />
-                      </svg>
-                    </button>
-                  </div>
-                  <p v-if="selectedQuestion === index" class="text-[#938383] sm:text-base text-[15px] mt-3 leading-7">
-                    {{ faq.answer }}
+                  <p class="sm:mb-7 mb-4 text-center sm:text-start font-normal opacity-95">
+                    {{ review.description }}
                   </p>
+                  <div class="flex flex-col sm:flex-row sm:justify-between items-center">
+                    <div class="flex items-center space-x-3 mb-3 sm:mb-0">
+                      <img class="h-10 w-10 cursor-pointer rounded-full" :src="review.avatar" alt="image" />
+                      <p class="text-lg font-semibold opacity-80">{{ review.name }}</p>
+                    </div>
+                    <p class="text-sm font-medium opacity-90 text-left">
+                      {{ review.content }}
+                    </p>
+                  </div>
                 </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+      </div>
+      <!-- Pricing section  -->
+      <div class="sm:mt-32 mt-10 ">
+        <div class="bg-white rounded-md">
+          <div>
+            <pricing></pricing>
+          </div>
+        </div>
+      </div>
+      <!-- Free faq section  -->
+      <div class="bg-[#fffee7]">
+      <div class="sm:flex m-auto sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
+        <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
+          <div class="sm:w-[600px] m-auto text-center mb-10">
+            <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-relaxed">
+              Frequently <span class="ai-text">Asked FAQs Question</span>
+            </h2>
+            <p class="opacity-70 sm:text-[17px] mt-3">
+              What features does the management tool offer?
+            </p>
+          </div>
+          <div class="sm:max-w-3xl mx-auto sm:mb-0 mb-10 sm:px-3">
+            <div class="flex flex-col gap-4 mb-5">
+              <div v-for="(faq, index) in faqData" :key="index" :class="{
+                'bg-white sm:p-4 p-2 border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
+                  selectedQuestion === index,
+                'sm:p-4 p-2 bg-white border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded': selectedQuestion !== index,
+              }">
+                <div @click="toggleQuestion(index)" class="flex items-center justify-between cursor-pointer">
+                  <h2 class="text-[#5b268f] text-[16px] sm:text-base opacity-80 font-[600]">
+                    {{ faq.question }}
+                  </h2>
+                  <button aria-label="faq" title="faq">
+                    <svg v-if="selectedQuestion === index" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                      viewBox="0 0 24 24" fill="none">
+                      <path d="M7.41 8.57812L12 13.1681L16.59 8.57812L18 9.99813L12 15.9981L6 9.99813L7.41 8.57812Z"
+                        fill="#5B4747" />
+                    </svg>
+                    <svg v-else xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none">
+                      <path d="M16.59 15.4219L12 10.8319L7.41 15.4219L6 14.0019L12 8.00187L18 14.0019L16.59 15.4219Z"
+                        fill="#5B4747" />
+                    </svg>
+                  </button>
+                </div>
+                <p v-if="selectedQuestion === index" class="text-[#938383] sm:text-base text-[15px] mt-3 leading-7">
+                  {{ faq.answer }}
+                </p>
               </div>
             </div>
           </div>
-          <div class="sm:w-[50%] w-[100%] m-auto px-2 sm:px-0">
-            <img src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
-              class="sm:w-[100%] w-[100%] sm:h-[500px] cursor-pointer object-cover"
-              alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey" />
-          </div>
         </div>
-        <!-- Footer section  -->
-        <div>
-          <footer></footer>
+        <div class="sm:w-[50%] w-[100%] m-auto px-2 sm:px-0">
+          <img src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
+            class="sm:w-[100%] w-[100%] sm:h-[500px] cursor-pointer object-cover"
+            alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey" />
         </div>
+      </div>
+    </div>
+      <!-- Footer section  -->
+      <div>
+        <footer></footer>
       </div>
     </div>
   </div>
@@ -461,9 +414,13 @@
 useHead({
   title: "Nuxt3 api Products",
 });
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Autoplay, Pagination, Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 import { Vue3Marquee } from "vue3-marquee";
 import { ref, reactive } from "vue";
-
 import user from "~/store/user.json";
 import reviewSection from "~/store/review.json";
 import chatSection from "~/store/chatSection.json";
@@ -481,4 +438,16 @@ const selectedQuestion = ref(0);
 const toggleQuestion = (index) => {
   selectedQuestion.value = selectedQuestion.value === index ? null : index;
 };
+
 </script>
+
+<style>
+.swiper {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FF4F00 !important;
+}
+</style>

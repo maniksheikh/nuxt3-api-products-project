@@ -3,8 +3,8 @@
     <div class="sm:w-[1300px] m-auto">
       <footer class="sm:rounded-lg">
         <div class="sm:py-5 py-1 mb-7 sm:mb-0">
-          <div class="sm:flex block sm:justify-between sm:px-0 px-2">
-            <div class="">
+          <div class="sm:flex block sm:justify-between sm:px-0 px-3">
+            <div>
               <div>
                 <a href="#" class="sm:flex sm:justify-start flex justify-between sm:items-center">
                   <img class="rounded-full"
@@ -57,7 +57,7 @@
                 </a>
               </div>
             </div>
-            <div class="sm:flex block sm:space-x-10 space-x-0 sm:mt-0 mt-10">
+            <div class="sm:flex block sm:space-x-10 sm:mt-0 mt-10">
               <div class="flex sm:justify-center sm:space-x-16 justify-between">
                 <div>
                   <h2 class="sm:mb-6 mb-3 sm:text-lg text-[16px] font-semibold text-white uppercase dark:text-white">
