@@ -1,7 +1,9 @@
 <template>
-  <div class="bg-gradient-to-r from-[#2E3192] to-[#ce45ce]">
-    <div class="p-0 sm:w-[1300px] w-[100%] m-auto">
+  <div class="">
+    <div class="">
       <div class="mt-12 sm:py-16 py-1">
+        <div class="bg-gradient-to-r from-[#2E3192] to-[#ce45ce]">
+          <div class="sm:w-[1300px] w-[100%] m-auto">
         <header class=" mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-4 px-2 md:px-0">
           <h1
             class="text-[40px] md:text-[52px] lg:text-[64px] leading-[50px] md:leading-[65px] lg:leading-[80px] opacity-90 w-auto md:w-[500px] lg:w-[550px] pt-1 font-semibold mx-auto">
@@ -45,6 +47,8 @@
             </div>
           </div>
         </div>
+      </div>
+      </div>
         <!-- payment section  -->
         <div class="">
           <div class="bg-[#fffee7] sm:mt-32 mt-16 sm:py-10 rounded-md">
