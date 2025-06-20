@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sm:mt-24 mt-0 sm:w-[1300px] w-[100%] m-auto">
     <div id="faq" class="bg-[#F7F6FB] p-20 md:px-4 md:pt-6 md:pb-4">
       <div class="w-[600px] m-auto text-center mb-20 sm:mb-8">
         <h2 class="text-[#343434] text-5xl font-bold leading-relaxed">

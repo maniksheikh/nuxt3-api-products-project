@@ -307,7 +307,7 @@
       </div>
     </div>
     <!-- Testimonal section -->
-    <div class="sm:mt-32 mt-10 sm:px-7 px-2 sm:py-5 py-2 bg-white rounded-md">
+    <div class="sm:mt-26 mt-10 sm:px-7 px-2 sm:py-5 py-2 bg-white rounded-md">
       <div class="sm:w-[1300px] w-[100%] m-auto">
         <div>
           <header class="sm:text-5xl text-3xl font-semibold opacity-90 sm:mb-10 mb-5 p-4 text-center justify-center">
@@ -372,10 +372,10 @@
     <!-- Free faq section  -->
     <div class="bg-[#fffee7]">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-        <div class="sm:flex m-auto sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
+        <div class="sm:flex m-auto sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 sm:py-10 py-0 rounded-md">
           <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
             <div class="sm:w-[600px] m-auto text-center mb-10">
-              <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-relaxed">
+              <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-tight">
                 Frequently <span class="ai-text">Asked FAQs Question</span>
               </h2>
               <p class="opacity-70 sm:text-[17px] mt-3">
@@ -389,7 +389,7 @@
                     selectedQuestion === index,
                   'sm:p-4 p-2 bg-white border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded': selectedQuestion !== index,
                 }">
-                  <div @click="toggleQuestion(index)" class="flex items-center justify-between cursor-pointer">
+                  <div @click="toggleQuestion(index)" class="flex items-center justify-between cursor-pointer mb-3">
                     <h2 class="text-[#5b268f] text-[16px] sm:text-base opacity-80 font-[600]">
                       {{ faq.question }}
                     </h2>
@@ -406,6 +406,7 @@
                       </svg>
                     </button>
                   </div>
+                  <div v-if="selectedQuestion === index" class="border border-gray-400 w-[95%] mx-auto"></div>
                   <p v-if="selectedQuestion === index" class="text-[#938383] sm:text-base text-[15px] mt-3 leading-7">
                     {{ faq.answer }}
                   </p>

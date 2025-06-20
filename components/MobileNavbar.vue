@@ -5,13 +5,13 @@
         <nuxt-link to="/feed">Home</nuxt-link>
       </li>
       <li class="font-semibold">
-        <nuxt-link to="/about">About</nuxt-link>
-      </li>
-      <li class="font-semibold">
         <nuxt-link to="/pricing">Pricing</nuxt-link>
       </li>
       <li class="font-semibold">
         <nuxt-link to="/products/product">Products</nuxt-link>
+      </li>
+      <li class="font-semibold">
+        <nuxt-link to="/faqs">Faqs</nuxt-link>
       </li>
       <li class="font-semibold">
         <nuxt-link to="/products/product">Testimonials</nuxt-link>

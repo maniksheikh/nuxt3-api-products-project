@@ -14,14 +14,13 @@
             <NuxtLink to="/feed">Home</NuxtLink>
           </ul>
           <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
-            <NuxtLink to="/about">About</NuxtLink>
-          </ul>
-
-          <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
             <NuxtLink to="/products/product">Products</NuxtLink>
           </ul>
           <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
             <NuxtLink to="/pricing">Pricing</NuxtLink>
+          </ul>
+          <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
+            <NuxtLink to="/faqs">Faqs</NuxtLink>
           </ul>
           <ul class="px-5 transition-all duration-300 ease-in-out hover:text-yellow-400">
             <NuxtLink to="/testimonials">Testimonials</NuxtLink>
