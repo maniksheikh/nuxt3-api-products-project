@@ -1,12 +1,12 @@
 <template>
-  <div class="sm:mt-24 mt-0 sm:w-[1300px] w-[100%] m-auto">
+  <div class="sm:mt-10 mt-0 py-10 sm:w-[850px] w-[100%] m-auto">
     <div id="faq" class="bg-[#F7F6FB] p-20 md:px-4 md:pt-6 md:pb-4">
       <div class="w-[600px] m-auto text-center mb-20 sm:mb-8">
         <h2 class="text-[#343434] text-5xl font-bold leading-relaxed">
           ALL <span class="ai-text">FAQs?</span>
         </h2>
       </div>
-      <div class="w-full mx-auto space-y-4 mt-8">
+      <div class="w-full mx-auto space-y-4 mt-8 sm:px-5 px-0">
           <div v-for="(fa, i) in faqData" :key="i"
             class="faq-item bg-[#FFF6F1] shadow-md shadow-[#99999940] rounded-md overflow-hidden">
             <div @click="toggleQuestion(i)"
@@ -35,12 +35,13 @@
 </template>
 
 <script setup>
+
 definePageMeta({
-  layout: "simple",
+  layout: "default",
 });
 
 import faqs from "../store/faqs.json";
-const selectedQuestion = ref(1);
+const selectedQuestion = ref(0);
 
 const faqData = reactive(faqs);
 
