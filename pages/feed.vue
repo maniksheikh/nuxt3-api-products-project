@@ -58,76 +58,81 @@
             Trusted by World`s Most Favourite Brands
           </h1>
         </div>
-        <div class="sm:flex items-center sm:w-[800px] sm:mt-20 mt-5 mb-5 m-auto">
-          <div
-            class="flex items-center sm:space-x-10 justify-between w-full">
-            <div class="items-center justify-center w-[100%]">
+        <div class="sm:flex items-center sm:w-[800px] sm:mt-10 mt-5 mb-5 m-auto">
+          <Vue3Marquee :duration="30" :spacing="30" :pauseOnHover="true" class="overflow-hidden">
+            <div class="flex items-center justify-center min-w-[200px]">
               <nuxt-link to="">
-                <img class="cursor-pointer"
+                <img class="cursor-pointer h-[70px] w-auto object-contain"
                   src="https://static.vecteezy.com/system/resources/thumbnails/022/721/558/small/google-logo-for-search-site-free-png.png"
-                  style="height: 70px" alt="Google Logo" />
+                  alt="Google Logo" />
               </nuxt-link>
             </div>
-            <div class="items-center justify-center w-[100%]">
+            <div class="flex items-center justify-center min-w-[200px]">
+              <nuxt-link to="">
+                <div class="flex items-center">
+                  <img 
+                    class="cursor-pointer h-[70px] w-auto object-contain" 
+                    src="https://www.logo.wine/a/logo/BKash/BKash-Icon-Logo.wine.svg" 
+                    alt="bKash Logo" 
+                  />
+                  <span class="text-[#E2136E] font-bold text-lg">bKash</span>
+                </div>
+              </nuxt-link>
+            </div>
+            <div class="flex items-center justify-center min-w-[200px]">
               <nuxt-link>
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlr8-q5Gf77IvD7z9T48FUdTyHaZkY5gWh6w&amp;usqp=CAU"
-                  class="cursor-pointer" style="height: 70px" alt="bKash Logo" />
+                <img class="cursor-pointer h-[90px] w-auto object-contain"
+                  src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg" alt="PayPal Logo" />
               </nuxt-link>
             </div>
-            <div class="items-center justify-center w-[100%]">
+            <div class="flex items-center justify-center min-w-[200px]">
               <nuxt-link>
-                <img src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg" class="cursor-pointer"
-                  style="height: 70px" alt="PayPal Logo" />
+                <img class="cursor-pointer h-[30px] w-auto object-contain"
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" />
               </nuxt-link>
             </div>
-            <div class="items-center justify-center w-[100%]">
+            <div class="flex items-center justify-center min-w-[200px]">
               <nuxt-link>
-                <img src="https://businesspostbd.com/files/thumbs/daily-media/Dated/2021-/November/07/800x457/56.jpg"
-                  class="cursor-pointer" style="height: 70px" alt="Business Post Logo" />
+                <img class="cursor-pointer h-[80px] w-auto object-contain"
+                  src="https://logicoretech.com/wp-content/uploads/2021/05/ScaleLeap-logo_Full-Color.png"
+                  alt="ScaleLeap Logo" />
               </nuxt-link>
             </div>
-            <div class="items-center justify-center w-[100%]">
-              <nuxt-link>
-                <img src="https://logicoretech.com/wp-content/uploads/2021/05/ScaleLeap-logo_Full-Color.png"
-                  class="cursor-pointer" style="height: 70px" alt="ScaleLeap Logo" />
-              </nuxt-link>
-            </div>
-          </div>
+          </Vue3Marquee>
         </div>
       </div>
     </div>
     <!--Review section  -->
     <div class="sm:mt-32 mt-16">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-      <div class="sm:flex sm:gap-10 sm:border border-gray-200 shadow-md sm:rounded-3xl">
-        <div class="sm:w-[50%] w-full m-auto">
-          <compare-image></compare-image>
-        </div>
-        <div class="sm:w-[50%] w-[100%]  sm:mt-0 mt-5 sm:pl-0 pl-3">
-          <h1 class="sm:text-[48px] text-[28px] sm:p-5 p-2 font-[500] leading-tight">
-            Revolution Your Experience with Our Innovative Digital Product.
-          </h1>
-          <p class="sm:py-5 mt-3 p-1 sm:px-3 sm:mt-3 opacity-70">
-            Our Smart Home Security System offers 24/7 surveillance, motion
-            detection, and smart access control. With environmental
-            monitoring and integration with other smart devices, it provides
-            comprehensive security. The user-friendly mobile app allows
-            remote monitoring and customization. Enjoy peace of mind with
-            our cutting-edge security solution.
-          </p>
-          <p class="sm:px-3 mt-3 p-1 sm:mt-3">
-            With a range of fetures and customization options, our digital
-            product can be tailord to meet the unique needs od each user.
-          </p>
-          <button
-            class="sm:mb-5 mb-0 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
-            type="button">
-            Learn More
-          </button>
+        <div class="sm:flex sm:gap-10 sm:border border-gray-200 shadow-md sm:rounded-3xl">
+          <div class="sm:w-[50%] w-full m-auto">
+            <compare-image></compare-image>
+          </div>
+          <div class="sm:w-[50%] w-[100%]  sm:mt-0 mt-5 sm:pl-0 pl-3">
+            <h1 class="sm:text-[48px] text-[28px] sm:p-5 p-2 font-[500] leading-tight">
+              Revolution Your Experience with Our Innovative Digital Product.
+            </h1>
+            <p class="sm:py-5 mt-3 p-1 sm:px-3 sm:mt-3 opacity-70">
+              Our Smart Home Security System offers 24/7 surveillance, motion
+              detection, and smart access control. With environmental
+              monitoring and integration with other smart devices, it provides
+              comprehensive security. The user-friendly mobile app allows
+              remote monitoring and customization. Enjoy peace of mind with
+              our cutting-edge security solution.
+            </p>
+            <p class="sm:px-3 mt-3 p-1 sm:mt-3">
+              With a range of fetures and customization options, our digital
+              product can be tailord to meet the unique needs od each user.
+            </p>
+            <button
+              class="sm:mb-5 mb-0 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+              type="button">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <!-- user section  -->
     <div class="sm:mt-32 mt-10 bg-white rounded-md">
@@ -184,77 +189,77 @@
     <!-- Another chat cart  -->
     <div class="sm:mt-32 mt-10">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-      <div class="sm:px-0 px-2">
-        <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 sm:space-y-0 space-y-5">
-          <div v-for="chatSection in chatSectionData" :key="chatSection.id" :class="chatSection.class"
-            :style="chatSection.bg"
-            class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] cursor-pointer m-auto sm:px-8 rounded-3xl transition duration-500 ease-out hover:ease-in border-gray-300 hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform">
-            <div class="sm:pt-14 p-10 sm:p-0 h-auto text-surface">
-              <div class="w-[48px]">
-                <img class="w-[48px] h-[48px]" decoding="async" sizes="48px" :src="chatSection.avatar" alt="" style="
+        <div class="sm:px-0 px-2">
+          <div class="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-10 sm:space-y-0 space-y-5">
+            <div v-for="chatSection in chatSectionData" :key="chatSection.id" :class="chatSection.class"
+              :style="chatSection.bg"
+              class="relative sm:w-full sm:h-[450px] h-[400px] w-[100%] cursor-pointer m-auto sm:px-8 rounded-3xl transition duration-500 ease-out hover:ease-in border-gray-300 hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform">
+              <div class="sm:pt-14 p-10 sm:p-0 h-auto text-surface">
+                <div class="w-[48px]">
+                  <img class="w-[48px] h-[48px]" decoding="async" sizes="48px" :src="chatSection.avatar" alt="" style="
                         display: block;
                         border-radius: inherit;
                         object-position: center;
                         object-fit: cover;
                         image-rendering: auto;
                       " />
+                </div>
+                <div class="sm:w-[300px] w-[300px] sm:h-auto">
+                  <h5 class="mb-3 mt-4 font-bold text-white sm:text-[23px] text-[22px] leading-tight">
+                    {{ chatSection.header }}
+                  </h5>
+                  <p class="sm:mb-4 mb-2 sm:text-[18px] text-[15px] text-white font-[500]">
+                    {{ chatSection.content }}
+                  </p>
+                </div>
               </div>
-              <div class="sm:w-[300px] w-[300px] sm:h-auto">
-                <h5 class="mb-3 mt-4 font-bold text-white sm:text-[23px] text-[22px] leading-tight">
-                  {{ chatSection.header }}
-                </h5>
-                <p class="sm:mb-4 mb-2 sm:text-[18px] text-[15px] text-white font-[500]">
-                  {{ chatSection.content }}
-                </p>
+              <div class="absolute left-0 bottom-1 overflow-hidden bg-cover bg-no-repeat w-full">
+                <img class="sm:h-[170px] h-[160px] w-full sm:w-full rounded-md m-auto" :src="chatSection.image"
+                  alt="images" />
               </div>
-            </div>
-            <div class="absolute left-0 bottom-1 overflow-hidden bg-cover bg-no-repeat w-full">
-              <img class="sm:h-[170px] h-[160px] w-full sm:w-full rounded-md m-auto" :src="chatSection.image"
-                alt="images" />
             </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
     <!-- social cart system -->
     <div class="sm:mt-32 mt-16 bg-[#fffee7] rounded-md">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-      <div class="sm:flex sm:gap-20 block items-center justify-between m-auto">
-        <div class="sm:w-[50%] m-auto sm:pl-7 sm:px-0 px-2 sm:py-0 py-4">
-          <h2 class="sm:text-[46px] text-[30px] p-1 font-[600] opacity-90 leading-snug">
-            Try Out Our Awesome <br />
-            Feature Now and Enjoy <br />
-            It`s Benefits.
-          </h2>
-          <div class="sm:mt-8 sm:flex sm:justify-between flex text-[14px] space-x-5 mt-5 mb-10">
-            <button
-              class="rounded-md sm:px-5 px-4 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
-              type="button">
-              DOWUNLOAD NOW
-            </button>
-            <button
-              class="sm:mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
-              type="submit">
-              SIGN UP WITH GOOGLE
-            </button>
+        <div class="sm:flex sm:gap-20 block items-center justify-between m-auto">
+          <div class="sm:w-[50%] m-auto sm:pl-7 sm:px-0 px-2 sm:py-0 py-4">
+            <h2 class="sm:text-[46px] text-[30px] p-1 font-[600] opacity-90 leading-snug">
+              Try Out Our Awesome <br />
+              Feature Now and Enjoy <br />
+              It`s Benefits.
+            </h2>
+            <div class="sm:mt-8 sm:flex sm:justify-between flex text-[14px] space-x-5 mt-5 mb-10">
+              <button
+                class="rounded-md sm:px-5 px-4 p-2 bg-green-500 font-medium text-white transition-all duration-1000 ease-in-out hover:text-red-600 hover:scale-110"
+                type="button">
+                DOWUNLOAD NOW
+              </button>
+              <button
+                class="sm:mx-5 rounded-md px-2 p-2 text-green-700 font-medium border-green-300 border-2 transition-all duration-1000 ease-in-out hover:text-blue-600 hover:scale-105"
+                type="submit">
+                SIGN UP WITH GOOGLE
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="flex sm:w-[44%] w-[100%] h-auto m-auto items-center justify-center sm:mb-14 mb-5">
-          <div class="relative px-2 sm:px-0 mb-3 sm:mb-0">
-            <img class="sm:h-[400px] h-auto sm:w-full w-[400px] m-auto object-cover cursor-pointer"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
-              alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG" />
-            <div
-              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal">
-              <h3 class="sm:text-6xl text-[32px] sm:font-bold font-[600]">
-                40+
-              </h3>
-              <span class="sm:font-bold font-[600] sm:opacity-70 opacity-100">Download</span>
+          <div class="flex sm:w-[44%] w-[100%] h-auto m-auto items-center justify-center sm:mb-14 mb-5">
+            <div class="relative px-2 sm:px-0 mb-3 sm:mb-0">
+              <img class="sm:h-[400px] h-auto sm:w-full w-[400px] m-auto object-cover cursor-pointer"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cf2UwFlf5zIy74vXQDViSooWXxBrWuNCaOwz_LwqgoC-FFP2lg3imtd3GpYvgzK17Zw&amp;usqp=CAU"
+                alt="3d Shapes PNG Images, Free Transparent 3d Shapes Download - KindPNG" />
+              <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center leading-normal">
+                <h3 class="sm:text-6xl text-[32px] sm:font-bold font-[600]">
+                  40+
+                </h3>
+                <span class="sm:font-bold font-[600] sm:opacity-70 opacity-100">Download</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
     <!--Another Custom Card system -->
@@ -304,116 +309,116 @@
     <!-- Testimonal section -->
     <div class="sm:mt-32 mt-10 sm:px-7 px-2 sm:py-5 py-2 bg-white rounded-md">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-      <div>
-        <header class="sm:text-5xl text-3xl font-semibold opacity-90 sm:mb-10 mb-5 p-4 text-center justify-center">
-          <span class="text-[#FF4F00]">Testimonials</span> Review
-        </header>
-      </div>
-      <div>
-        <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="3" :space-between="30" :breakpoints="{
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 30
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 30
-          }
-        }" :loop="true" :pagination="{ clickable: true }" :autoplay="{
+        <div>
+          <header class="sm:text-5xl text-3xl font-semibold opacity-90 sm:mb-10 mb-5 p-4 text-center justify-center">
+            <span class="text-[#FF4F00]">Testimonials</span> Review
+          </header>
+        </div>
+        <div>
+          <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="3" :space-between="30" :breakpoints="{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 30
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            }
+          }" :loop="true" :pagination="{ clickable: true }" :autoplay="{
             delay: 3000,
             disableOnInteraction: false
           }" class="mySwiper">
-          <SwiperSlide class="pt-3" v-for="review in reviews" :key="review.id">
-            <div
-              class="p-5 border-2 border-gray-300 rounded-xl shadow-lg transition duration-500 ease-out hover:ease-in hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform">
-              <div class="flex justify-center mb-4">
-                <svg class="h-12 sm:h-14 p-3 cursor-pointer text-gray-300 dark:text-gray-600" viewBox="0 0 24 27"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path :d="review.svg" fill="currentColor"></path>
-                </svg>
-              </div>
-              <p class="sm:mb-7 mb-4 text-center sm:text-start font-normal opacity-95">
-                {{ review.description }}
-              </p>
-              <div class="flex flex-col sm:flex-row sm:justify-between items-center">
-                <div class="flex items-center space-x-3 mb-3 sm:mb-0">
-                  <img class="h-10 w-10 cursor-pointer rounded-full" :src="review.avatar" alt="image" />
-                  <p class="text-lg font-semibold opacity-80">{{ review.name }}</p>
+            <SwiperSlide class="pt-3" v-for="review in reviews" :key="review.id">
+              <div
+                class="p-5 border-2 border-gray-300 rounded-xl shadow-lg transition duration-500 ease-out hover:ease-in hover:border-red-400 hover:shadow-lg hover:-translate-y-2 shadow-secondary-1 transform">
+                <div class="flex justify-center mb-4">
+                  <svg class="h-12 sm:h-14 p-3 cursor-pointer text-gray-300 dark:text-gray-600" viewBox="0 0 24 27"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path :d="review.svg" fill="currentColor"></path>
+                  </svg>
                 </div>
-                <p class="text-sm font-medium opacity-90 text-left">
-                  {{ review.content }}
+                <p class="sm:mb-7 mb-4 text-center sm:text-start font-normal opacity-95">
+                  {{ review.description }}
                 </p>
+                <div class="flex flex-col sm:flex-row sm:justify-between items-center">
+                  <div class="flex items-center space-x-3 mb-3 sm:mb-0">
+                    <img class="h-10 w-10 cursor-pointer rounded-full" :src="review.avatar" alt="image" />
+                    <p class="text-lg font-semibold opacity-80">{{ review.name }}</p>
+                  </div>
+                  <p class="text-sm font-medium opacity-90 text-left">
+                    {{ review.content }}
+                  </p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
     </div>
     <!-- Pricing section  -->
     <div class="sm:mt-32 mt-10 ">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-      <div class="bg-white rounded-md">
-        <div>
-          <pricing></pricing>
+        <div class="bg-white rounded-md">
+          <div>
+            <pricing></pricing>
+          </div>
         </div>
-      </div>
       </div>
     </div>
     <!-- Free faq section  -->
     <div class="bg-[#fffee7]">
       <div class="sm:w-[1300px] w-[100%] m-auto">
-      <div class="sm:flex m-auto sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
-        <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
-          <div class="sm:w-[600px] m-auto text-center mb-10">
-            <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-relaxed">
-              Frequently <span class="ai-text">Asked FAQs Question</span>
-            </h2>
-            <p class="opacity-70 sm:text-[17px] mt-3">
-              What features does the management tool offer?
-            </p>
-          </div>
-          <div class="sm:max-w-3xl mx-auto sm:mb-0 mb-10 sm:px-3">
-            <div class="flex flex-col gap-4 mb-5">
-              <div v-for="(faq, index) in faqData" :key="index" :class="{
-                'bg-white sm:p-4 p-2 border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
-                  selectedQuestion === index,
-                'sm:p-4 p-2 bg-white border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded': selectedQuestion !== index,
-              }">
-                <div @click="toggleQuestion(index)" class="flex items-center justify-between cursor-pointer">
-                  <h2 class="text-[#5b268f] text-[16px] sm:text-base opacity-80 font-[600]">
-                    {{ faq.question }}
-                  </h2>
-                  <button aria-label="faq" title="faq">
-                    <svg v-if="selectedQuestion === index" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none">
-                      <path d="M7.41 8.57812L12 13.1681L16.59 8.57812L18 9.99813L12 15.9981L6 9.99813L7.41 8.57812Z"
-                        fill="#5B4747" />
-                    </svg>
-                    <svg v-else xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                      fill="none">
-                      <path d="M16.59 15.4219L12 10.8319L7.41 15.4219L6 14.0019L12 8.00187L18 14.0019L16.59 15.4219Z"
-                        fill="#5B4747" />
-                    </svg>
-                  </button>
+        <div class="sm:flex m-auto sm:gap-10 sm:mb-0 mb-12 sm:mt-20 sm:px-0 px-2 rounded-md">
+          <div id="faq" class="sm:w-[50%] m-auto sm:p-0">
+            <div class="sm:w-[600px] m-auto text-center mb-10">
+              <h2 class="text-[#343434] sm:text-[42px] p-5 text-[34px] font-[600] leading-relaxed">
+                Frequently <span class="ai-text">Asked FAQs Question</span>
+              </h2>
+              <p class="opacity-70 sm:text-[17px] mt-3">
+                What features does the management tool offer?
+              </p>
+            </div>
+            <div class="sm:max-w-3xl mx-auto sm:mb-0 mb-10 sm:px-3">
+              <div class="flex flex-col gap-4 mb-5">
+                <div v-for="(faq, index) in faqData" :key="index" :class="{
+                  'bg-white sm:p-4 p-2 border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded':
+                    selectedQuestion === index,
+                  'sm:p-4 p-2 bg-white border broder-gray-200 shadow-[0px_0px_16px_0px_rgba(0,0,0,0.06)] rounded': selectedQuestion !== index,
+                }">
+                  <div @click="toggleQuestion(index)" class="flex items-center justify-between cursor-pointer">
+                    <h2 class="text-[#5b268f] text-[16px] sm:text-base opacity-80 font-[600]">
+                      {{ faq.question }}
+                    </h2>
+                    <button aria-label="faq" title="faq">
+                      <svg v-if="selectedQuestion === index" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none">
+                        <path d="M7.41 8.57812L12 13.1681L16.59 8.57812L18 9.99813L12 15.9981L6 9.99813L7.41 8.57812Z"
+                          fill="#5B4747" />
+                      </svg>
+                      <svg v-else xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none">
+                        <path d="M16.59 15.4219L12 10.8319L7.41 15.4219L6 14.0019L12 8.00187L18 14.0019L16.59 15.4219Z"
+                          fill="#5B4747" />
+                      </svg>
+                    </button>
+                  </div>
+                  <p v-if="selectedQuestion === index" class="text-[#938383] sm:text-base text-[15px] mt-3 leading-7">
+                    {{ faq.answer }}
+                  </p>
                 </div>
-                <p v-if="selectedQuestion === index" class="text-[#938383] sm:text-base text-[15px] mt-3 leading-7">
-                  {{ faq.answer }}
-                </p>
               </div>
             </div>
           </div>
+          <div class="sm:w-[50%] w-[100%] m-auto px-2 sm:px-0">
+            <img src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
+              class="sm:w-[100%] w-[100%] sm:h-[500px] cursor-pointer object-cover"
+              alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey" />
+          </div>
         </div>
-        <div class="sm:w-[50%] w-[100%] m-auto px-2 sm:px-0">
-          <img src="https://smallimg.pngkey.com/png/small/29-297488_shapes-icon-3d-shapes-clipart-png.png"
-            class="sm:w-[100%] w-[100%] sm:h-[500px] cursor-pointer object-cover"
-            alt="3d Shapes PNG, Transparent 3d Shapes PNG Image Free Download - PNGkey" />
-        </div>
-      </div>
       </div>
     </div>
     <!-- Footer section  -->
@@ -455,6 +460,10 @@ const toggleQuestion = (index) => {
 </script>
 
 <style>
+.Vue3Marquee {
+  --duration: 20s;
+}
+
 .swiper {
   width: 100%;
   padding-bottom: 50px;
