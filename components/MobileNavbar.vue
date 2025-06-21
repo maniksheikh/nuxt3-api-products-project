@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-5 sm:hidden block px-2">
+  <div class="pb-5 sm:hidden block fixed top-0 left-0 px-2 bg-slate-200 w-full">
     <ul class="block text-[#535251] text-[15px] mt-20 px-3 p-3 text-center space-y-2 font-[500]">
       <li class="font-semibold">
         <nuxt-link to="/feed">Home</nuxt-link>

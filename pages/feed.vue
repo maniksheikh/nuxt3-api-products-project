@@ -2,10 +2,10 @@
   <div>
     <div>
       <div class="bg-gradient-to-r from-[#2E3192] to-[#ce45ce]">
-        <div class="sm:py-16 sm:w-[1300px] w-[100%] m-auto">
+        <div class="sm:py-16 py-1 sm:w-[1300px] w-[100%] m-auto">
           <header class="mt-10 text-center mx-auto lg:w-[1200px] w-full space-y-4 px-2 md:px-0">
             <h1
-              class="text-[40px] md:text-[52px] lg:text-[64px] leading-[50px] md:leading-[65px] lg:leading-[80px] opacity-90 w-auto md:w-[500px] lg:w-[550px] pt-1 font-semibold mx-auto">
+              class="text-[36px] md:text-[52px] lg:text-[64px] leading-[45px] md:leading-[65px] lg:leading-[80px] opacity-90 w-auto md:w-[500px] lg:w-[550px] pt-1 font-semibold mx-auto">
               <span class="text-[#FF4F00]">Product</span>
               <span class="ml-4 italic text-[#a1c3eb] opacity-95">Landing</span> page.
             </h1>
@@ -21,11 +21,11 @@
             </nuxt-link>
           </header>
           <!-- Body section  -->
-          <div class="sm:mt-5 mt-10">
+          <div class="sm:mt-5 mt-7">
             <div class="sm:flex block sm:gap-20 m-auto sm:w-[1200px]">
               <div class="sm:w-[48%] w-[100%] text-center items-center justify-center m-auto px-2 sm:px-2">
                 <h2
-                  class="sm:w-[554px] w-full font-bold sm:text-[46px] md:text-[38px] text-[32px] text-center text-[#5ada6b] py-2">
+                  class="sm:w-[554px] w-full font-bold sm:text-[46px] md:text-[38px] text-[30px] text-center text-[#5ada6b] py-2">
                   <span class="text-[#a1c3eb]">Creative</span> Multipurpose
                   Products
                   <span class="text-[#da5f5c]">Template.</span>
@@ -126,7 +126,7 @@
               product can be tailord to meet the unique needs od each user.
             </p>
             <button
-              class="sm:mb-5 mb-0 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
+              class="mb-5 mt-5 px-6 sm:ml-2 font-[600] text-white rounded-full py-2 bg-blue-400 transition-all duration-1000 ease-in-out hover:text-black hover:scale-110"
               type="button">
               Learn More
             </button>
@@ -135,13 +135,13 @@
       </div>
     </div>
     <!-- user section  -->
-    <div class="sm:mt-32 mt-10 bg-white rounded-md">
+    <div class="sm:mt-32 mt-5 bg-white rounded-md">
       <h1
         class="sm:text-center text-center sm:text-[52px] text-[36px] leading-snug sm:w-[72%] p-8 w-full m-auto font-[600]">
         <span class="text-[#FF4F00] font-[600]">Loved by</span>
         6000+ Happy Users ❤️
       </h1>
-      <div class="sm:mt-12 mt-5">
+      <div class="sm:mt-12 mt-2">
         <Vue3Marquee :pause-on-hover="true" @on-pause="playState = 'paused'" @on-resume="playState = 'playing'"
           :clone="true" :duration="140" :direction="'reverse'">
           <div v-for="user in userData" :key="user.id" class="cursor-pointer flex-none px-2 sm:pb-10 pb-5">
@@ -360,7 +360,7 @@
       </div>
     </div>
     <!-- Pricing section  -->
-    <div class="sm:mt-32 mt-10 ">
+    <div class="sm:mt-32 mt-5 ">
       <div class="sm:w-[1300px] w-[100%] m-auto">
         <div class="bg-white rounded-md">
           <div>

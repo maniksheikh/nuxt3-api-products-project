@@ -1,7 +1,7 @@
 <template>
   <div class="mb-12 sm:mb-0">
     <div class="sm:w-[580px] w-[100%] m-auto text-center sm:px-0 px-2 sm:mb-0 mb-10">
-      <h2 class="text-[#2A2A2A] p-4 sm:text-[56px] text-[36px] font-[600] leading-relaxed">
+      <h2 class="text-[#2A2A2A] p-4 sm:text-[56px] text-[34px] font-[600] leading-relaxed">
         Choose Your Pricing
       </h2>
       <p class="text-black opacity-70 sm:text-[18px] font-[400] leading-6">
