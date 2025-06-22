@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black ">
-    <div class="sm:w-[1300px] m-auto">
+    <div class="sm:w-[1300px] m-auto w-full">
       <footer class="sm:rounded-lg">
         <div class="sm:py-5 py-1 mb-7 sm:mb-0">
           <div class="sm:flex block sm:justify-between sm:px-0 px-3">

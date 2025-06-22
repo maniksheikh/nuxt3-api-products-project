@@ -42,7 +42,6 @@
 </template>
 
 <script setup>
- 
  import reviewSection from "~/store/review.json";
 
  const reviews = reactive(reviewSection);

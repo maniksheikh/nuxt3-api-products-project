@@ -4,7 +4,7 @@
       <div class="sm:w-[340px] w-[355px] m-auto border border-gray-300 shadow-md rounded-xl p-6">
         <h2 class="text-[42px] text-center font-semibold mb-4">Your Cart</h2>
         <hr class="mb-5 border-2 border-red-600" />
-        <div v-if="cartItems.length > 0">
+        <div v-if="cartItems.length >0">
           <div v-for="item in cartItems" :key="item.id" class="flex gap-5 items-center justify-between mb-4">
             <div class="cart w-[40%]">
               <img :src="item.image" :alt="item.title" class="object-cover rounded-lg" />
@@ -28,7 +28,6 @@
         <button v-if="cartItems.length > 0" @click="showOrderForm"
           class="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 mt-4">Order Now</button>
         <div v-if="orderSuccess" class="mt-4 text-green-600 text-center font-semibold">Order placed successfully!</div>
-        
         <!-- Contact Form Modal -->
         <div v-if="showForm" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
@@ -87,22 +86,17 @@ const formData = ref({
   address: '',
 });
 
-// Create a success URL for Formspree to redirect to
 const formSuccessUrl = ref('');
 
 onMounted(() => {
-  // Set the success URL to the current page with a success parameter
-  const currentUrl = window.location.href.split('?')[0]; // Get base URL without parameters
+  const currentUrl = window.location.href.split('?')[0];
   formSuccessUrl.value = `${currentUrl}?order=success`;
   
-  // Check if we're returning from a successful form submission
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('order') === 'success') {
     orderSuccess.value = true;
-    // Clear cart after successful order
     clearCart();
     
-    // Remove the success parameter from URL after a delay
     setTimeout(() => {
       window.history.replaceState({}, document.title, currentUrl);
       orderSuccess.value = false;
@@ -120,7 +114,6 @@ const props = defineProps({
 
 const emit = defineEmits(['remove-item']);
 
-// Watch for new products being added
 watch(() => props.productData, (newProduct) => {
   if (newProduct && newProduct.id) {
     const existingItem = cartItems.value.find(item => item.id === newProduct.id);
@@ -151,7 +144,6 @@ const cartTotal = computed(() => {
   return cartItems.value.reduce((total, item) => total + (item.price * item.quantity), 0);
 });
 
-// Computed property for order details text
 const orderDetailsText = computed(() => {
   return cartItems.value.map(item => 
     `${item.title} (${item.quantity}) - $${(item.price * item.quantity).toFixed(2)}`
@@ -163,7 +155,6 @@ const clearCart = () => {
   emit('remove-item');
 };
 
-// Show the order form instead of immediately placing the order
 const showOrderForm = () => {
   showForm.value = true;
 };
